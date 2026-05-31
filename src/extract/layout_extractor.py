@@ -72,7 +72,7 @@ class LayoutExtractor:
         self,
         page: fitz.Page,
         bbox: tuple[float, float, float, float],
-        y_tolerance: float = 1.6,
+        y_tolerance: float = 1.7,
         x_tolerance: float = 9.2,
     ) -> list[dict]:
         x0, y0, x1, y1 = bbox
@@ -132,6 +132,7 @@ class LayoutExtractor:
                 "bbox": [x0, y0, x1, y1]
             }
         ] 
+        # print(new_fragments)
       
      
         # sub_fragments = []
