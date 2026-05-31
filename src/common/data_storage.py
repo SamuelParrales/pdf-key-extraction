@@ -31,6 +31,11 @@ class DataStorage:
         return rutas_pdf
     
     @staticmethod
+    def find_json_paths() -> list[Path]:
+        dir = DataStorage.get_path('labeled')
+        return list(Path(dir).rglob("*.json"))
+
+    @staticmethod
     def save_layout_element(filename: str, element: LayoutElement) -> None:
 
         directory = DataStorage.get_path('unlabeled')

@@ -8,3 +8,4 @@ class LayoutElement(TypedDict):
     page: int
     bbox: tuple[float, float, float, float]
     normalized_bbox: tuple[int, int, int, int]
+    parent_bbox: tuple[float, float, float, float] | None
