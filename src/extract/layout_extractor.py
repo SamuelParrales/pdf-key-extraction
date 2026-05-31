@@ -20,37 +20,35 @@ class LayoutExtractor:
 
         return self.extract_from_doc(doc)
 
-    def extract_from_doc(self,doc:fitz.Document):
-        elements:list[LayoutElement] = []
+    def extract_from_doc(self, doc: fitz.Document):
+        elements: list[LayoutElement] = []
+        bboxes_to_remove: set[tuple] = set()
+
         for page in doc:
             text_dict = page.get_text("dict")
+
             for block in text_dict["blocks"]:
-              
                 if block["type"] != 0:
                     continue
-                result = self.extract_from_block(block,page)
+                result, removed = self.extract_from_block(block, page)
                 elements.extend(result)
-                
+                bboxes_to_remove.update(removed)
 
             image_list = page.get_images(full=True)
-        
-            # Imagenes
             for img in image_list:
                 xref = img[0]
-           
                 img_rect = page.get_image_rects(xref)
                 if not img_rect:
                     continue
-                img_rect = img_rect[0] 
-
+                img_rect = img_rect[0]
                 base_image = doc.extract_image(xref)
                 image_bytes = base_image["image"]
                 pil_image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
-                result = self.extract_from_img(img=pil_image,img_rect=img_rect,page=page)
+                result = self.extract_from_img(img=pil_image, img_rect=img_rect, page=page)
                 elements.extend(result)
-        return elements
-    
 
+        elements = [e for e in elements if tuple(e["bbox"]) not in bboxes_to_remove]
+        return elements
     def spans_to_fragment(self,spans):
         span_boxes = []
         line_text = ""
@@ -70,34 +68,40 @@ class LayoutExtractor:
             "bbox": [x0, y0, x1, y1],
         }
 
-    def get_fragments_by_block_and_bbox(self, block, bbox):
+    def get_fragments_by_page_and_bbox(
+        self,
+        page: fitz.Page,
+        bbox: tuple[float, float, float, float],
+        y_tolerance: float = 1.6,
+        x_tolerance: float = 9.2,
+    ) -> list[dict]:
         x0, y0, x1, y1 = bbox
-        y_factor = 1.7
-          
-
-        lines = block["lines"]
         fragments = []
-        if len(lines) == 0:
-            return None
 
-        for i, line in enumerate(lines):
-            spans = line["spans"]
-            element = self.spans_to_fragment(spans)
+        page_dict = page.get_text("dict", flags=fitz.TEXT_PRESERVE_WHITESPACE)
 
-            if not element.get("text"):
+        for block in page_dict.get("blocks", []):
+            if block.get("type") != 0:  # 0 = texto, 1 = imagen
                 continue
 
-            element_x0, element_y0, element_x1, element_y1 = element["bbox"]
-            if element_x0 == x0 and element_y1 == y1:
-                continue
+            for i, line in enumerate(block.get("lines", [])):
+                element = self.spans_to_fragment(line.get("spans", []))
 
-            factor = abs(y1 - element_y0)
-     
-             
-            if x0 == element_x0 and factor < y_factor:
-               
-                element['index'] = i
-                fragments.append(element)
+                text = element.get("text", "").strip()
+                if not text:
+                    continue
+
+                el_x0, el_y0, el_x1, el_y1 = element["bbox"]
+
+                is_same_element = abs(el_x0 - x0) < 0.01 and abs(el_y1 - y1) < 0.01
+                if is_same_element:
+                    continue
+
+                vertical_distance = abs(y1 - el_y0)
+                horizontal_offset = abs(el_x0 - x0)
+
+                if vertical_distance < y_tolerance and horizontal_offset < x_tolerance:
+                    fragments.append({**element})
 
         return fragments
             
@@ -122,24 +126,27 @@ class LayoutExtractor:
             y1 = max(box[3] for box in lines_boxes)
             
         new_fragments = [
+            main,
             {
                 'text': main_text, 
                 "bbox": [x0, y0, x1, y1]
             }
         ] 
-        sub_fragments = []
-        for fragment in new_fragments:
-            text = fragment.get("text")
-            if ':' in text:
-                parts = text.split(':')
-                if len(parts) == 2 and not parts[1].strip(): break
+      
+     
+        # sub_fragments = []
+        # for fragment in new_fragments:
+        #     text = fragment.get("text")
+        #     if ':' in text:
+        #         parts = text.split(':')
+        #         if len(parts) == 2 and not parts[1].strip(): break
                 
-                for j, part in enumerate(parts[:-1]):
-                    if part.strip():
-                        sub_fragments.append({'text': part.strip() + ':', 'bbox': fragment['bbox']})
-                if parts[-1].strip():
-                    sub_fragments.append({'text': parts[-1].strip(), 'bbox': fragment['bbox']})
-        new_fragments.extend(sub_fragments)
+        #         for j, part in enumerate(parts[:-1]):
+        #             if part.strip():
+        #                 sub_fragments.append({'text': part.strip() + ':', 'bbox': fragment['bbox']})
+        #         if parts[-1].strip():
+        #             sub_fragments.append({'text': parts[-1].strip(), 'bbox': fragment['bbox']})
+        # new_fragments.extend(sub_fragments)
         return new_fragments
         
 
@@ -148,30 +155,25 @@ class LayoutExtractor:
         page_width = page.rect.width
         page_height = page.rect.height
         elements: list[LayoutElement] = []
+        bboxes_to_remove: set[tuple] = set()
 
         lines = block["lines"]
-        
-        i = 0
-        ignore_index: list[int] = [] 
-        while i < len(lines):
-            if(i in ignore_index):
-                i += 1
-                continue
 
+        i = 0
+        while i < len(lines):
             spans = lines[i]["spans"]
             main_fragment = self.spans_to_fragment(spans)
             line_text = main_fragment["text"]
-           
+
             if not line_text:
                 i += 1
                 continue
 
-            fragments = self.get_fragments_by_block_and_bbox(block=block, bbox=main_fragment["bbox"])
-            for fragment in fragments:
-                ignore_index.append(fragment['index'])
+            fragments = self.get_fragments_by_page_and_bbox(page=page, bbox=main_fragment["bbox"])
 
-    
-    
+            for fragment in fragments:
+                bboxes_to_remove.add(tuple(fragment["bbox"]))
+
             final_fragments = self.process_fragments(main_fragment, fragments)
             for fragment in final_fragments:
                 x0, y0, x1, y1 = fragment["bbox"]
@@ -191,7 +193,7 @@ class LayoutExtractor:
 
             i += 1
 
-        return elements
+        return elements, bboxes_to_remove
         
     def extract_from_img(self,img: Image.Image, img_rect: fitz.Rect,page:fitz.Page):
         page_number = page.number + 1
