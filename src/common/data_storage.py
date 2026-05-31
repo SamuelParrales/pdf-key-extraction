@@ -24,12 +24,13 @@ class DataStorage:
 
     @staticmethod
     def find_pdf_paths() -> list[Path]:
-        dir = DataStorage.get_path('raw')
+        dir = DataStorage.get_path('pdfs')
         patron_pdf = dir / "**" / "*.pdf"
         rutas_pdf = [Path(p) for p in glob.glob(str(patron_pdf), recursive=True)]
         
         return rutas_pdf
     
+    @staticmethod
     def save_layout_element(filename: str, element: LayoutElement) -> None:
 
         directory = DataStorage.get_path('unlabeled')
