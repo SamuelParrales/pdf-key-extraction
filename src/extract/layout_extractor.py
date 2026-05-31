@@ -132,6 +132,8 @@ class LayoutExtractor:
             text = fragment.get("text")
             if ':' in text:
                 parts = text.split(':')
+                if len(parts) == 2 and not parts[1].strip(): break
+                
                 for j, part in enumerate(parts[:-1]):
                     if part.strip():
                         sub_fragments.append({'text': part.strip() + ':', 'bbox': fragment['bbox']})
