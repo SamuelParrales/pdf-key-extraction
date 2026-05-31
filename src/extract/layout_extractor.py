@@ -50,55 +50,147 @@ class LayoutExtractor:
                 elements.extend(result)
         return elements
     
-    def extract_from_block(self, block, page:fitz.Page):
+
+    def spans_to_fragment(self,spans):
+        span_boxes = []
+        line_text = ""
+        for span in spans:
+            span_text = span["text"].strip()
+            if span_text:
+                line_text += span_text + " "
+                x0, y0, x1, y1 = span["bbox"]
+                span_boxes.append((x0, y0, x1, y1))
+
+        x0 = min(box[0] for box in span_boxes)
+        y0 = min(box[1] for box in span_boxes)
+        x1 = max(box[2] for box in span_boxes)
+        y1 = max(box[3] for box in span_boxes)
+        return {
+            "text": line_text.strip(),
+            "bbox": [x0, y0, x1, y1],
+        }
+
+    def get_fragments_by_block_and_bbox(self, block, bbox):
+        x0, y0, x1, y1 = bbox
+        y_factor = 1.7
+          
+
+        lines = block["lines"]
+        fragments = []
+        if len(lines) == 0:
+            return None
+
+        for i, line in enumerate(lines):
+            spans = line["spans"]
+            element = self.spans_to_fragment(spans)
+
+            if not element.get("text"):
+                continue
+
+            element_x0, element_y0, element_x1, element_y1 = element["bbox"]
+            if element_x0 == x0 and element_y1 == y1:
+                continue
+
+            factor = abs(y1 - element_y0)
+     
+             
+            if x0 == element_x0 and factor < y_factor:
+               
+                element['index'] = i
+                fragments.append(element)
+
+        return fragments
+            
+        
+    def process_fragments(self, main,fragments):
+        if(len(fragments)==0):
+            return [main]
+        
+        main_text = main.get("text")
+        lines_boxes = [] 
+        lines_boxes.append(main.get("bbox"))
+        for fragment in fragments:
+            fragment_text = fragment.get("text")
+            if not fragment_text:
+                continue
+
+            main_text += " " + fragment_text 
+            lines_boxes.append(fragment.get("bbox"))
+            x0 = min(box[0] for box in lines_boxes)
+            y0 = min(box[1] for box in lines_boxes)
+            x1 = max(box[2] for box in lines_boxes)
+            y1 = max(box[3] for box in lines_boxes)
+            
+        new_fragments = [
+            {
+                'text': main_text, 
+                "bbox": [x0, y0, x1, y1]
+            }
+        ] 
+        sub_fragments = []
+        for fragment in new_fragments:
+            text = fragment.get("text")
+            if ':' in text:
+                parts = text.split(':')
+                for j, part in enumerate(parts[:-1]):
+                    if part.strip():
+                        sub_fragments.append({'text': part.strip() + ':', 'bbox': fragment['bbox']})
+                if parts[-1].strip():
+                    sub_fragments.append({'text': parts[-1].strip(), 'bbox': fragment['bbox']})
+        new_fragments.extend(sub_fragments)
+        return new_fragments
+        
+
+    def extract_from_block(self, block, page: fitz.Page):
         page_number = page.number + 1
         page_width = page.rect.width
         page_height = page.rect.height
-        elements:list[LayoutElement] = []
+        elements: list[LayoutElement] = []
+
+        lines = block["lines"]
         
-        for line in block["lines"]:
-            line_text = ""
-            span_boxes = []
-
-            for span in line["spans"]:
-                span_text = span["text"].strip()
-
-                if not span_text:
-                    continue
-
-                line_text += span_text + " "
-
-                x0, y0, x1, y1 = span["bbox"]
-
-                span_boxes.append((x0, y0, x1, y1))
-
-            line_text = line_text.strip()
-
-            if not line_text:
+        i = 0
+        ignore_index: list[int] = [] 
+        while i < len(lines):
+            if(i in ignore_index):
+                i += 1
                 continue
 
+            spans = lines[i]["spans"]
+            main_fragment = self.spans_to_fragment(spans)
+            line_text = main_fragment["text"]
+           
+            if not line_text:
+                i += 1
+                continue
 
-            x0 = min(box[0] for box in span_boxes)
-            y0 = min(box[1] for box in span_boxes)
-            x1 = max(box[2] for box in span_boxes)
-            y1 = max(box[3] for box in span_boxes)
+            fragments = self.get_fragments_by_block_and_bbox(block=block, bbox=main_fragment["bbox"])
+            for fragment in fragments:
+                ignore_index.append(fragment['index'])
 
-            elements.append({
-                "text": line_text,
-                "source": "digital",
-                "confidence": 1.0,
-                "page": page_number,
-                "bbox": [x0, y0, x1, y1],
-                "normalized_bbox": [
-                    int((x0 / page_width) * 1000),
-                    int((y0 / page_height) * 1000),
-                    int((x1 / page_width) * 1000),
-                    int((y1 / page_height) * 1000),
-                ]
-            })
+    
+    
+            final_fragments = self.process_fragments(main_fragment, fragments)
+            for fragment in final_fragments:
+                x0, y0, x1, y1 = fragment["bbox"]
+                elements.append({
+                    "text": fragment.get("text"),
+                    "source": "digital",
+                    "confidence": 1.0,
+                    "page": page_number,
+                    "bbox": [x0, y0, x1, y1],
+                    "normalized_bbox": [
+                        int((x0 / page_width) * 1000),
+                        int((y0 / page_height) * 1000),
+                        int((x1 / page_width) * 1000),
+                        int((y1 / page_height) * 1000),
+                    ]
+                })
+
+            i += 1
 
         return elements
-    
+        
     def extract_from_img(self,img: Image.Image, img_rect: fitz.Rect,page:fitz.Page):
         page_number = page.number + 1
         page_width = page.rect.width
