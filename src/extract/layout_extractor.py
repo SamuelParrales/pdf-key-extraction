@@ -46,8 +46,8 @@ class LayoutExtractor:
                 pil_image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
                 result = self.extract_from_img(img=pil_image, img_rect=img_rect, page=page)
                 elements.extend(result)
-
-        elements = [e for e in elements if tuple(e["bbox"]) not in bboxes_to_remove]
+       
+        elements = [e for e in elements if tuple(e["bbox"]) not in bboxes_to_remove or e.get("parent_bbox") is not None]
         return elements
     def spans_to_fragment(self,spans):
         span_boxes = []
@@ -107,8 +107,10 @@ class LayoutExtractor:
             
         
     def process_fragments(self, main,fragments):
+        new_fragments = []
         if(len(fragments)==0):
-            return [main]
+            new_fragments.append(main)
+            return new_fragments
         
         main_text = main.get("text")
         lines_boxes = [] 
@@ -120,34 +122,29 @@ class LayoutExtractor:
 
             main_text += " " + fragment_text 
             lines_boxes.append(fragment.get("bbox"))
-            x0 = min(box[0] for box in lines_boxes)
-            y0 = min(box[1] for box in lines_boxes)
-            x1 = max(box[2] for box in lines_boxes)
-            y1 = max(box[3] for box in lines_boxes)
+        
+        x0 = min(box[0] for box in lines_boxes)
+        y0 = min(box[1] for box in lines_boxes)
+        x1 = max(box[2] for box in lines_boxes)
+        y1 = max(box[3] for box in lines_boxes)
+        
+        bbox = [x0, y0, x1, y1]
+        if(main_text):
             
-        new_fragments = [
-            main,
-            {
-                'text': main_text, 
-                "bbox": [x0, y0, x1, y1]
-            }
-        ] 
-        # print(new_fragments)
+            main['parent_bbox'] = bbox
+            new_fragments.append(main)
+            new_fragments.append({
+                    'text': main_text, 
+                    "bbox": bbox
+                })
+
+            for fragment in fragments:
+                fragment['parent_bbox'] = bbox
+                new_fragments.append(fragment)
+        
       
+        
      
-        # sub_fragments = []
-        # for fragment in new_fragments:
-        #     text = fragment.get("text")
-        #     if ':' in text:
-        #         parts = text.split(':')
-        #         if len(parts) == 2 and not parts[1].strip(): break
-                
-        #         for j, part in enumerate(parts[:-1]):
-        #             if part.strip():
-        #                 sub_fragments.append({'text': part.strip() + ':', 'bbox': fragment['bbox']})
-        #         if parts[-1].strip():
-        #             sub_fragments.append({'text': parts[-1].strip(), 'bbox': fragment['bbox']})
-        # new_fragments.extend(sub_fragments)
         return new_fragments
         
 
@@ -189,7 +186,8 @@ class LayoutExtractor:
                         int((y0 / page_height) * 1000),
                         int((x1 / page_width) * 1000),
                         int((y1 / page_height) * 1000),
-                    ]
+                    ],
+                    "parent_bbox": fragment.get("parent_bbox")
                 })
 
             i += 1

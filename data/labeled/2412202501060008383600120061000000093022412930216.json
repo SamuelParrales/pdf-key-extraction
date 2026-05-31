@@ -665,6 +665,56 @@
     ]
   },
   {
+    "label": "FIELD_KEY_DATE",
+    "text": "Fecha",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      416.8299865722656,
+      43.23200225830078,
+      427.8219909667969
+    ],
+    "normalized_bbox": [
+      35,
+      495,
+      72,
+      508
+    ],
+    "parent_bbox": [
+      21.0,
+      405.66998291015625,
+      67.6880111694336,
+      427.8219909667969
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_DATE",
+    "text": "24/12/2025",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      92.0,
+      416.9750061035156,
+      127.02798461914062,
+      426.5929870605469
+    ],
+    "normalized_bbox": [
+      154,
+      495,
+      213,
+      506
+    ],
+    "parent_bbox": [
+      92.0,
+      406.39501953125,
+      130.91998291015625,
+      426.5929870605469
+    ]
+  },
+  {
     "label": "FIELD_KEY_TEXT",
     "text": "Placa / Matrícula:",
     "source": "digital",
@@ -741,6 +791,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_CODE",
     "text": "Cod. Principal",
     "source": "digital",
     "confidence": 1.0,
@@ -759,6 +810,7 @@
     ]
   },
   {
+    "label": "O",
     "text": "Cod.",
     "source": "digital",
     "confidence": 1.0,
@@ -777,6 +829,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_CODE_AUX",
     "text": "Cod. Auxiliar",
     "source": "digital",
     "confidence": 1.0,
@@ -795,6 +848,7 @@
     ]
   },
   {
+    "label": "O",
     "text": "Cod.",
     "source": "digital",
     "confidence": 1.0,
@@ -813,6 +867,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_PRICE",
     "text": "Precio Unitario",
     "source": "digital",
     "confidence": 1.0,
@@ -831,6 +886,7 @@
     ]
   },
   {
+    "label": "O",
     "text": "Precio sin",
     "source": "digital",
     "confidence": 1.0,
@@ -849,6 +905,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_WITHOUT_SUBSIDY",
     "text": "Precio sin Subsidio",
     "source": "digital",
     "confidence": 1.0,
@@ -867,6 +924,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_TOTAL",
     "text": "Precio Total",
     "source": "digital",
     "confidence": 1.0,
@@ -885,6 +943,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_QUANTITY",
     "text": "Cantidad",
     "source": "digital",
     "confidence": 1.0,
@@ -903,6 +962,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_NAME",
     "text": "Descripción",
     "source": "digital",
     "confidence": 1.0,
@@ -921,6 +981,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_DETAIL",
     "text": "Detalle Adicional",
     "source": "digital",
     "confidence": 1.0,
@@ -939,6 +1000,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_SUBSIDY",
     "text": "Subsidio",
     "source": "digital",
     "confidence": 1.0,
@@ -957,6 +1019,7 @@
     ]
   },
   {
+    "label": "HEADER_PRODUCT_DISCOUNT",
     "text": "Descuento",
     "source": "digital",
     "confidence": 1.0,
@@ -975,6 +1038,7 @@
     ]
   },
   {
+    "label": "ITEM_PRODUCT_CODE",
     "text": "0001",
     "source": "digital",
     "confidence": 1.0,
@@ -993,6 +1057,7 @@
     ]
   },
   {
+    "label": "ITEM_PRODUCT_QUANTITY",
     "text": "2.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1011,6 +1076,7 @@
     ]
   },
   {
+    "label": "ITEM_PRODUCT_NAME",
     "text": "BOLETO RIOBAMBA-AMBATO",
     "source": "digital",
     "confidence": 1.0,
@@ -1029,6 +1095,7 @@
     ]
   },
   {
+    "label": "ITEM_PRODUCT_PRICE",
     "text": "1.44",
     "source": "digital",
     "confidence": 1.0,
@@ -1047,6 +1114,7 @@
     ]
   },
   {
+    "label": "ITEM_PRODUCT_SUBSIDY",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1062,9 +1130,11 @@
       594,
       710,
       605
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1080,9 +1150,11 @@
       594,
       794,
       605
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "ITEM_PRODUCT_DISCOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1098,9 +1170,11 @@
       594,
       878,
       605
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "ITEM_PRODUCT_TOTAL",
     "text": "2.88",
     "source": "digital",
     "confidence": 1.0,
@@ -1116,9 +1190,11 @@
       594,
       963,
       605
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "SUBTOTAL 0%",
     "source": "digital",
     "confidence": 1.0,
@@ -1134,9 +1210,11 @@
       618,
       715,
       629
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "2.88",
     "source": "digital",
     "confidence": 1.0,
@@ -1152,9 +1230,11 @@
       618,
       963,
       629
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "O",
     "text": "Información Adicional",
     "source": "digital",
     "confidence": 1.0,
@@ -1170,9 +1250,11 @@
       622,
       375,
       634
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "SUBTOTAL NO OBJETO DE IVA",
     "source": "digital",
     "confidence": 1.0,
@@ -1188,9 +1270,11 @@
       635,
       808,
       647
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1206,9 +1290,11 @@
       635,
       963,
       647
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_EMAIL",
     "text": "E-MAIL Empresa:",
     "source": "digital",
     "confidence": 1.0,
@@ -1224,9 +1310,11 @@
       639,
       118,
       648
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_EMAIL",
     "text": "tcondorazoutar@gmail.com",
     "source": "digital",
     "confidence": 1.0,
@@ -1242,9 +1330,11 @@
       639,
       328,
       648
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "SUBTOTAL EXENTO DE IVA",
     "source": "digital",
     "confidence": 1.0,
@@ -1260,9 +1350,11 @@
       653,
       789,
       665
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1278,9 +1370,11 @@
       653,
       963,
       665
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_TEXT",
     "text": "Forma de pago",
     "source": "digital",
     "confidence": 1.0,
@@ -1296,9 +1390,11 @@
       663,
       207,
       674
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "Valor",
     "source": "digital",
     "confidence": 1.0,
@@ -1314,9 +1410,11 @@
       663,
       400,
       674
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "SUBTOTAL SIN IMPUESTOS",
     "source": "digital",
     "confidence": 1.0,
@@ -1332,9 +1430,11 @@
       671,
       791,
       682
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "2.88",
     "source": "digital",
     "confidence": 1.0,
@@ -1350,9 +1450,11 @@
       671,
       963,
       682
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_TEXT",
     "text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO",
     "source": "digital",
     "confidence": 1.0,
@@ -1368,9 +1470,11 @@
       679,
       275,
       689
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "2.88",
     "source": "digital",
     "confidence": 1.0,
@@ -1386,9 +1490,11 @@
       679,
       465,
       689
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "TOTAL DESCUENTO",
     "source": "digital",
     "confidence": 1.0,
@@ -1404,9 +1510,11 @@
       689,
       748,
       700
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1422,9 +1530,11 @@
       689,
       963,
       700
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "ICE",
     "source": "digital",
     "confidence": 1.0,
@@ -1440,9 +1550,11 @@
       707,
       653,
       718
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1458,9 +1570,11 @@
       707,
       963,
       718
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_TEXT",
     "text": "IRBPNR",
     "source": "digital",
     "confidence": 1.0,
@@ -1476,9 +1590,11 @@
       724,
       678,
       736
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1494,9 +1610,11 @@
       724,
       963,
       736
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "PROPINA",
     "source": "digital",
     "confidence": 1.0,
@@ -1512,9 +1630,11 @@
       742,
       686,
       754
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1530,9 +1650,11 @@
       742,
       963,
       754
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "VALOR TOTAL",
     "source": "digital",
     "confidence": 1.0,
@@ -1548,9 +1670,11 @@
       760,
       714,
       771
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "2.88",
     "source": "digital",
     "confidence": 1.0,
@@ -1566,9 +1690,11 @@
       760,
       963,
       771
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_AMOUNT",
     "text": "VALOR TOTAL SIN SUBSIDIO",
     "source": "digital",
     "confidence": 1.0,
@@ -1584,9 +1710,11 @@
       783,
       797,
       794
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1602,9 +1730,11 @@
       783,
       963,
       794
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_VALUE_AMOUNT",
     "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
@@ -1620,9 +1750,11 @@
       800,
       963,
       812
-    ]
+    ],
+    "parent_bbox": null
   },
   {
+    "label": "FIELD_KEY_TEXT",
     "text": "AHORRO POR SUBSIDIO:",
     "source": "digital",
     "confidence": 1.0,
@@ -1638,9 +1770,16 @@
       805,
       776,
       816
+    ],
+    "parent_bbox": [
+      377.0,
+      677.824951171875,
+      482.8260192871094,
+      695.593017578125
     ]
   },
   {
+    "label": "O",
     "text": "AHORRO POR SUBSIDIO: (Incluye IVA cuando corresponda)",
     "source": "digital",
     "confidence": 1.0,
@@ -1656,6 +1795,32 @@
       805,
       811,
       826
+    ],
+    "parent_bbox": null
+  },
+  {
+    "label": "O",
+    "text": "(Incluye IVA cuando corresponda)",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      685.9749755859375,
+      482.8260192871094,
+      695.593017578125
+    ],
+    "normalized_bbox": [
+      633,
+      814,
+      811,
+      826
+    ],
+    "parent_bbox": [
+      377.0,
+      677.824951171875,
+      482.8260192871094,
+      695.593017578125
     ]
   }
 ]
