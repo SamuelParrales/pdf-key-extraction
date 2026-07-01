@@ -22,9 +22,10 @@ def main():
     paths = DataStorage.find_pdf_paths()
     layout_extractor = LayoutExtractor()
     for path in paths:
-        lines: list[LayoutElement] = layout_extractor.extract_from_path(path)
+        lines, images = layout_extractor.extract_from_path(path)
         lines.sort(key=sort_key)
         DataStorage.save_layout_element(filename=path.stem,element=lines)
+        DataStorage.save_images(filename=path.stem, images=images)
 
 main()
 

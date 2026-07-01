@@ -1,1 +1,0 @@
-Los pdfs procesados se almacenan en esta carpeta

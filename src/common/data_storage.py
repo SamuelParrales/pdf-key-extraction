@@ -43,3 +43,11 @@ class DataStorage:
         with open(directory / Path(filename).with_suffix('.json'), "w", encoding="utf-8") as f:
             json.dump(element, f, ensure_ascii=False, indent=2)
    
+    @staticmethod
+    def save_images(filename: str, images: list) -> None:
+        directory = DataStorage.get_path("images") / filename
+        directory.mkdir(parents=True, exist_ok=True)
+
+        for i, image in enumerate(images, start=1):
+            image.save(directory / f"{i}.png", format="PNG")
+    

@@ -25,8 +25,19 @@ class LayoutExtractor:
     def extract_from_doc(self, doc: fitz.Document):
         elements: list[LayoutElement] = []
         bboxes_to_remove: set[tuple] = set()
-
+        images = []
+        matrix = fitz.Matrix(2, 2)
         for page in doc:
+            # Extraccion de la imagen completa
+            pix = page.get_pixmap(matrix=matrix, alpha=False)
+            image = Image.frombytes(
+                "RGB",
+                (pix.width, pix.height),
+                pix.samples,
+                )
+            images.append(image)
+
+            # Extracción de texto digital
             text_dict = page.get_text("dict")
 
             for block in text_dict["blocks"]:
@@ -49,7 +60,7 @@ class LayoutExtractor:
                 result = self.extract_from_img(img=pil_image, img_rect=img_rect, page=page)
                 elements.extend(result)
         
-        return elements
+        return elements, images
     def spans_to_fragments(self, spans):
         fragments = []
 
