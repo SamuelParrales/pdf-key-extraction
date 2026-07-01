@@ -20,7 +20,7 @@
   },
   {
     "label": "FIELD_VALUE_ID",
-    "text": "0600083836001",
+    "text": "0990017514001",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -134,7 +134,7 @@
   },
   {
     "label": "FIELD_VALUE_ID",
-    "text": "006-100-000009302",
+    "text": "165-007-001091747",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -172,7 +172,7 @@
   },
   {
     "label": "FIELD_VALUE_ID",
-    "text": "2412202501060008383600120061000000093022412930216",
+    "text": "0405202601099001751400121650070010917470000000010",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -191,20 +191,20 @@
   },
   {
     "label": "FIELD_VALUE_NAME",
-    "text": "AYALA HARO JAIME JULIO",
+    "text": "TIENDAS INDUSTRIALES ASOCIADAS (TIA) S.A.",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       28.0,
       146.82998657226562,
-      129.80799865722656,
+      209.3759765625,
       157.82199096679688
     ],
     "normalized_bbox": [
       47,
       174,
-      218,
+      351,
       187
     ]
   },
@@ -229,7 +229,7 @@
   },
   {
     "label": "FIELD_VALUE_DATE",
-    "text": "24/12/2025 12:06:33",
+    "text": "04/05/2026 15:14:11",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -244,6 +244,25 @@
       184,
       778,
       197
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "TIENDAS INDUSTRIALES ASOCIADAS (TIA) S.A.",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      175.82998657226562,
+      209.3759765625,
+      186.82199096679688
+    ],
+    "normalized_bbox": [
+      47,
+      208,
+      351,
+      221
     ]
   },
   {
@@ -305,21 +324,21 @@
   },
   {
     "label": "FIELD_VALUE_ADDRESS",
-    "text": "LUCIANO ANDRADE MARIN Y GUSTAVO VALLEJO (RIOBAMBA)",
+    "text": "CHIMBORAZO 217 Y LUQUE",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       79.0,
       204.97500610351562,
-      246.25804138183594,
-      222.74302673339844
+      172.74400329589844,
+      214.59300231933594
     ],
     "normalized_bbox": [
       132,
       243,
-      413,
-      264
+      290,
+      254
     ]
   },
   {
@@ -362,21 +381,21 @@
   },
   {
     "label": "FIELD_VALUE_ADDRESS",
-    "text": "LUCIANO ANDRADE MARIN Y GUSTAVO VALLEJO (RIOBAMBA)",
+    "text": "Av. Metropolitana entre 9 de Junio y 10 de Agosto",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       79.0,
       232.97500610351562,
-      246.25804138183594,
-      250.74302673339844
+      234.25296020507812,
+      242.59300231933594
     ],
     "normalized_bbox": [
       132,
       276,
-      413,
-      297
+      393,
+      288
     ]
   },
   {
@@ -419,6 +438,44 @@
   },
   {
     "label": "FIELD_KEY_TEXT",
+    "text": "Contribuyente Especial",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      263.1700134277344,
+      110.25599670410156,
+      274.1620178222656
+    ],
+    "normalized_bbox": [
+      47,
+      312,
+      185,
+      325
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "6925",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      132.0,
+      263.1700134277344,
+      149.7919921875,
+      274.1620178222656
+    ],
+    "normalized_bbox": [
+      221,
+      312,
+      251,
+      325
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
     "text": "OBLIGADO A LLEVAR CONTABILIDAD",
     "source": "digital",
     "confidence": 1.0,
@@ -438,20 +495,20 @@
   },
   {
     "label": "FIELD_VALUE_TEXT",
-    "text": "NO",
+    "text": "SI",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       228.0,
       279.1700134277344,
-      240.0,
+      235.55999755859375,
       290.1620178222656
     ],
     "normalized_bbox": [
       383,
       331,
-      403,
+      395,
       344
     ]
   },
@@ -476,20 +533,20 @@
   },
   {
     "label": "FIELD_VALUE_NAME",
-    "text": "SAMUEL PARRALES",
+    "text": "SAMUEL EDUARDO PARRALES PALMA",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       219.0,
       389.39501953125,
-      287.07501220703125,
+      349.697021484375,
       399.01300048828125
     ],
     "normalized_bbox": [
       368,
       462,
-      482,
+      587,
       473
     ]
   },
@@ -548,17 +605,11 @@
       495,
       72,
       508
-    ],
-    "parent_bbox": [
-      21.0,
-      405.66998291015625,
-      67.6880111694336,
-      427.8219909667969
     ]
   },
   {
     "label": "FIELD_VALUE_DATE",
-    "text": "24/12/2025",
+    "text": "04/05/2026",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -573,12 +624,6 @@
       495,
       213,
       506
-    ],
-    "parent_bbox": [
-      92.0,
-      406.39501953125,
-      130.91998291015625,
-      426.5929870605469
     ]
   },
   {
@@ -640,20 +685,20 @@
   },
   {
     "label": "FIELD_VALUE_ADDRESS",
-    "text": "RIOBAMBA",
+    "text": "NA",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       92.0,
       430.9750061035156,
-      128.9530029296875,
+      101.7229995727539,
       440.5929870605469
     ],
     "normalized_bbox": [
       154,
       511,
-      216,
+      170,
       523
     ]
   },
@@ -676,7 +721,6 @@
       577
     ]
   },
-
   {
     "label": "HEADER_PRODUCT_CODE_AUX",
     "text": "Cod. Auxiliar",
@@ -696,7 +740,6 @@
       577
     ]
   },
-
   {
     "label": "HEADER_PRODUCT_PRICE",
     "text": "Precio Unitario",
@@ -716,7 +759,6 @@
       568
     ]
   },
- 
   {
     "label": "HEADER_PRODUCT_WITHOUT_SUBSIDY",
     "text": "Precio sin Subsidio",
@@ -851,22 +893,60 @@
     ]
   },
   {
-    "label": "ITEM_PRODUCT_CODE",
-    "text": "0001",
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "CREMA DENTAL COLGATE TRIPLE ACCION 150 ML MENTA ORIGINAL",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      32.220001220703125,
-      500.39501953125,
-      47.78800964355469,
-      510.01300048828125
+      142.0,
+      493.7449951171875,
+      247.41299438476562,
+      519.6630249023438
     ],
     "normalized_bbox": [
-      54,
-      594,
-      80,
-      605
+      238,
+      586,
+      415,
+      617
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "168335000",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      22.489999771118164,
+      497.82501220703125,
+      57.51801300048828,
+      507.4429931640625
+    ],
+    "normalized_bbox": [
+      37,
+      591,
+      96,
+      602
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "750954600035",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      62.4900016784668,
+      497.82501220703125,
+      97.51799011230469,
+      515.593017578125
+    ],
+    "normalized_bbox": [
+      105,
+      591,
+      163,
+      612
     ]
   },
   {
@@ -877,53 +957,34 @@
     "page": 1,
     "bbox": [
       113.19000244140625,
-      500.39501953125,
+      501.89501953125,
       126.81199645996094,
-      510.01300048828125
+      511.51300048828125
     ],
     "normalized_bbox": [
       190,
-      594,
+      596,
       213,
-      605
-    ]
-  },
-  {
-    "label": "ITEM_PRODUCT_NAME",
-    "text": "BOLETO RIOBAMBA-AMBATO",
-    "source": "digital",
-    "confidence": 1.0,
-    "page": 1,
-    "bbox": [
-      142.0,
-      500.39501953125,
-      241.1900177001953,
-      510.01300048828125
-    ],
-    "normalized_bbox": [
-      238,
-      594,
-      405,
-      605
+      607
     ]
   },
   {
     "label": "ITEM_PRODUCT_PRICE",
-    "text": "1.44",
+    "text": "3.21",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       359.3800048828125,
-      500.39501953125,
+      501.89501953125,
       373.00201416015625,
-      510.01300048828125
+      511.51300048828125
     ],
     "normalized_bbox": [
       604,
-      594,
+      596,
       626,
-      605
+      607
     ]
   },
   {
@@ -934,17 +995,16 @@
     "page": 1,
     "bbox": [
       409.3800048828125,
-      500.39501953125,
+      501.89501953125,
       423.00201416015625,
-      510.01300048828125
+      511.51300048828125
     ],
     "normalized_bbox": [
       688,
-      594,
+      596,
       710,
-      605
-    ],
-    "parent_bbox": null
+      607
+    ]
   },
   {
     "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
@@ -954,17 +1014,16 @@
     "page": 1,
     "bbox": [
       459.3800048828125,
-      500.39501953125,
+      501.89501953125,
       473.00201416015625,
-      510.01300048828125
+      511.51300048828125
     ],
     "normalized_bbox": [
       772,
-      594,
+      596,
       794,
-      605
-    ],
-    "parent_bbox": null
+      607
+    ]
   },
   {
     "label": "ITEM_PRODUCT_DISCOUNT",
@@ -974,77 +1033,244 @@
     "page": 1,
     "bbox": [
       509.3800048828125,
-      500.39501953125,
+      501.89501953125,
       523.0020751953125,
-      510.01300048828125
+      511.51300048828125
     ],
     "normalized_bbox": [
       856,
-      594,
+      596,
       878,
-      605
-    ],
-    "parent_bbox": null
+      607
+    ]
   },
   {
     "label": "ITEM_PRODUCT_TOTAL",
-    "text": "2.88",
+    "text": "6.42",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       559.3800048828125,
-      500.39501953125,
+      501.89501953125,
       573.0020751953125,
-      510.01300048828125
+      511.51300048828125
     ],
     "normalized_bbox": [
       940,
-      594,
+      596,
       963,
-      605
+      607
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "257470000",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      22.489999771118164,
+      524.324951171875,
+      57.51801300048828,
+      533.9429931640625
     ],
-    "parent_bbox": null
+    "normalized_bbox": [
+      37,
+      622,
+      96,
+      634
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "786104869087",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      62.4900016784668,
+      524.324951171875,
+      97.51799011230469,
+      542.093017578125
+    ],
+    "normalized_bbox": [
+      105,
+      622,
+      163,
+      643
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "1.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      528.39501953125,
+      126.81199645996094,
+      538.0130615234375
+    ],
+    "normalized_bbox": [
+      190,
+      627,
+      213,
+      638
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "ACEITE LA FAVORITA 4 L",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      528.39501953125,
+      226.42001342773438,
+      538.0130615234375
+    ],
+    "normalized_bbox": [
+      238,
+      627,
+      380,
+      638
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "7.96",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      359.3800048828125,
+      528.39501953125,
+      373.00201416015625,
+      538.0130615234375
+    ],
+    "normalized_bbox": [
+      604,
+      627,
+      626,
+      638
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      528.39501953125,
+      423.00201416015625,
+      538.0130615234375
+    ],
+    "normalized_bbox": [
+      688,
+      627,
+      710,
+      638
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      528.39501953125,
+      473.00201416015625,
+      538.0130615234375
+    ],
+    "normalized_bbox": [
+      772,
+      627,
+      794,
+      638
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      528.39501953125,
+      523.0020751953125,
+      538.0130615234375
+    ],
+    "normalized_bbox": [
+      856,
+      627,
+      878,
+      638
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "7.96",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      528.39501953125,
+      573.0020751953125,
+      538.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      627,
+      963,
+      638
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
-    "text": "SUBTOTAL 0%",
+    "text": "SUBTOTAL 15%",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       377.0,
-      520.39501953125,
-      426.0140380859375,
-      530.0130615234375
+      548.39501953125,
+      429.9060363769531,
+      558.0130615234375
     ],
     "normalized_bbox": [
       633,
-      618,
-      715,
-      629
-    ],
-    "parent_bbox": null
+      651,
+      722,
+      662
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "text": "6.42",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       559.3800048828125,
-      520.39501953125,
+      548.39501953125,
       573.0020751953125,
-      530.0130615234375
+      558.0130615234375
     ],
     "normalized_bbox": [
       940,
-      618,
+      651,
       963,
-      629
-    ],
-    "parent_bbox": null
+      662
+    ]
   },
   {
     "label": "O",
@@ -1054,17 +1280,92 @@
     "page": 1,
     "bbox": [
       156.5399932861328,
-      524.39501953125,
+      552.39501953125,
       223.45297241210938,
-      534.0130615234375
+      562.0130615234375
     ],
     "normalized_bbox": [
       263,
-      622,
+      656,
       375,
-      634
+      667
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL 0%",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      563.39501953125,
+      426.0140380859375,
+      573.0130615234375
     ],
-    "parent_bbox": null
+    "normalized_bbox": [
+      633,
+      669,
+      715,
+      680
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "7.96",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      563.39501953125,
+      573.0020751953125,
+      573.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      669,
+      963,
+      680
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Gran Contribuyente:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      23.0,
+      566.1199951171875,
+      77.02398681640625,
+      574.364013671875
+    ],
+    "normalized_bbox": [
+      38,
+      672,
+      129,
+      682
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "Gran Contribuyente Resolucion No NAC-GCFOIOC21-00000872-E",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      122.0,
+      566.1199951171875,
+      300.7279357910156,
+      574.364013671875
+    ],
+    "normalized_bbox": [
+      205,
+      672,
+      505,
+      682
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1074,17 +1375,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      535.39501953125,
+      578.39501953125,
       481.25115966796875,
-      545.0130615234375
+      588.0130615234375
     ],
     "normalized_bbox": [
       633,
-      635,
+      686,
       808,
-      647
-    ],
-    "parent_bbox": null
+      698
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1094,97 +1394,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      535.39501953125,
+      578.39501953125,
       573.0020751953125,
-      545.0130615234375
+      588.0130615234375
     ],
     "normalized_bbox": [
       940,
-      635,
+      686,
       963,
-      647
-    ],
-    "parent_bbox": null
-  },
-  {
-    "label": "FIELD_KEY_EMAIL",
-    "text": "E-MAIL Empresa:",
-    "source": "digital",
-    "confidence": 1.0,
-    "page": 1,
-    "bbox": [
-      23.0,
-      538.1199951171875,
-      70.34599304199219,
-      546.364013671875
-    ],
-    "normalized_bbox": [
-      38,
-      639,
-      118,
-      648
-    ],
-    "parent_bbox": null
-  },
-  {
-    "label": "FIELD_VALUE_EMAIL",
-    "text": "tcondorazoutar@gmail.com",
-    "source": "digital",
-    "confidence": 1.0,
-    "page": 1,
-    "bbox": [
-      122.0,
-      538.1199951171875,
-      195.44598388671875,
-      546.364013671875
-    ],
-    "normalized_bbox": [
-      205,
-      639,
-      328,
-      648
-    ],
-    "parent_bbox": null
-  },
-  {
-    "label": "FIELD_KEY_AMOUNT",
-    "text": "SUBTOTAL EXENTO DE IVA",
-    "source": "digital",
-    "confidence": 1.0,
-    "page": 1,
-    "bbox": [
-      377.0,
-      550.39501953125,
-      469.5821228027344,
-      560.0130615234375
-    ],
-    "normalized_bbox": [
-      633,
-      653,
-      789,
-      665
-    ],
-    "parent_bbox": null
-  },
-  {
-    "label": "FIELD_VALUE_AMOUNT",
-    "text": "0.00",
-    "source": "digital",
-    "confidence": 1.0,
-    "page": 1,
-    "bbox": [
-      559.3800048828125,
-      550.39501953125,
-      573.0020751953125,
-      560.0130615234375
-    ],
-    "normalized_bbox": [
-      940,
-      653,
-      963,
-      665
-    ],
-    "parent_bbox": null
+      698
+    ]
   },
   {
     "label": "FIELD_KEY_TEXT",
@@ -1194,17 +1413,16 @@
     "page": 1,
     "bbox": [
       76.2699966430664,
-      558.39501953125,
+      586.3949584960938,
       123.73698425292969,
-      568.0130615234375
+      596.0130004882812
     ],
     "normalized_bbox": [
       128,
-      663,
+      696,
       207,
-      674
-    ],
-    "parent_bbox": null
+      707
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1214,57 +1432,54 @@
     "page": 1,
     "bbox": [
       221.8300018310547,
-      558.39501953125,
+      586.3949584960938,
       238.16799926757812,
-      568.0130615234375
+      596.0130004882812
     ],
     "normalized_bbox": [
       372,
-      663,
+      696,
       400,
-      674
-    ],
-    "parent_bbox": null
+      707
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
-    "text": "SUBTOTAL SIN IMPUESTOS",
+    "text": "SUBTOTAL EXENTO DE IVA",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       377.0,
-      565.39501953125,
-      470.7441101074219,
-      575.0130615234375
+      593.3949584960938,
+      469.5821228027344,
+      603.0130004882812
     ],
     "normalized_bbox": [
       633,
-      671,
-      791,
-      682
-    ],
-    "parent_bbox": null
+      704,
+      789,
+      716
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "text": "0.00",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       559.3800048828125,
-      565.39501953125,
+      593.3949584960938,
       573.0020751953125,
-      575.0130615234375
+      603.0130004882812
     ],
     "normalized_bbox": [
       940,
-      671,
+      704,
       963,
-      682
-    ],
-    "parent_bbox": null
+      716
+    ]
   },
   {
     "label": "FIELD_VALUE_TEXT",
@@ -1274,37 +1489,73 @@
     "page": 1,
     "bbox": [
       23.0,
-      572.1199951171875,
+      600.1199951171875,
       164.0299835205078,
-      580.364013671875
+      608.364013671875
     ],
     "normalized_bbox": [
       38,
-      679,
+      712,
       275,
-      689
-    ],
-    "parent_bbox": null
+      722
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "text": "15.34",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      265.32000732421875,
-      572.1199951171875,
-      276.9960021972656,
-      580.364013671875
+      261.989990234375,
+      600.1199951171875,
+      277.0019836425781,
+      608.364013671875
     ],
     "normalized_bbox": [
-      445,
-      679,
+      440,
+      712,
       465,
-      689
+      722
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL SIN IMPUESTOS",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      608.3949584960938,
+      470.7441101074219,
+      618.0130004882812
     ],
-    "parent_bbox": null
+    "normalized_bbox": [
+      633,
+      722,
+      791,
+      733
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "14.38",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      555.489990234375,
+      608.3949584960938,
+      573.0040893554688,
+      618.0130004882812
+    ],
+    "normalized_bbox": [
+      933,
+      722,
+      963,
+      733
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1314,17 +1565,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      580.3949584960938,
+      623.3949584960938,
       445.4530334472656,
-      590.0130004882812
+      633.0130004882812
     ],
     "normalized_bbox": [
       633,
-      689,
+      740,
       748,
-      700
-    ],
-    "parent_bbox": null
+      751
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1334,17 +1584,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      580.3949584960938,
+      623.3949584960938,
       573.0020751953125,
-      590.0130004882812
+      633.0130004882812
     ],
     "normalized_bbox": [
       940,
-      689,
+      740,
       963,
-      700
-    ],
-    "parent_bbox": null
+      751
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1354,17 +1603,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      595.3949584960938,
+      638.3949584960938,
       388.66900634765625,
-      605.0130004882812
+      648.0130004882812
     ],
     "normalized_bbox": [
       633,
-      707,
+      758,
       653,
-      718
-    ],
-    "parent_bbox": null
+      769
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1374,17 +1622,54 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      595.3949584960938,
+      638.3949584960938,
       573.0020751953125,
-      605.0130004882812
+      648.0130004882812
     ],
     "normalized_bbox": [
       940,
-      707,
+      758,
       963,
-      718
+      769
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "IVA 15%",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      653.3949584960938,
+      404.2370300292969,
+      663.0130004882812
     ],
-    "parent_bbox": null
+    "normalized_bbox": [
+      633,
+      776,
+      679,
+      787
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.96",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      653.3949584960938,
+      573.0020751953125,
+      663.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      776,
+      963,
+      787
+    ]
   },
   {
     "label": "FIELD_KEY_TEXT",
@@ -1394,17 +1679,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      610.3949584960938,
+      668.3949584960938,
       403.44598388671875,
-      620.0130004882812
+      678.0130004882812
     ],
     "normalized_bbox": [
       633,
-      724,
+      793,
       678,
-      736
-    ],
-    "parent_bbox": null
+      805
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1414,17 +1698,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      610.3949584960938,
+      668.3949584960938,
       573.0020751953125,
-      620.0130004882812
+      678.0130004882812
     ],
     "normalized_bbox": [
       940,
-      724,
+      793,
       963,
-      736
-    ],
-    "parent_bbox": null
+      805
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1434,17 +1717,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      625.3949584960938,
+      683.3949584960938,
       408.50701904296875,
-      635.0130004882812
+      693.0130004882812
     ],
     "normalized_bbox": [
       633,
-      742,
+      811,
       686,
-      754
-    ],
-    "parent_bbox": null
+      823
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1454,17 +1736,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      625.3949584960938,
+      683.3949584960938,
       573.0020751953125,
-      635.0130004882812
+      693.0130004882812
     ],
     "normalized_bbox": [
       940,
-      742,
+      811,
       963,
-      754
-    ],
-    "parent_bbox": null
+      823
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1474,37 +1755,35 @@
     "page": 1,
     "bbox": [
       377.0,
-      640.3949584960938,
+      698.3949584960938,
       425.237060546875,
-      650.0130004882812
+      708.0130004882812
     ],
     "normalized_bbox": [
       633,
-      760,
+      829,
       714,
-      771
-    ],
-    "parent_bbox": null
+      840
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "text": "15.34",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      559.3800048828125,
-      640.3949584960938,
-      573.0020751953125,
-      650.0130004882812
+      555.489990234375,
+      698.3949584960938,
+      573.0040893554688,
+      708.0130004882812
     ],
     "normalized_bbox": [
-      940,
-      760,
+      933,
+      829,
       963,
-      771
-    ],
-    "parent_bbox": null
+      840
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1514,17 +1793,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      659.3949584960938,
+      717.3949584960938,
       474.2511291503906,
-      669.0130004882812
+      727.0130004882812
     ],
     "normalized_bbox": [
       633,
-      783,
+      852,
       797,
-      794
-    ],
-    "parent_bbox": null
+      863
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1534,17 +1812,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      659.3949584960938,
+      717.3949584960938,
       573.0020751953125,
-      669.0130004882812
+      727.0130004882812
     ],
     "normalized_bbox": [
       940,
-      783,
+      852,
       963,
-      794
-    ],
-    "parent_bbox": null
+      863
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1554,17 +1831,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      674.3949584960938,
+      732.3949584960938,
       573.0020751953125,
-      684.0130004882812
+      742.0130004882812
     ],
     "normalized_bbox": [
       940,
-      800,
+      869,
       963,
-      812
-    ],
-    "parent_bbox": null
+      881
+    ]
   },
   {
     "label": "O",
@@ -1574,16 +1850,15 @@
     "page": 1,
     "bbox": [
       377.0,
-      677.824951171875,
+      735.824951171875,
       482.8260192871094,
-      695.593017578125
+      753.593017578125
     ],
     "normalized_bbox": [
       633,
-      805,
+      873,
       811,
-      826
-    ],
-    "parent_bbox": null
+      895
+    ]
   }
 ]

@@ -20,7 +20,7 @@
   },
   {
     "label": "FIELD_VALUE_ID",
-    "text": "0600083836001",
+    "text": "0990049459001",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -134,7 +134,7 @@
   },
   {
     "label": "FIELD_VALUE_ID",
-    "text": "006-100-000009302",
+    "text": "001-006-073573464",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -172,7 +172,7 @@
   },
   {
     "label": "FIELD_VALUE_ID",
-    "text": "2412202501060008383600120061000000093022412930216",
+    "text": "2904202601099004945900120010060735734647728580518",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -191,20 +191,20 @@
   },
   {
     "label": "FIELD_VALUE_NAME",
-    "text": "AYALA HARO JAIME JULIO",
+    "text": "BANCO GUAYAQUIL S.A.",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       28.0,
       146.82998657226562,
-      129.80799865722656,
+      122.69598388671875,
       157.82199096679688
     ],
     "normalized_bbox": [
       47,
       174,
-      218,
+      206,
       187
     ]
   },
@@ -229,7 +229,7 @@
   },
   {
     "label": "FIELD_VALUE_DATE",
-    "text": "24/12/2025 12:06:33",
+    "text": "01/05/2026 11:13:56",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -244,6 +244,25 @@
       184,
       778,
       197
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "BANCO GUAYAQUIL S.A.",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      175.82998657226562,
+      122.69598388671875,
+      186.82199096679688
+    ],
+    "normalized_bbox": [
+      47,
+      208,
+      206,
+      221
     ]
   },
   {
@@ -305,20 +324,20 @@
   },
   {
     "label": "FIELD_VALUE_ADDRESS",
-    "text": "LUCIANO ANDRADE MARIN Y GUSTAVO VALLEJO (RIOBAMBA)",
+    "text": "PICHINCHA 105 - 107 Y FRANCISCO DE PAULA YCAZA",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       79.0,
       204.97500610351562,
-      246.25804138183594,
+      235.37301635742188,
       222.74302673339844
     ],
     "normalized_bbox": [
       132,
       243,
-      413,
+      395,
       264
     ]
   },
@@ -362,20 +381,20 @@
   },
   {
     "label": "FIELD_VALUE_ADDRESS",
-    "text": "LUCIANO ANDRADE MARIN Y GUSTAVO VALLEJO (RIOBAMBA)",
+    "text": "PICHINCHA 105 - 107 Y FRANCISCO DE PAULA YCAZA",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       79.0,
       232.97500610351562,
-      246.25804138183594,
+      235.37301635742188,
       250.74302673339844
     ],
     "normalized_bbox": [
       132,
       276,
-      413,
+      395,
       297
     ]
   },
@@ -419,6 +438,44 @@
   },
   {
     "label": "FIELD_KEY_TEXT",
+    "text": "Contribuyente Especial",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      263.1700134277344,
+      110.25599670410156,
+      274.1620178222656
+    ],
+    "normalized_bbox": [
+      47,
+      312,
+      185,
+      325
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "6925",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      132.0,
+      263.1700134277344,
+      149.7919921875,
+      274.1620178222656
+    ],
+    "normalized_bbox": [
+      221,
+      312,
+      251,
+      325
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
     "text": "OBLIGADO A LLEVAR CONTABILIDAD",
     "source": "digital",
     "confidence": 1.0,
@@ -438,20 +495,20 @@
   },
   {
     "label": "FIELD_VALUE_TEXT",
-    "text": "NO",
+    "text": "SI",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       228.0,
       279.1700134277344,
-      240.0,
+      235.55999755859375,
       290.1620178222656
     ],
     "normalized_bbox": [
       383,
       331,
-      403,
+      395,
       344
     ]
   },
@@ -476,20 +533,20 @@
   },
   {
     "label": "FIELD_VALUE_NAME",
-    "text": "SAMUEL PARRALES",
+    "text": "PARRALES PALMA SAMUEL EDUARDO",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       219.0,
       389.39501953125,
-      287.07501220703125,
+      349.6970520019531,
       399.01300048828125
     ],
     "normalized_bbox": [
       368,
       462,
-      482,
+      587,
       473
     ]
   },
@@ -548,17 +605,11 @@
       495,
       72,
       508
-    ],
-    "parent_bbox": [
-      21.0,
-      405.66998291015625,
-      67.6880111694336,
-      427.8219909667969
     ]
   },
   {
     "label": "FIELD_VALUE_DATE",
-    "text": "24/12/2025",
+    "text": "29/04/2026",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -573,12 +624,6 @@
       495,
       213,
       506
-    ],
-    "parent_bbox": [
-      92.0,
-      406.39501953125,
-      130.91998291015625,
-      426.5929870605469
     ]
   },
   {
@@ -640,20 +685,20 @@
   },
   {
     "label": "FIELD_VALUE_ADDRESS",
-    "text": "RIOBAMBA",
+    "text": "BAJO DE AFUERA CALLE 18 DE SEPTIEMBRE FR",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       92.0,
       430.9750061035156,
-      128.9530029296875,
+      256.1570129394531,
       440.5929870605469
     ],
     "normalized_bbox": [
       154,
       511,
-      216,
+      430,
       523
     ]
   },
@@ -676,7 +721,6 @@
       577
     ]
   },
-
   {
     "label": "HEADER_PRODUCT_CODE_AUX",
     "text": "Cod. Auxiliar",
@@ -696,7 +740,6 @@
       577
     ]
   },
-
   {
     "label": "HEADER_PRODUCT_PRICE",
     "text": "Precio Unitario",
@@ -716,7 +759,6 @@
       568
     ]
   },
- 
   {
     "label": "HEADER_PRODUCT_WITHOUT_SUBSIDY",
     "text": "Precio sin Subsidio",
@@ -852,20 +894,20 @@
   },
   {
     "label": "ITEM_PRODUCT_CODE",
-    "text": "0001",
+    "text": "MTZJ",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      32.220001220703125,
+      31.059999465942383,
       500.39501953125,
-      47.78800964355469,
+      48.94499969482422,
       510.01300048828125
     ],
     "normalized_bbox": [
-      54,
+      52,
       594,
-      80,
+      82,
       605
     ]
   },
@@ -890,26 +932,26 @@
   },
   {
     "label": "ITEM_PRODUCT_NAME",
-    "text": "BOLETO RIOBAMBA-AMBATO",
+    "text": "COMISION TRANF.BCE",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       142.0,
       500.39501953125,
-      241.1900177001953,
+      219.0070037841797,
       510.01300048828125
     ],
     "normalized_bbox": [
       238,
       594,
-      405,
+      368,
       605
     ]
   },
   {
     "label": "ITEM_PRODUCT_PRICE",
-    "text": "1.44",
+    "text": "0.36",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -943,8 +985,7 @@
       594,
       710,
       605
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
@@ -963,8 +1004,7 @@
       594,
       794,
       605
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "ITEM_PRODUCT_DISCOUNT",
@@ -983,12 +1023,11 @@
       594,
       878,
       605
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "ITEM_PRODUCT_TOTAL",
-    "text": "2.88",
+    "text": "0.72",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -1003,32 +1042,30 @@
       594,
       963,
       605
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
-    "text": "SUBTOTAL 0%",
+    "text": "SUBTOTAL 15%",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       377.0,
       520.39501953125,
-      426.0140380859375,
+      429.9060363769531,
       530.0130615234375
     ],
     "normalized_bbox": [
       633,
       618,
-      715,
+      722,
       629
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "text": "0.72",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -1043,8 +1080,7 @@
       618,
       963,
       629
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "O",
@@ -1063,8 +1099,7 @@
       622,
       375,
       634
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1083,8 +1118,7 @@
       635,
       808,
       647
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1103,48 +1137,45 @@
       635,
       963,
       647
-    ],
-    "parent_bbox": null
+    ]
   },
   {
-    "label": "FIELD_KEY_EMAIL",
-    "text": "E-MAIL Empresa:",
+    "label": "FIELD_KEY_TEXT",
+    "text": "valor1:",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       23.0,
       538.1199951171875,
-      70.34599304199219,
+      41.006004333496094,
       546.364013671875
     ],
     "normalized_bbox": [
       38,
       639,
-      118,
+      68,
       648
-    ],
-    "parent_bbox": null
+    ]
   },
   {
-    "label": "FIELD_VALUE_EMAIL",
-    "text": "tcondorazoutar@gmail.com",
+    "label": "FIELD_VALUE_TEXT",
+    "text": "SERVICIOS FACTURADOS EN CUENTAS DE AHORROS",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       122.0,
       538.1199951171875,
-      195.44598388671875,
+      280.0220031738281,
       546.364013671875
     ],
     "normalized_bbox": [
       205,
       639,
-      328,
+      470,
       648
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1163,8 +1194,7 @@
       653,
       789,
       665
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1183,48 +1213,45 @@
       653,
       963,
       665
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_KEY_TEXT",
-    "text": "Forma de pago",
+    "text": "valor2:",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      76.2699966430664,
-      558.39501953125,
-      123.73698425292969,
-      568.0130615234375
+      23.0,
+      553.1199951171875,
+      41.006004333496094,
+      561.364013671875
     ],
     "normalized_bbox": [
-      128,
-      663,
-      207,
-      674
-    ],
-    "parent_bbox": null
+      38,
+      656,
+      68,
+      666
+    ]
   },
   {
-    "label": "FIELD_KEY_AMOUNT",
-    "text": "Valor",
+    "label": "FIELD_VALUE_TEXT",
+    "text": "GRAN CONTRIBUYENTE SEGUN OFICIO NRO. NAC-GCFOIOC21-00000882-E",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      221.8300018310547,
-      558.39501953125,
-      238.16799926757812,
-      568.0130615234375
+      122.0,
+      553.1199951171875,
+      340.0399475097656,
+      561.364013671875
     ],
     "normalized_bbox": [
-      372,
-      663,
-      400,
-      674
-    ],
-    "parent_bbox": null
+      205,
+      656,
+      571,
+      666
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1243,12 +1270,11 @@
       671,
       791,
       682
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "text": "0.72",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
@@ -1263,48 +1289,45 @@
       671,
       963,
       682
-    ],
-    "parent_bbox": null
+    ]
   },
   {
-    "label": "FIELD_VALUE_TEXT",
-    "text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO",
+    "label": "FIELD_KEY_TEXT",
+    "text": "Forma de pago",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      23.0,
-      572.1199951171875,
-      164.0299835205078,
-      580.364013671875
+      76.2699966430664,
+      573.39501953125,
+      123.73698425292969,
+      583.0130615234375
     ],
     "normalized_bbox": [
-      38,
-      679,
-      275,
-      689
-    ],
-    "parent_bbox": null
+      128,
+      680,
+      207,
+      692
+    ]
   },
   {
-    "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "Valor",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
-      265.32000732421875,
-      572.1199951171875,
-      276.9960021972656,
-      580.364013671875
+      221.8300018310547,
+      573.39501953125,
+      238.16799926757812,
+      583.0130615234375
     ],
     "normalized_bbox": [
-      445,
-      679,
-      465,
-      689
-    ],
-    "parent_bbox": null
+      372,
+      680,
+      400,
+      692
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1323,8 +1346,7 @@
       689,
       748,
       700
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1343,8 +1365,45 @@
       689,
       963,
       700
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "20 - OTROS CON UTILIZACION DEL SISTEMA FINANCIERO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      23.0,
+      587.1199951171875,
+      151.69400024414062,
+      602.343994140625
     ],
-    "parent_bbox": null
+    "normalized_bbox": [
+      38,
+      697,
+      254,
+      715
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.82",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      265.32000732421875,
+      587.1199951171875,
+      276.9960021972656,
+      595.364013671875
+    ],
+    "normalized_bbox": [
+      445,
+      697,
+      465,
+      707
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1363,8 +1422,7 @@
       707,
       653,
       718
-    ],
-    "parent_bbox": null
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1383,8 +1441,45 @@
       707,
       963,
       718
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "IVA 15%",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      610.3949584960938,
+      404.2370300292969,
+      620.0130004882812
     ],
-    "parent_bbox": null
+    "normalized_bbox": [
+      633,
+      724,
+      679,
+      736
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.10",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      610.3949584960938,
+      573.0020751953125,
+      620.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      724,
+      963,
+      736
+    ]
   },
   {
     "label": "FIELD_KEY_TEXT",
@@ -1394,17 +1489,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      610.3949584960938,
+      625.3949584960938,
       403.44598388671875,
-      620.0130004882812
+      635.0130004882812
     ],
     "normalized_bbox": [
       633,
-      724,
+      742,
       678,
-      736
-    ],
-    "parent_bbox": null
+      754
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1414,17 +1508,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      610.3949584960938,
+      625.3949584960938,
       573.0020751953125,
-      620.0130004882812
+      635.0130004882812
     ],
     "normalized_bbox": [
       940,
-      724,
+      742,
       963,
-      736
-    ],
-    "parent_bbox": null
+      754
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1434,17 +1527,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      625.3949584960938,
+      640.3949584960938,
       408.50701904296875,
-      635.0130004882812
+      650.0130004882812
     ],
     "normalized_bbox": [
       633,
-      742,
+      760,
       686,
-      754
-    ],
-    "parent_bbox": null
+      771
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1454,17 +1546,16 @@
     "page": 1,
     "bbox": [
       559.3800048828125,
-      625.3949584960938,
+      640.3949584960938,
       573.0020751953125,
-      635.0130004882812
+      650.0130004882812
     ],
     "normalized_bbox": [
       940,
-      742,
+      760,
       963,
-      754
-    ],
-    "parent_bbox": null
+      771
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1474,37 +1565,35 @@
     "page": 1,
     "bbox": [
       377.0,
-      640.3949584960938,
+      655.3949584960938,
       425.237060546875,
-      650.0130004882812
+      665.0130004882812
     ],
     "normalized_bbox": [
       633,
-      760,
+      778,
       714,
-      771
-    ],
-    "parent_bbox": null
+      789
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
-    "text": "2.88",
+    "text": "0.82",
     "source": "digital",
     "confidence": 1.0,
     "page": 1,
     "bbox": [
       559.3800048828125,
-      640.3949584960938,
+      655.3949584960938,
       573.0020751953125,
-      650.0130004882812
+      665.0130004882812
     ],
     "normalized_bbox": [
       940,
-      760,
+      778,
       963,
-      771
-    ],
-    "parent_bbox": null
+      789
+    ]
   },
   {
     "label": "FIELD_KEY_AMOUNT",
@@ -1514,37 +1603,16 @@
     "page": 1,
     "bbox": [
       377.0,
-      659.3949584960938,
+      674.3949584960938,
       474.2511291503906,
-      669.0130004882812
+      684.0130004882812
     ],
     "normalized_bbox": [
       633,
-      783,
+      800,
       797,
-      794
-    ],
-    "parent_bbox": null
-  },
-  {
-    "label": "FIELD_VALUE_AMOUNT",
-    "text": "0.00",
-    "source": "digital",
-    "confidence": 1.0,
-    "page": 1,
-    "bbox": [
-      559.3800048828125,
-      659.3949584960938,
-      573.0020751953125,
-      669.0130004882812
-    ],
-    "normalized_bbox": [
-      940,
-      783,
-      963,
-      794
-    ],
-    "parent_bbox": null
+      812
+    ]
   },
   {
     "label": "FIELD_VALUE_AMOUNT",
@@ -1563,8 +1631,26 @@
       800,
       963,
       812
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      689.3949584960938,
+      573.0020751953125,
+      699.0130004882812
     ],
-    "parent_bbox": null
+    "normalized_bbox": [
+      940,
+      818,
+      963,
+      830
+    ]
   },
   {
     "label": "O",
@@ -1574,16 +1660,15 @@
     "page": 1,
     "bbox": [
       377.0,
-      677.824951171875,
+      692.824951171875,
       482.8260192871094,
-      695.593017578125
+      710.593017578125
     ],
     "normalized_bbox": [
       633,
-      805,
+      822,
       811,
-      826
-    ],
-    "parent_bbox": null
+      843
+    ]
   }
 ]
