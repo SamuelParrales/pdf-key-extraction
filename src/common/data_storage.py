@@ -4,7 +4,7 @@ import glob
 import json
 import os
 from pathlib import Path
-
+from PIL import Image
 from common.common_types import LayoutElement
 from config.env import settings
 
@@ -34,6 +34,20 @@ class DataStorage:
     def find_json_paths() -> list[Path]:
         dir = DataStorage.get_path('labeled')
         return list(Path(dir).rglob("*.json"))
+    
+    @staticmethod
+    def get_images(folder_name: str) -> list[Image.Image]:
+        directory = DataStorage.get_path("images") / folder_name
+
+        images: list[Image.Image] = []
+
+        for image_path in sorted(
+            directory.glob("*.png"),
+            key=lambda p: int(p.stem)
+        ):
+            images.append(Image.open(image_path).convert("RGB"))
+
+        return images
 
     @staticmethod
     def save_layout_element(filename: str, element: LayoutElement) -> None:
