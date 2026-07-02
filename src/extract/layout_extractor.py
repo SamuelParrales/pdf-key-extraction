@@ -187,8 +187,11 @@ class LayoutExtractor:
             fragment_text = fragment.get("text")
             if not fragment_text:
                 continue
-
-            main_text += " " + fragment_text 
+            # TODO: Aqui debemos usar un modelo de clasificacion
+            if(main_text.isdigit() and fragment_text.isdigit()):
+                main_text += fragment_text 
+            else:
+                main_text += " " + fragment_text 
             lines_boxes.append(fragment.get("bbox"))
 
 

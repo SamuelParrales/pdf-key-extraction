@@ -4,7 +4,7 @@ import glob
 import json
 import os
 from pathlib import Path
-from PIL import Image
+from PIL import Image, ImageOps
 from common.common_types import LayoutElement
 from config.env import settings
 
@@ -62,6 +62,12 @@ class DataStorage:
         directory = DataStorage.get_path("images") / filename
         directory.mkdir(parents=True, exist_ok=True)
 
+        if images:
+            last_image = images[-1]
+
+            # Si la imagen está completamente en blanco
+            if ImageOps.invert(last_image.convert("RGB")).getbbox() is None:
+                images = images[:-1]
+
         for i, image in enumerate(images, start=1):
             image.save(directory / f"{i}.png", format="PNG")
-    
