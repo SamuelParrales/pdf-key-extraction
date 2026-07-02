@@ -118,7 +118,7 @@ class LayoutExtractor:
         bbox: tuple[float, float, float, float],
         y_tolerance: float = 1.7,
         # 9.2
-        x_tolerance: float = 12,
+        x_tolerance: float = 15,
     ) -> list[dict]:
         page_dict = page.get_text("dict", flags=fitz.TEXT_PRESERVE_WHITESPACE)
 
@@ -174,8 +174,7 @@ class LayoutExtractor:
             
         
     def process_fragments(self, main,fragments):
-        
-
+     
         if(len(fragments)==0):
             return False, main
             
@@ -188,6 +187,7 @@ class LayoutExtractor:
             if not fragment_text:
                 continue
             # TODO: Aqui debemos usar un modelo de clasificacion
+            
             if(main_text.isdigit() and fragment_text.isdigit()):
                 main_text += fragment_text 
             else:
