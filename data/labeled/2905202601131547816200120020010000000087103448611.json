@@ -1,0 +1,1864 @@
+[
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "R.U.C.:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      26.250022888183594,
+      330.33599853515625,
+      42.7380256652832
+    ],
+    "normalized_bbox": [
+      489,
+      31,
+      555,
+      50
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "1315478162001",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      356.0,
+      24.79997444152832,
+      457.19195556640625,
+      44.03597640991211
+    ],
+    "normalized_bbox": [
+      598,
+      29,
+      768,
+      52
+    ]
+  },
+  {
+    "label": "O",
+    "text": "NO",
+    "source": "image_ocr",
+    "confidence": 0.97025927901268,
+    "page": 1,
+    "bbox": [
+      27.5748502994012,
+      34.4616442499934,
+      70.95808383233532,
+      59.25299515595307
+    ],
+    "normalized_bbox": [
+      46,
+      40,
+      119,
+      70
+    ]
+  },
+  {
+    "label": "O",
+    "text": "TIENE",
+    "source": "image_ocr",
+    "confidence": 0.9901392936706543,
+    "page": 1,
+    "bbox": [
+      80.59880239520959,
+      33.084346977440084,
+      168.7425149700599,
+      61.31894106478305
+    ],
+    "normalized_bbox": [
+      135,
+      39,
+      283,
+      72
+    ]
+  },
+  {
+    "label": "O",
+    "text": "LOGO",
+    "source": "image_ocr",
+    "confidence": 0.995796725153923,
+    "page": 1,
+    "bbox": [
+      160.47904191616766,
+      34.4616442499934,
+      248.62275449101796,
+      59.941643792229726
+    ],
+    "normalized_bbox": [
+      269,
+      40,
+      417,
+      71
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "FACTURA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      48.750022888183594,
+      347.66400146484375,
+      65.23802185058594
+    ],
+    "normalized_bbox": [
+      489,
+      57,
+      584,
+      77
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "No.",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      76.1700210571289,
+      303.447998046875,
+      87.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      90,
+      509,
+      103
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "002-001-000000008",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      322.0,
+      76.1700210571289,
+      394.0479736328125,
+      87.16201782226562
+    ],
+    "normalized_bbox": [
+      541,
+      90,
+      662,
+      103
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "NÚMERO DE AUTORIZACIÓN",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      99.1700210571289,
+      402.55999755859375,
+      110.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      117,
+      676,
+      130
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "2905202601131547816200120020010000000087103448611",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      125.1700210571289,
+      508.951904296875,
+      136.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      148,
+      855,
+      161
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "PARRALES PALMA SAMUEL EDUARDO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      146.82998657226562,
+      177.3679962158203,
+      157.82199096679688
+    ],
+    "normalized_bbox": [
+      47,
+      174,
+      298,
+      187
+    ]
+  },
+  {
+    "label": "FIELD_KEY_DATE",
+    "text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      149.50997924804688,
+      364.343994140625,
+      169.82199096679688
+    ],
+    "normalized_bbox": [
+      489,
+      177,
+      612,
+      201
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_DATE",
+    "text": "29/05/2026 16:52:50",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      390.0,
+      155.17001342773438,
+      463.3919677734375,
+      166.16201782226562
+    ],
+    "normalized_bbox": [
+      655,
+      184,
+      778,
+      197
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "Esquina de Parrales",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      175.82998657226562,
+      100.0320053100586,
+      186.82199096679688
+    ],
+    "normalized_bbox": [
+      47,
+      208,
+      168,
+      221
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "AMBIENTE:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      181.17001342773438,
+      334.1199951171875,
+      192.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      215,
+      561,
+      228
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "PRODUCCIÓN",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      390.0,
+      182.17001342773438,
+      444.66400146484375,
+      193.16201782226562
+    ],
+    "normalized_bbox": [
+      655,
+      216,
+      747,
+      229
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ADDRESS",
+    "text": "Dirección Matriz:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      204.82998657226562,
+      61.33600997924805,
+      225.13198852539062
+    ],
+    "normalized_bbox": [
+      47,
+      243,
+      103,
+      267
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ADDRESS",
+    "text": "Bajo de afuera, Calle 18 de septiembre",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      79.0,
+      204.97500610351562,
+      200.39395141601562,
+      214.59300231933594
+    ],
+    "normalized_bbox": [
+      132,
+      243,
+      336,
+      254
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "EMISIÓN:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      210.17001342773438,
+      327.00799560546875,
+      221.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      249,
+      549,
+      262
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "NORMAL",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      390.0,
+      210.17001342773438,
+      424.2239990234375,
+      221.16201782226562
+    ],
+    "normalized_bbox": [
+      655,
+      249,
+      712,
+      262
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ADDRESS",
+    "text": "Bajo de afuera, Calle 18 de septiembre",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      79.0,
+      232.97500610351562,
+      200.39395141601562,
+      242.59300231933594
+    ],
+    "normalized_bbox": [
+      132,
+      276,
+      336,
+      288
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ADDRESS",
+    "text": "Dirección Sucursal:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      236.50997924804688,
+      61.3440055847168,
+      256.8219909667969
+    ],
+    "normalized_bbox": [
+      47,
+      280,
+      103,
+      305
+    ]
+  },
+  {
+    "label": "O",
+    "text": "CLAVE DE ACCESO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      246.17001342773438,
+      366.57598876953125,
+      257.1620178222656
+    ],
+    "normalized_bbox": [
+      489,
+      292,
+      616,
+      305
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      279.1700134277344,
+      171.5999755859375,
+      290.1620178222656
+    ],
+    "normalized_bbox": [
+      47,
+      331,
+      288,
+      344
+    ]
+  },
+  {
+    "label": "FIELD_KEY_NAME",
+    "text": "Razón Social / Nombres y Apellidos:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      389.66998291015625,
+      150.37599182128906,
+      400.6619873046875
+    ],
+    "normalized_bbox": [
+      35,
+      462,
+      252,
+      475
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "CONSUMIDOR FINAL",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      219.0,
+      389.39501953125,
+      289.39202880859375,
+      399.01300048828125
+    ],
+    "normalized_bbox": [
+      368,
+      462,
+      486,
+      473
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "Identificación",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      405.66998291015625,
+      67.6880111694336,
+      416.6619873046875
+    ],
+    "normalized_bbox": [
+      35,
+      481,
+      113,
+      494
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "9999999999999",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      92.0,
+      406.39501953125,
+      142.59597778320312,
+      416.01300048828125
+    ],
+    "normalized_bbox": [
+      154,
+      482,
+      239,
+      494
+    ]
+  },
+  {
+    "label": "FIELD_KEY_DATE",
+    "text": "Fecha",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      416.8299865722656,
+      43.23200225830078,
+      427.8219909667969
+    ],
+    "normalized_bbox": [
+      35,
+      495,
+      72,
+      508
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_DATE",
+    "text": "29/05/2026",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      92.0,
+      416.9750061035156,
+      127.02798461914062,
+      426.5929870605469
+    ],
+    "normalized_bbox": [
+      154,
+      495,
+      213,
+      506
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Placa / Matrícula:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      179.0,
+      416.8299865722656,
+      240.79998779296875,
+      427.8219909667969
+    ],
+    "normalized_bbox": [
+      300,
+      495,
+      404,
+      508
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Guía",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      375.0,
+      417.8299865722656,
+      392.343994140625,
+      428.8219909667969
+    ],
+    "normalized_bbox": [
+      630,
+      496,
+      659,
+      509
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ADDRESS",
+    "text": "Direccion:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      430.8299865722656,
+      56.56000518798828,
+      441.8219909667969
+    ],
+    "normalized_bbox": [
+      35,
+      511,
+      95,
+      524
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_CODE",
+    "text": "Cod. Principal",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      26.579999923706055,
+      468.82501220703125,
+      53.41801071166992,
+      486.5929870605469
+    ],
+    "normalized_bbox": [
+      44,
+      556,
+      89,
+      577
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_CODE_AUX",
+    "text": "Cod. Auxiliar",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      68.52999877929688,
+      468.82501220703125,
+      91.47599792480469,
+      486.5929870605469
+    ],
+    "normalized_bbox": [
+      115,
+      556,
+      153,
+      577
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_PRICE",
+    "text": "Precio Unitario",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      327.04998779296875,
+      468.82501220703125,
+      372.9489440917969,
+      478.4429931640625
+    ],
+    "normalized_bbox": [
+      549,
+      556,
+      626,
+      568
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "Precio sin Subsidio",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      434.6400146484375,
+      468.82501220703125,
+      465.3699951171875,
+      486.5929870605469
+    ],
+    "normalized_bbox": [
+      730,
+      556,
+      782,
+      577
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_TOTAL",
+    "text": "Precio Total",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      531.3300170898438,
+      468.82501220703125,
+      568.6751098632812,
+      478.4429931640625
+    ],
+    "normalized_bbox": [
+      892,
+      556,
+      955,
+      568
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_QUANTITY",
+    "text": "Cantidad",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      105.98999786376953,
+      472.89501953125,
+      134.00399780273438,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      178,
+      561,
+      225,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_NAME",
+    "text": "Descripción",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      176.72000122070312,
+      472.89501953125,
+      213.28099060058594,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      297,
+      561,
+      358,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_DETAIL",
+    "text": "Detalle Adicional",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      261.44000244140625,
+      472.89501953125,
+      313.5689392089844,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      439,
+      561,
+      527,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_SUBSIDY",
+    "text": "Subsidio",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      386.5799865722656,
+      472.89501953125,
+      413.4249572753906,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      649,
+      561,
+      694,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_DISCOUNT",
+    "text": "Descuento",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      483.2699890136719,
+      472.89501953125,
+      516.72998046875,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      812,
+      561,
+      868,
+      573
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "7862113540070",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      22.489999771118164,
+      496.32501220703125,
+      57.51801300048828,
+      514.093017578125
+    ],
+    "normalized_bbox": [
+      37,
+      589,
+      96,
+      610
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "7862113540070",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      62.4900016784668,
+      496.32501220703125,
+      97.51799011230469,
+      514.093017578125
+    ],
+    "normalized_bbox": [
+      105,
+      589,
+      163,
+      610
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "2.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      500.39501953125,
+      126.81199645996094,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      190,
+      594,
+      213,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "CARPETA OFICIO CELESTE",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      500.39501953125,
+      234.96702575683594,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      238,
+      594,
+      394,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.65",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      359.3800048828125,
+      500.39501953125,
+      373.00201416015625,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      604,
+      594,
+      626,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      500.39501953125,
+      423.00201416015625,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      688,
+      594,
+      710,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      500.39501953125,
+      473.00201416015625,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      772,
+      594,
+      794,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      500.39501953125,
+      523.0020751953125,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      856,
+      594,
+      878,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "1.30",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      500.39501953125,
+      573.0020751953125,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      940,
+      594,
+      963,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "7702111610064",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      62.4900016784668,
+      521.324951171875,
+      97.51799011230469,
+      539.093017578125
+    ],
+    "normalized_bbox": [
+      105,
+      619,
+      163,
+      640
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "CUADERNO CRAYOLA 100H CUADROS 561006",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      521.324951171875,
+      236.1290283203125,
+      539.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      619,
+      396,
+      640
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "21",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      36.11000061035156,
+      525.39501953125,
+      43.894004821777344,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      60,
+      623,
+      73,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "1.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      525.39501953125,
+      126.81199645996094,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      190,
+      623,
+      213,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "1.30",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      359.3800048828125,
+      525.39501953125,
+      373.00201416015625,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      604,
+      623,
+      626,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      525.39501953125,
+      423.00201416015625,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      688,
+      623,
+      710,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      525.39501953125,
+      473.00201416015625,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      772,
+      623,
+      794,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      525.39501953125,
+      523.0020751953125,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      856,
+      623,
+      878,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "1.30",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      525.39501953125,
+      573.0020751953125,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      623,
+      963,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "7861098338870",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      62.4900016784668,
+      546.324951171875,
+      97.51799011230469,
+      564.093017578125
+    ],
+    "normalized_bbox": [
+      105,
+      648,
+      163,
+      669
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "CUADERNO UNIVERSITAR EXPERTO 100H CDR S",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      546.324951171875,
+      231.06103515625,
+      564.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      648,
+      388,
+      669
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "28",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      36.11000061035156,
+      550.39501953125,
+      43.894004821777344,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      60,
+      653,
+      73,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "1.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      550.39501953125,
+      126.81199645996094,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      190,
+      653,
+      213,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "1.39",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      359.3800048828125,
+      550.39501953125,
+      373.00201416015625,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      604,
+      653,
+      626,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      550.39501953125,
+      423.00201416015625,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      688,
+      653,
+      710,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      550.39501953125,
+      473.00201416015625,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      772,
+      653,
+      794,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      550.39501953125,
+      523.0020751953125,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      856,
+      653,
+      878,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "1.39",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      550.39501953125,
+      573.0020751953125,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      653,
+      963,
+      665
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL 15%",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      570.39501953125,
+      429.9060363769531,
+      580.0130615234375
+    ],
+    "normalized_bbox": [
+      633,
+      677,
+      722,
+      688
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "3.99",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      570.39501953125,
+      573.0020751953125,
+      580.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      677,
+      963,
+      688
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL NO OBJETO DE IVA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      585.3949584960938,
+      481.25115966796875,
+      595.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      695,
+      808,
+      706
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      585.3949584960938,
+      573.0020751953125,
+      595.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      695,
+      963,
+      706
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL EXENTO DE IVA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      600.3949584960938,
+      469.5821228027344,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      713,
+      789,
+      724
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      600.3949584960938,
+      573.0020751953125,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      713,
+      963,
+      724
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Forma de pago",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      76.2699966430664,
+      607.3949584960938,
+      123.73698425292969,
+      617.0130004882812
+    ],
+    "normalized_bbox": [
+      128,
+      721,
+      207,
+      732
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "Valor",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      221.8300018310547,
+      607.3949584960938,
+      238.16799926757812,
+      617.0130004882812
+    ],
+    "normalized_bbox": [
+      372,
+      721,
+      400,
+      732
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL SIN IMPUESTOS",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      615.3949584960938,
+      470.7441101074219,
+      625.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      730,
+      791,
+      742
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "3.99",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      615.3949584960938,
+      573.0020751953125,
+      625.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      730,
+      963,
+      742
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      23.0,
+      621.1199951171875,
+      164.0299835205078,
+      629.364013671875
+    ],
+    "normalized_bbox": [
+      38,
+      737,
+      275,
+      747
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "4.60",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      265.32000732421875,
+      621.1199951171875,
+      276.9960021972656,
+      629.364013671875
+    ],
+    "normalized_bbox": [
+      445,
+      737,
+      465,
+      747
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "TOTAL DESCUENTO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      630.3949584960938,
+      445.4530334472656,
+      640.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      748,
+      748,
+      760
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      630.3949584960938,
+      573.0020751953125,
+      640.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      748,
+      963,
+      760
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "ICE",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      645.3949584960938,
+      388.66900634765625,
+      655.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      766,
+      653,
+      777
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      645.3949584960938,
+      573.0020751953125,
+      655.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      766,
+      963,
+      777
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "IVA 15%",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      660.3949584960938,
+      404.2370300292969,
+      670.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      784,
+      679,
+      795
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.60",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      660.3949584960938,
+      573.0020751953125,
+      670.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      784,
+      963,
+      795
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "IRBPNR",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      675.3949584960938,
+      403.44598388671875,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      802,
+      678,
+      813
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      675.3949584960938,
+      573.0020751953125,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      802,
+      963,
+      813
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "PROPINA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      690.3949584960938,
+      408.50701904296875,
+      700.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      819,
+      686,
+      831
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      690.3949584960938,
+      573.0020751953125,
+      700.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      819,
+      963,
+      831
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "VALOR TOTAL",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      705.3949584960938,
+      425.237060546875,
+      715.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      837,
+      714,
+      849
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "4.59",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      705.3949584960938,
+      573.0020751953125,
+      715.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      837,
+      963,
+      849
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "VALOR TOTAL SIN SUBSIDIO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      724.3949584960938,
+      474.2511291503906,
+      734.0130004882812
+    ],
+    "normalized_bbox": [
+      633,
+      860,
+      797,
+      871
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      724.3949584960938,
+      573.0020751953125,
+      734.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      860,
+      963,
+      871
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      739.3949584960938,
+      573.0020751953125,
+      749.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      878,
+      963,
+      889
+    ]
+  },
+  {
+    "label": "O",
+    "text": "AHORRO POR SUBSIDIO: (Incluye IVA cuando corresponda)",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      377.0,
+      742.824951171875,
+      482.8260192871094,
+      760.593017578125
+    ],
+    "normalized_bbox": [
+      633,
+      882,
+      811,
+      903
+    ]
+  }
+]
