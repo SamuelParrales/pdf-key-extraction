@@ -6,3 +6,6 @@ __pycache__/
 
 # Environment files
 .env
+model-output
+data/pdfs/*.pdf
+data/unlabeled/*.json

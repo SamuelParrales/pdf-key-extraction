@@ -1,0 +1,4068 @@
+[
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "R.U.C.:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      26.250022888183594,
+      330.33599853515625,
+      42.7380256652832
+    ],
+    "normalized_bbox": [
+      489,
+      31,
+      555,
+      50
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "1105204364001",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      356.0,
+      24.79997444152832,
+      457.19195556640625,
+      44.03597640991211
+    ],
+    "normalized_bbox": [
+      598,
+      29,
+      768,
+      52
+    ]
+  },
+  {
+    "label": "O",
+    "text": "NO",
+    "source": "image_ocr",
+    "confidence": 0.97025927901268,
+    "page": 1,
+    "bbox": [
+      27.5748502994012,
+      34.4616442499934,
+      70.95808383233532,
+      59.25299515595307
+    ],
+    "normalized_bbox": [
+      46,
+      40,
+      119,
+      70
+    ]
+  },
+  {
+    "label": "O",
+    "text": "TIENE",
+    "source": "image_ocr",
+    "confidence": 0.9901392936706543,
+    "page": 1,
+    "bbox": [
+      80.59880239520959,
+      33.084346977440084,
+      168.7425149700599,
+      61.31894106478305
+    ],
+    "normalized_bbox": [
+      135,
+      39,
+      283,
+      72
+    ]
+  },
+  {
+    "label": "O",
+    "text": "LOGO",
+    "source": "image_ocr",
+    "confidence": 0.995796725153923,
+    "page": 1,
+    "bbox": [
+      160.47904191616766,
+      34.4616442499934,
+      248.62275449101796,
+      59.941643792229726
+    ],
+    "normalized_bbox": [
+      269,
+      40,
+      417,
+      71
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "FACTURA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      48.750022888183594,
+      347.66400146484375,
+      65.23802185058594
+    ],
+    "normalized_bbox": [
+      489,
+      57,
+      584,
+      77
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "No.",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      76.1700210571289,
+      303.447998046875,
+      87.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      90,
+      509,
+      103
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "001-005-000004317",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      322.0,
+      76.1700210571289,
+      394.0479736328125,
+      87.16201782226562
+    ],
+    "normalized_bbox": [
+      541,
+      90,
+      662,
+      103
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "NÚMERO DE AUTORIZACIÓN",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      99.1700210571289,
+      402.55999755859375,
+      110.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      117,
+      676,
+      130
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "2802202601110520436400120010050000043170000503410",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      125.1700210571289,
+      508.951904296875,
+      136.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      148,
+      855,
+      161
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "OCHOA DELGADO ROBIN EDUARDO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      146.82998657226562,
+      168.4639892578125,
+      157.82199096679688
+    ],
+    "normalized_bbox": [
+      47,
+      174,
+      283,
+      187
+    ]
+  },
+  {
+    "label": "FIELD_KEY_DATE",
+    "text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      149.50997924804688,
+      364.343994140625,
+      169.82199096679688
+    ],
+    "normalized_bbox": [
+      489,
+      177,
+      612,
+      201
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_DATE",
+    "text": "28/02/2026 14:53:55",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      390.0,
+      155.17001342773438,
+      463.3919677734375,
+      166.16201782226562
+    ],
+    "normalized_bbox": [
+      655,
+      184,
+      778,
+      197
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "GOLOSINAS COTOPAXI",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      175.82998657226562,
+      118.69599151611328,
+      186.82199096679688
+    ],
+    "normalized_bbox": [
+      47,
+      208,
+      199,
+      221
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "AMBIENTE:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      181.17001342773438,
+      334.1199951171875,
+      192.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      215,
+      561,
+      228
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "PRODUCCIÓN",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      390.0,
+      182.17001342773438,
+      444.66400146484375,
+      193.16201782226562
+    ],
+    "normalized_bbox": [
+      655,
+      216,
+      747,
+      229
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ADDRESS",
+    "text": "Dirección Matriz:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      204.82998657226562,
+      61.33600997924805,
+      225.13198852539062
+    ],
+    "normalized_bbox": [
+      47,
+      243,
+      103,
+      267
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ADDRESS",
+    "text": "COTOPAXI / LATACUNGA / JUAN MONTALVO (SAN SEBASTIA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      79.0,
+      204.97500610351562,
+      247.81201171875,
+      222.74302673339844
+    ],
+    "normalized_bbox": [
+      132,
+      243,
+      416,
+      264
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "EMISIÓN:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      210.17001342773438,
+      327.00799560546875,
+      221.16201782226562
+    ],
+    "normalized_bbox": [
+      489,
+      249,
+      549,
+      262
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "NORMAL",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      390.0,
+      210.17001342773438,
+      424.2239990234375,
+      221.16201782226562
+    ],
+    "normalized_bbox": [
+      655,
+      249,
+      712,
+      262
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ADDRESS",
+    "text": "COTOPAXI / LATACUNGA / JUAN MONTALVO (SAN SEBASTIA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      79.0,
+      232.97500610351562,
+      247.81201171875,
+      250.74302673339844
+    ],
+    "normalized_bbox": [
+      132,
+      276,
+      416,
+      297
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ADDRESS",
+    "text": "Dirección Sucursal:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      236.50997924804688,
+      61.3440055847168,
+      256.8219909667969
+    ],
+    "normalized_bbox": [
+      47,
+      280,
+      103,
+      305
+    ]
+  },
+  {
+    "label": "O",
+    "text": "CLAVE DE ACCESO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      291.0,
+      246.17001342773438,
+      366.57598876953125,
+      257.1620178222656
+    ],
+    "normalized_bbox": [
+      489,
+      292,
+      616,
+      305
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      28.0,
+      279.1700134277344,
+      171.5999755859375,
+      290.1620178222656
+    ],
+    "normalized_bbox": [
+      47,
+      331,
+      288,
+      344
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "SI",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      228.0,
+      279.1700134277344,
+      235.55999755859375,
+      290.1620178222656
+    ],
+    "normalized_bbox": [
+      383,
+      331,
+      395,
+      344
+    ]
+  },
+  {
+    "label": "FIELD_KEY_NAME",
+    "text": "Razón Social / Nombres y Apellidos:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      389.66998291015625,
+      150.37599182128906,
+      400.6619873046875
+    ],
+    "normalized_bbox": [
+      35,
+      462,
+      252,
+      475
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_NAME",
+    "text": "SANCHEZ MASAQUIZA GUADALUPE MARLENE",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      219.0,
+      389.39501953125,
+      376.528076171875,
+      399.01300048828125
+    ],
+    "normalized_bbox": [
+      368,
+      462,
+      632,
+      473
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ID",
+    "text": "Identificación",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      405.66998291015625,
+      67.6880111694336,
+      416.6619873046875
+    ],
+    "normalized_bbox": [
+      35,
+      481,
+      113,
+      494
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ID",
+    "text": "1804169587001",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      92.0,
+      406.39501953125,
+      142.59597778320312,
+      416.01300048828125
+    ],
+    "normalized_bbox": [
+      154,
+      482,
+      239,
+      494
+    ]
+  },
+  {
+    "label": "FIELD_KEY_DATE",
+    "text": "Fecha",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      416.8299865722656,
+      43.23200225830078,
+      427.8219909667969
+    ],
+    "normalized_bbox": [
+      35,
+      495,
+      72,
+      508
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_DATE",
+    "text": "28/02/2026",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      92.0,
+      416.9750061035156,
+      127.02798461914062,
+      426.5929870605469
+    ],
+    "normalized_bbox": [
+      154,
+      495,
+      213,
+      506
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Placa / Matrícula:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      179.0,
+      416.8299865722656,
+      240.79998779296875,
+      427.8219909667969
+    ],
+    "normalized_bbox": [
+      300,
+      495,
+      404,
+      508
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Guía",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      375.0,
+      417.8299865722656,
+      392.343994140625,
+      428.8219909667969
+    ],
+    "normalized_bbox": [
+      630,
+      496,
+      659,
+      509
+    ]
+  },
+  {
+    "label": "FIELD_KEY_ADDRESS",
+    "text": "Direccion:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      21.0,
+      430.8299865722656,
+      56.56000518798828,
+      441.8219909667969
+    ],
+    "normalized_bbox": [
+      35,
+      511,
+      95,
+      524
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_ADDRESS",
+    "text": "PLAZA ARAY CALLE SALOME FRENTE ALA CANCHA DE BOLY ANTES DEL PUENTE",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      92.0,
+      430.9750061035156,
+      370.5231018066406,
+      440.5929870605469
+    ],
+    "normalized_bbox": [
+      154,
+      511,
+      622,
+      523
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_CODE",
+    "text": "Cod. Principal",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      26.579999923706055,
+      468.82501220703125,
+      53.41801071166992,
+      486.5929870605469
+    ],
+    "normalized_bbox": [
+      44,
+      556,
+      89,
+      577
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_CODE_AUX",
+    "text": "Cod. Auxiliar",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      68.52999877929688,
+      468.82501220703125,
+      91.47599792480469,
+      486.5929870605469
+    ],
+    "normalized_bbox": [
+      115,
+      556,
+      153,
+      577
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_PRICE",
+    "text": "Precio Unitario",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      327.04998779296875,
+      468.82501220703125,
+      372.9489440917969,
+      478.4429931640625
+    ],
+    "normalized_bbox": [
+      549,
+      556,
+      626,
+      568
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "Precio sin Subsidio",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      434.6400146484375,
+      468.82501220703125,
+      465.3699951171875,
+      486.5929870605469
+    ],
+    "normalized_bbox": [
+      730,
+      556,
+      782,
+      577
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_TOTAL",
+    "text": "Precio Total",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      531.3300170898438,
+      468.82501220703125,
+      568.6751098632812,
+      478.4429931640625
+    ],
+    "normalized_bbox": [
+      892,
+      556,
+      955,
+      568
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_QUANTITY",
+    "text": "Cantidad",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      105.98999786376953,
+      472.89501953125,
+      134.00399780273438,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      178,
+      561,
+      225,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_NAME",
+    "text": "Descripción",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      176.72000122070312,
+      472.89501953125,
+      213.28099060058594,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      297,
+      561,
+      358,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_DETAIL",
+    "text": "Detalle Adicional",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      261.44000244140625,
+      472.89501953125,
+      313.5689392089844,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      439,
+      561,
+      527,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_SUBSIDY",
+    "text": "Subsidio",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      386.5799865722656,
+      472.89501953125,
+      413.4249572753906,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      649,
+      561,
+      694,
+      573
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_DISCOUNT",
+    "text": "Descuento",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      483.2699890136719,
+      472.89501953125,
+      516.72998046875,
+      482.51300048828125
+    ],
+    "normalized_bbox": [
+      812,
+      561,
+      868,
+      573
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. OREO TUBO CLASICA 30 U",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      496.32501220703125,
+      237.697021484375,
+      514.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      589,
+      399,
+      610
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "174",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      500.39501953125,
+      45.83600616455078,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      57,
+      594,
+      77,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "174",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      500.39501953125,
+      85.83599853515625,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      124,
+      594,
+      144,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "15.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      111.23999786376953,
+      500.39501953125,
+      128.75399780273438,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      186,
+      594,
+      216,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.73913",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      347.70001220703125,
+      500.39501953125,
+      372.9980163574219,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      584,
+      594,
+      626,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      500.39501953125,
+      423.00201416015625,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      688,
+      594,
+      710,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      500.39501953125,
+      473.00201416015625,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      772,
+      594,
+      794,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      500.39501953125,
+      523.0020751953125,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      856,
+      594,
+      878,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "11.09",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      555.489990234375,
+      500.39501953125,
+      573.0040893554688,
+      510.01300048828125
+    ],
+    "normalized_bbox": [
+      933,
+      594,
+      963,
+      605
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "CHI. TRIDENT PEQ. SURTIDO /60U/40DP",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      521.324951171875,
+      240.3990020751953,
+      539.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      619,
+      404,
+      640
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "188",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      525.39501953125,
+      45.83600616455078,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      57,
+      623,
+      77,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "188",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      525.39501953125,
+      85.83599853515625,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      124,
+      623,
+      144,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "1.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      525.39501953125,
+      126.81199645996094,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      190,
+      623,
+      213,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "3.913043",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      525.39501953125,
+      373.0,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      577,
+      623,
+      626,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      525.39501953125,
+      423.00201416015625,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      688,
+      623,
+      710,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      525.39501953125,
+      473.00201416015625,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      772,
+      623,
+      794,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      525.39501953125,
+      523.0020751953125,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      856,
+      623,
+      878,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "3.91",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      525.39501953125,
+      573.0020751953125,
+      535.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      623,
+      963,
+      635
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL.OREO  PEQUENA X12U x14DP",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      546.324951171875,
+      240.0350341796875,
+      564.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      648,
+      403,
+      669
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "2",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      38.04999923706055,
+      550.39501953125,
+      41.94200134277344,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      63,
+      653,
+      70,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "2",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      78.05000305175781,
+      550.39501953125,
+      81.94200134277344,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      131,
+      653,
+      137,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "1.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      550.39501953125,
+      126.81199645996094,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      190,
+      653,
+      213,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "3.73913",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      347.70001220703125,
+      550.39501953125,
+      372.9980163574219,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      584,
+      653,
+      626,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      550.39501953125,
+      423.00201416015625,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      688,
+      653,
+      710,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      550.39501953125,
+      473.00201416015625,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      772,
+      653,
+      794,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      550.39501953125,
+      523.0020751953125,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      856,
+      653,
+      878,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "3.74",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      550.39501953125,
+      573.0020751953125,
+      560.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      653,
+      963,
+      665
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. MIAS GRANDES VAINILLA 36/157 grs.",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      571.324951171875,
+      217.46702575683594,
+      589.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      678,
+      365,
+      699
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "66",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      36.11000061035156,
+      575.39501953125,
+      43.894004821777344,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      60,
+      683,
+      73,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "66",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      76.11000061035156,
+      575.39501953125,
+      83.89399719238281,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      127,
+      683,
+      140,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "3.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      575.39501953125,
+      126.81199645996094,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      190,
+      683,
+      213,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.695652",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      575.39501953125,
+      373.0,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      577,
+      683,
+      626,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      575.39501953125,
+      423.00201416015625,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      688,
+      683,
+      710,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      575.39501953125,
+      473.00201416015625,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      772,
+      683,
+      794,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      575.39501953125,
+      523.0020751953125,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      856,
+      683,
+      878,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "2.09",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      575.39501953125,
+      573.0020751953125,
+      585.0130615234375
+    ],
+    "normalized_bbox": [
+      940,
+      683,
+      963,
+      694
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. MIAS GRANDES CHOCOLATE 36 /157 GRS",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      596.324951171875,
+      227.9739990234375,
+      614.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      708,
+      383,
+      729
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "110",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      600.3949584960938,
+      45.83600616455078,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      713,
+      77,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "110",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      600.3949584960938,
+      85.83599853515625,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      713,
+      144,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "6.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      600.3949584960938,
+      126.81199645996094,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      190,
+      713,
+      213,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.695652",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      600.3949584960938,
+      373.0,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      713,
+      626,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      600.3949584960938,
+      423.00201416015625,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      713,
+      710,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      600.3949584960938,
+      473.00201416015625,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      713,
+      794,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      600.3949584960938,
+      523.0020751953125,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      713,
+      878,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "4.17",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      600.3949584960938,
+      573.0020751953125,
+      610.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      713,
+      963,
+      724
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL.OREO  MEDIANA  X6 U/18DP",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      621.324951171875,
+      230.697021484375,
+      639.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      737,
+      387,
+      759
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "123",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      625.3949584960938,
+      45.83600616455078,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      742,
+      77,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "123",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      625.3949584960938,
+      85.83599853515625,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      742,
+      144,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "1.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      625.3949584960938,
+      126.81199645996094,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      190,
+      742,
+      213,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "2.234294",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      625.3949584960938,
+      373.0,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      742,
+      626,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      625.3949584960938,
+      423.00201416015625,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      742,
+      710,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      625.3949584960938,
+      473.00201416015625,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      742,
+      794,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      625.3949584960938,
+      523.0020751953125,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      742,
+      878,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "2.23",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      625.3949584960938,
+      573.0020751953125,
+      635.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      742,
+      963,
+      754
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. MIAS PEQUENAS CHOCOLATE 36/71grs",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      646.324951171875,
+      221.75103759765625,
+      664.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      767,
+      372,
+      788
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "265",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      650.3949584960938,
+      45.83600616455078,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      772,
+      77,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "265",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      650.3949584960938,
+      85.83599853515625,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      772,
+      144,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "5.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      650.3949584960938,
+      126.81199645996094,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      190,
+      772,
+      213,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.365217",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      650.3949584960938,
+      373.0,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      772,
+      626,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      650.3949584960938,
+      423.00201416015625,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      772,
+      710,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      650.3949584960938,
+      473.00201416015625,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      772,
+      794,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      650.3949584960938,
+      523.0020751953125,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      772,
+      878,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "1.83",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      650.3949584960938,
+      573.0020751953125,
+      660.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      772,
+      963,
+      783
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. MIAS PEQUENAS FRESA 36/71grs",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      671.324951171875,
+      247.03504943847656,
+      689.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      797,
+      415,
+      818
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "266",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      675.3949584960938,
+      45.83600616455078,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      802,
+      77,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "266",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      675.3949584960938,
+      85.83599853515625,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      802,
+      144,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "5.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      675.3949584960938,
+      126.81199645996094,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      190,
+      802,
+      213,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.365217",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      675.3949584960938,
+      373.0,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      802,
+      626,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      675.3949584960938,
+      423.00201416015625,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      802,
+      710,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      675.3949584960938,
+      473.00201416015625,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      802,
+      794,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      675.3949584960938,
+      523.0020751953125,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      802,
+      878,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "1.83",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      675.3949584960938,
+      573.0020751953125,
+      685.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      802,
+      963,
+      813
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. MIAS PEQUENAS VAINILLA 36un/ 71grs",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      696.324951171875,
+      221.75103759765625,
+      714.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      826,
+      372,
+      848
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "267",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      700.3949584960938,
+      45.83600616455078,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      831,
+      77,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "267",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      700.3949584960938,
+      85.83599853515625,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      831,
+      144,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "5.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      700.3949584960938,
+      126.81199645996094,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      190,
+      831,
+      213,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.365217",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      700.3949584960938,
+      373.0,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      831,
+      626,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      700.3949584960938,
+      423.00201416015625,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      831,
+      710,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      700.3949584960938,
+      473.00201416015625,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      831,
+      794,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      700.3949584960938,
+      523.0020751953125,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      831,
+      878,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "1.83",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      700.3949584960938,
+      573.0020751953125,
+      710.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      831,
+      963,
+      843
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "YUPI TATOS LIMON PICANTE 30 G X144U",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      721.324951171875,
+      240.02101135253906,
+      739.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      856,
+      403,
+      877
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "305",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      725.3949584960938,
+      45.83600616455078,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      861,
+      77,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "305",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      725.3949584960938,
+      85.83599853515625,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      861,
+      144,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "12.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      111.23999786376953,
+      725.3949584960938,
+      128.75399780273438,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      186,
+      861,
+      216,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.184783",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      725.3949584960938,
+      373.0,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      861,
+      626,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      725.3949584960938,
+      423.00201416015625,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      861,
+      710,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      725.3949584960938,
+      473.00201416015625,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      861,
+      794,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      725.3949584960938,
+      523.0020751953125,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      861,
+      878,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "2.22",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      725.3949584960938,
+      573.0020751953125,
+      735.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      861,
+      963,
+      872
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "YUPI TATOS QUESO 27 G X 144Ud",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      746.324951171875,
+      234.58901977539062,
+      764.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      886,
+      394,
+      907
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "306",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      750.3949584960938,
+      45.83600616455078,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      891,
+      77,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "306",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      750.3949584960938,
+      85.83599853515625,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      891,
+      144,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "12.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      111.23999786376953,
+      750.3949584960938,
+      128.75399780273438,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      186,
+      891,
+      216,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.186997",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      750.3949584960938,
+      373.0,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      891,
+      626,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      750.3949584960938,
+      423.00201416015625,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      891,
+      710,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      750.3949584960938,
+      473.00201416015625,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      891,
+      794,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      750.3949584960938,
+      523.0020751953125,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      891,
+      878,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "2.24",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      750.3949584960938,
+      573.0020751953125,
+      760.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      891,
+      963,
+      902
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. MIAS GRANDES LIMON 36u / 157 grs",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      771.324951171875,
+      241.58201599121094,
+      789.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      916,
+      406,
+      937
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "340",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      775.3949584960938,
+      45.83600616455078,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      920,
+      77,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "340",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      775.3949584960938,
+      85.83599853515625,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      920,
+      144,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "6.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      113.19000244140625,
+      775.3949584960938,
+      126.81199645996094,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      190,
+      920,
+      213,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.695652",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      775.3949584960938,
+      373.0,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      920,
+      626,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      775.3949584960938,
+      423.00201416015625,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      920,
+      710,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      775.3949584960938,
+      473.00201416015625,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      920,
+      794,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      775.3949584960938,
+      523.0020751953125,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      920,
+      878,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "4.17",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      775.3949584960938,
+      573.0020751953125,
+      785.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      920,
+      963,
+      932
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "GALL. CHIkI KRISPI 48UDS 35GRS",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      142.0,
+      796.324951171875,
+      230.697021484375,
+      814.093017578125
+    ],
+    "normalized_bbox": [
+      238,
+      945,
+      387,
+      966
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "504",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      34.15999984741211,
+      800.3949584960938,
+      45.83600616455078,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      57,
+      950,
+      77,
+      962
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "504",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      74.16000366210938,
+      800.3949584960938,
+      85.83599853515625,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      124,
+      950,
+      144,
+      962
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "12.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      111.23999786376953,
+      800.3949584960938,
+      128.75399780273438,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      186,
+      950,
+      216,
+      962
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "0.177068",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      343.80999755859375,
+      800.3949584960938,
+      373.0,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      577,
+      950,
+      626,
+      962
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      409.3800048828125,
+      800.3949584960938,
+      423.00201416015625,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      688,
+      950,
+      710,
+      962
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      459.3800048828125,
+      800.3949584960938,
+      473.00201416015625,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      772,
+      950,
+      794,
+      962
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      509.3800048828125,
+      800.3949584960938,
+      523.0020751953125,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      856,
+      950,
+      878,
+      962
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "2.12",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [
+      559.3800048828125,
+      800.3949584960938,
+      573.0020751953125,
+      810.0130004882812
+    ],
+    "normalized_bbox": [
+      940,
+      950,
+      963,
+      962
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_CODE",
+    "text": "Cod. Principal",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      26.579999923706055,
+      25.824974060058594,
+      53.41801071166992,
+      43.59299850463867
+    ],
+    "normalized_bbox": [
+      44,
+      30,
+      89,
+      51
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_CODE_AUX",
+    "text": "Cod. Auxiliar",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      68.52999877929688,
+      25.824974060058594,
+      91.47599792480469,
+      43.59299850463867
+    ],
+    "normalized_bbox": [
+      115,
+      30,
+      153,
+      51
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_PRICE",
+    "text": "Precio Unitario",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      327.04998779296875,
+      25.824974060058594,
+      372.9489440917969,
+      35.44297409057617
+    ],
+    "normalized_bbox": [
+      549,
+      30,
+      626,
+      42
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "Precio sin Subsidio",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      434.6400146484375,
+      25.824974060058594,
+      465.3699951171875,
+      43.59299850463867
+    ],
+    "normalized_bbox": [
+      730,
+      30,
+      782,
+      51
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_TOTAL",
+    "text": "Precio Total",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      531.3300170898438,
+      25.824974060058594,
+      568.6751098632812,
+      35.44297409057617
+    ],
+    "normalized_bbox": [
+      892,
+      30,
+      955,
+      42
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_QUANTITY",
+    "text": "Cantidad",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      105.98999786376953,
+      29.894981384277344,
+      134.00399780273438,
+      39.51298141479492
+    ],
+    "normalized_bbox": [
+      178,
+      35,
+      225,
+      46
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_NAME",
+    "text": "Descripción",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      176.72000122070312,
+      29.894981384277344,
+      213.28099060058594,
+      39.51298141479492
+    ],
+    "normalized_bbox": [
+      297,
+      35,
+      358,
+      46
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_DETAIL",
+    "text": "Detalle Adicional",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      261.44000244140625,
+      29.894981384277344,
+      313.5689392089844,
+      39.51298141479492
+    ],
+    "normalized_bbox": [
+      439,
+      35,
+      527,
+      46
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_SUBSIDY",
+    "text": "Subsidio",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      386.5799865722656,
+      29.894981384277344,
+      413.4249572753906,
+      39.51298141479492
+    ],
+    "normalized_bbox": [
+      649,
+      35,
+      694,
+      46
+    ]
+  },
+  {
+    "label": "HEADER_PRODUCT_DISCOUNT",
+    "text": "Descuento",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      483.2699890136719,
+      29.894981384277344,
+      516.72998046875,
+      39.51298141479492
+    ],
+    "normalized_bbox": [
+      812,
+      35,
+      868,
+      46
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_NAME",
+    "text": "PIPAS MEGA VERDE ACIDA 20 u x 20T",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      142.0,
+      53.324974060058594,
+      244.3120574951172,
+      71.09300231933594
+    ],
+    "normalized_bbox": [
+      238,
+      63,
+      410,
+      84
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE",
+    "text": "1330",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      32.220001220703125,
+      57.394981384277344,
+      47.78800964355469,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      54,
+      68,
+      80,
+      79
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_CODE_AUX",
+    "text": "1330",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      72.22000122070312,
+      57.394981384277344,
+      87.78799438476562,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      121,
+      68,
+      147,
+      79
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_QUANTITY",
+    "text": "1.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      113.19000244140625,
+      57.394981384277344,
+      126.81199645996094,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      190,
+      68,
+      213,
+      79
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_PRICE",
+    "text": "3.478261",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      343.80999755859375,
+      57.394981384277344,
+      373.0,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      577,
+      68,
+      626,
+      79
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      409.3800048828125,
+      57.394981384277344,
+      423.00201416015625,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      688,
+      68,
+      710,
+      79
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_WITHOUT_SUBSIDY",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      459.3800048828125,
+      57.394981384277344,
+      473.00201416015625,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      772,
+      68,
+      794,
+      79
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_DISCOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      509.3800048828125,
+      57.394981384277344,
+      523.0020751953125,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      856,
+      68,
+      878,
+      79
+    ]
+  },
+  {
+    "label": "ITEM_PRODUCT_TOTAL",
+    "text": "3.48",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      57.394981384277344,
+      573.0020751953125,
+      67.01298522949219
+    ],
+    "normalized_bbox": [
+      940,
+      68,
+      963,
+      79
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL 15%",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      77.39498138427734,
+      429.9060363769531,
+      87.01298522949219
+    ],
+    "normalized_bbox": [
+      633,
+      91,
+      722,
+      103
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "46.95",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      555.489990234375,
+      77.39498138427734,
+      573.0040893554688,
+      87.01298522949219
+    ],
+    "normalized_bbox": [
+      933,
+      91,
+      963,
+      103
+    ]
+  },
+  {
+    "label": "O",
+    "text": "Información Adicional",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      156.5399932861328,
+      81.39498138427734,
+      223.45297241210938,
+      91.01298522949219
+    ],
+    "normalized_bbox": [
+      263,
+      96,
+      375,
+      108
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL NO OBJETO DE IVA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      92.39498138427734,
+      481.25115966796875,
+      102.01298522949219
+    ],
+    "normalized_bbox": [
+      633,
+      109,
+      808,
+      121
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      92.39498138427734,
+      573.0020751953125,
+      102.01298522949219
+    ],
+    "normalized_bbox": [
+      940,
+      109,
+      963,
+      121
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Email:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      23.0,
+      95.12001037597656,
+      39.667999267578125,
+      103.36400604248047
+    ],
+    "normalized_bbox": [
+      38,
+      112,
+      66,
+      122
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "0",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      122.0,
+      95.12001037597656,
+      125.33599853515625,
+      103.36400604248047
+    ],
+    "normalized_bbox": [
+      205,
+      112,
+      210,
+      122
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL EXENTO DE IVA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      107.39498138427734,
+      469.5821228027344,
+      117.01298522949219
+    ],
+    "normalized_bbox": [
+      633,
+      127,
+      789,
+      138
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      107.39498138427734,
+      573.0020751953125,
+      117.01298522949219
+    ],
+    "normalized_bbox": [
+      940,
+      127,
+      963,
+      138
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": ".:",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      23.0,
+      110.12001037597656,
+      26.33599853515625,
+      118.36400604248047
+    ],
+    "normalized_bbox": [
+      38,
+      130,
+      44,
+      140
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "CONTRIBUYENTE REGIMEN GENERAL",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      122.0,
+      110.12001037597656,
+      233.34799194335938,
+      118.36400604248047
+    ],
+    "normalized_bbox": [
+      205,
+      130,
+      392,
+      140
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "SUBTOTAL SIN IMPUESTOS",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      122.39498138427734,
+      470.7441101074219,
+      132.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      145,
+      791,
+      156
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "46.95",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      555.489990234375,
+      122.39498138427734,
+      573.0040893554688,
+      132.0129852294922
+    ],
+    "normalized_bbox": [
+      933,
+      145,
+      963,
+      156
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "Forma de pago",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      76.2699966430664,
+      130.39498901367188,
+      123.73698425292969,
+      140.0129852294922
+    ],
+    "normalized_bbox": [
+      128,
+      154,
+      207,
+      166
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "Valor",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      221.8300018310547,
+      130.39498901367188,
+      238.16799926757812,
+      140.0129852294922
+    ],
+    "normalized_bbox": [
+      372,
+      154,
+      400,
+      166
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "TOTAL DESCUENTO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      137.39498901367188,
+      445.4530334472656,
+      147.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      163,
+      748,
+      174
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      137.39498901367188,
+      573.0020751953125,
+      147.0129852294922
+    ],
+    "normalized_bbox": [
+      940,
+      163,
+      963,
+      174
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_TEXT",
+    "text": "20 - OTROS CON UTILIZACION DEL SISTEMA FINANCIERO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      23.0,
+      144.12001037597656,
+      151.69400024414062,
+      159.343994140625
+    ],
+    "normalized_bbox": [
+      38,
+      171,
+      254,
+      189
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "53.99",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      261.989990234375,
+      144.12001037597656,
+      277.0019836425781,
+      152.364013671875
+    ],
+    "normalized_bbox": [
+      440,
+      171,
+      465,
+      180
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "ICE",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      152.39498901367188,
+      388.66900634765625,
+      162.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      180,
+      653,
+      192
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      152.39498901367188,
+      573.0020751953125,
+      162.0129852294922
+    ],
+    "normalized_bbox": [
+      940,
+      180,
+      963,
+      192
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "IVA 15%",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      167.39498901367188,
+      404.2370300292969,
+      177.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      198,
+      679,
+      210
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "7.04",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      167.39498901367188,
+      573.0020751953125,
+      177.0129852294922
+    ],
+    "normalized_bbox": [
+      940,
+      198,
+      963,
+      210
+    ]
+  },
+  {
+    "label": "FIELD_KEY_TEXT",
+    "text": "IRBPNR",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      182.39498901367188,
+      403.44598388671875,
+      192.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      216,
+      678,
+      228
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      182.39498901367188,
+      573.0020751953125,
+      192.0129852294922
+    ],
+    "normalized_bbox": [
+      940,
+      216,
+      963,
+      228
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "PROPINA",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      197.39498901367188,
+      408.50701904296875,
+      207.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      234,
+      686,
+      245
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      197.39498901367188,
+      573.0020751953125,
+      207.0129852294922
+    ],
+    "normalized_bbox": [
+      940,
+      234,
+      963,
+      245
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "VALOR TOTAL",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      212.39498901367188,
+      425.237060546875,
+      222.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      252,
+      714,
+      263
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "53.99",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      555.489990234375,
+      212.39498901367188,
+      573.0040893554688,
+      222.0129852294922
+    ],
+    "normalized_bbox": [
+      933,
+      252,
+      963,
+      263
+    ]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "VALOR TOTAL SIN SUBSIDIO",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      231.39498901367188,
+      474.2511291503906,
+      241.0129852294922
+    ],
+    "normalized_bbox": [
+      633,
+      274,
+      797,
+      286
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      231.39498901367188,
+      573.0020751953125,
+      241.0129852294922
+    ],
+    "normalized_bbox": [
+      940,
+      274,
+      963,
+      286
+    ]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "0.00",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      559.3800048828125,
+      246.39498901367188,
+      573.0020751953125,
+      256.0129699707031
+    ],
+    "normalized_bbox": [
+      940,
+      292,
+      963,
+      304
+    ]
+  },
+  {
+    "label": "O",
+    "text": "AHORRO POR SUBSIDIO: (Incluye IVA cuando corresponda)",
+    "source": "digital",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [
+      377.0,
+      249.82498168945312,
+      482.8260192871094,
+      267.5929870605469
+    ],
+    "normalized_bbox": [
+      633,
+      296,
+      811,
+      317
+    ]
+  }
+]
