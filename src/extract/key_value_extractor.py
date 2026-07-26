@@ -14,7 +14,9 @@ def sort_key(e):
 
     return (e["page"], y_group, x0)
 
-model_path = "./model-output/final"
+MODEL_PATH = "SamuelParrales/key-value-ner"
+
+
 class KeyValueExtractor:
     FIELD_KEY_PREFIX = "FIELD_KEY_"
     FIELD_VALUE_PREFIX = "FIELD_VALUE_"
@@ -27,10 +29,10 @@ class KeyValueExtractor:
     PAGE_MAX_DISTANCE = 2000  # cota superior de referencia (> diagonal maxima posible en bbox normalizado)
     AMBIGUITY_K = 1.5
 
-    def __init__(self, model_path="./model-output/final"):
+    def __init__(self):
         self.layout_extractor = LayoutExtractor()
-        self.processor = LayoutLMv3Processor.from_pretrained(model_path, apply_ocr=False)
-        self.model = LayoutLMv3ForTokenClassification.from_pretrained(model_path)
+        self.processor = LayoutLMv3Processor.from_pretrained(MODEL_PATH, apply_ocr=False)
+        self.model = LayoutLMv3ForTokenClassification.from_pretrained(MODEL_PATH)
         self.model.eval()
 
     def predict(self, path: Path):
