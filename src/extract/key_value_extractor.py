@@ -54,7 +54,7 @@ class KeyValueExtractor:
         # Aqui debe ir la sección de la heuristica
         output = self.apply_heuristic(results)
 
-        print(json.dumps(output, indent=2, ensure_ascii=False))
+        # print(json.dumps(output, indent=2, ensure_ascii=False))
         return output
     
     def extract_words_boxes_by_page(self,page_index: int, lines: list[LayoutElement]):
@@ -225,32 +225,48 @@ class KeyValueExtractor:
             (e for e in entities if e["label"].startswith(self.HEADER_PREFIX)),
             key=lambda e: (e["page"], e["bbox"][0]),
         )
-
-        if not header_entities:
-            return []
-
-        headers = []
-        column_by_suffix = {}
-        header_bboxes = []
-        for header in header_entities:
-            suffix = header["label"][len(self.HEADER_PREFIX):]
-            if suffix in column_by_suffix:
-                continue
-            column_by_suffix[suffix] = len(headers)
-            headers.append(header["text"])
-            header_bboxes.append(header["bbox"])
-
         item_entities = sorted(
             (e for e in entities if e["label"].startswith(self.ITEM_PREFIX)),
             key=lambda e: (e["page"], e["bbox"][1]),
         )
+
+        headers_by_table = {}
+        for header in header_entities:
+            table_name, column = header["label"][len(self.HEADER_PREFIX):].split("_", 1)
+           
+            headers_by_table.setdefault(table_name, []).append((column, header))
+
+        items_by_table = {}
+        for item in item_entities:
+            table_name, column = item["label"][len(self.ITEM_PREFIX):].split("_", 1)
+  
+            items_by_table.setdefault(table_name, []).append((column, item))
+
+        tables = []
+        for table_name, header_list in headers_by_table.items():
+            tables.append(
+                self._build_single_table(header_list, items_by_table.get(table_name, []))
+            )
+
+        return tables
+
+    def _build_single_table(self, header_list, item_list):
+        headers = []
+        column_by_suffix = {}
+        header_bboxes = []
+        for column, header in header_list:
+            if column in column_by_suffix:
+                continue
+            column_by_suffix[column] = len(headers)
+            headers.append(header["text"])
+            header_bboxes.append(header["bbox"])
 
         rows = []
         current_row = None
         row_page = None
         row_y = None
 
-        for item in item_entities:
+        for column, item in item_list:
             _, y0, _, _ = item["bbox"]
 
             if current_row is None or item["page"] != row_page or abs(y0 - row_y) > self.ROW_TOLERANCE:
@@ -260,18 +276,17 @@ class KeyValueExtractor:
                 row_page = item["page"]
                 row_y = y0
 
-            suffix = item["label"][len(self.ITEM_PREFIX):]
-            column = column_by_suffix.get(suffix)
-            if column is None:
+            column_index = column_by_suffix.get(column)
+            if column_index is None:
                 continue
 
-            score = self._score_column_candidate(header_bboxes[column], item["bbox"])
-            current_row[column].append({"item": item, "score": score})
+            score = self._score_column_candidate(header_bboxes[column_index], item["bbox"])
+            current_row[column_index].append({"item": item, "score": score})
 
         if current_row is not None:
             rows.append(self._resolve_row(current_row))
 
-        return [{"headers": headers, "rows": rows}]
+        return {"headers": headers, "rows": rows}
 
     def _score_column_candidate(self, header_bbox, item_bbox):
         hx0, _, hx1, _ = header_bbox
