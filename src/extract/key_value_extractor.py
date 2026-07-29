@@ -3,10 +3,14 @@ import statistics
 from pathlib import Path
 
 from common.common_types import LayoutElement
+from config.env import settings
 from extract.layout_extractor import LayoutExtractor
 from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
 import torch
-LINE_TOLERANCE = 3.0  
+
+LINE_TOLERANCE = 3.0
+
+
 def sort_key(e):
     x0, y0, x1, y1 = e["bbox"]
 
@@ -14,26 +18,62 @@ def sort_key(e):
 
     return (e["page"], y_group, x0)
 
-MODEL_PATH = "SamuelParrales/key-value-ner"
-
-
 class KeyValueExtractor:
-    FIELD_KEY_PREFIX = "FIELD_KEY_"
-    FIELD_VALUE_PREFIX = "FIELD_VALUE_"
-    HEADER_PREFIX = "HEADER_"
-    ITEM_PREFIX = "ITEM_"
+    MODEL_PATH = settings.model_path
 
-    ROW_TOLERANCE = 8
-    EDGE_TOLERANCE = 8
-    COLUMN_TOLERANCE = 50
-    PAGE_MAX_DISTANCE = 2000  # cota superior de referencia (> diagonal maxima posible en bbox normalizado)
-    AMBIGUITY_K = 1.5
+    FIELD_KEY_PREFIX = settings.field_key_prefix
+    FIELD_VALUE_PREFIX = settings.field_value_prefix
+    HEADER_PREFIX = settings.header_prefix
+    ITEM_PREFIX = settings.item_prefix
 
-    def __init__(self):
+    ROW_TOLERANCE = settings.row_tolerance
+    EDGE_TOLERANCE = settings.edge_tolerance
+    COLUMN_TOLERANCE = settings.column_tolerance
+    PAGE_MAX_DISTANCE = settings.page_max_distance
+    AMBIGUITY_K = settings.ambiguity_k
+
+    def __init__(
+        self,
+        field_key_prefix: str | None = None,
+        field_value_prefix: str | None = None,
+        header_prefix: str | None = None,
+        item_prefix: str | None = None,
+        row_tolerance: int | None = None,
+        edge_tolerance: int | None = None,
+        column_tolerance: int | None = None,
+        page_max_distance: int | None = None,
+        ambiguity_k: float | None = None,
+    ):
+        self._configure_extraction_parameters(field_key_prefix,field_value_prefix,header_prefix,item_prefix,row_tolerance,
+                                              edge_tolerance,column_tolerance,page_max_distance,ambiguity_k,)
+
         self.layout_extractor = LayoutExtractor()
-        self.processor = LayoutLMv3Processor.from_pretrained(MODEL_PATH, apply_ocr=False)
-        self.model = LayoutLMv3ForTokenClassification.from_pretrained(MODEL_PATH)
+        self.processor = LayoutLMv3Processor.from_pretrained(self.MODEL_PATH,apply_ocr=False,)
+        self.model = LayoutLMv3ForTokenClassification.from_pretrained(self.MODEL_PATH)
         self.model.eval()
+
+    def _configure_extraction_parameters(
+        self,
+        field_key_prefix: str | None,
+        field_value_prefix: str | None,
+        header_prefix: str | None,
+        item_prefix: str | None,
+        row_tolerance: int | None,
+        edge_tolerance: int | None,
+        column_tolerance: int | None,
+        page_max_distance: int | None,
+        ambiguity_k: float | None,
+    ) -> None:
+        self.FIELD_KEY_PREFIX = (settings.field_key_prefix if field_key_prefix is None else field_key_prefix)
+        self.FIELD_VALUE_PREFIX = (settings.field_value_prefix if field_value_prefix is None else field_value_prefix)
+        self.HEADER_PREFIX = (settings.header_prefix if header_prefix is None else header_prefix)
+        self.ITEM_PREFIX = settings.item_prefix if item_prefix is None else item_prefix
+        self.ROW_TOLERANCE = (settings.row_tolerance if row_tolerance is None else row_tolerance)
+        self.EDGE_TOLERANCE = (settings.edge_tolerance if edge_tolerance is None else edge_tolerance)
+        self.COLUMN_TOLERANCE = (settings.column_tolerance if column_tolerance is None else column_tolerance)
+        self.PAGE_MAX_DISTANCE = (settings.page_max_distance if page_max_distance is None else page_max_distance)
+        self.AMBIGUITY_K = (settings.ambiguity_k if ambiguity_k is None else ambiguity_k)
+
 
     def predict(self, path: Path):
         lines, images = self.layout_extractor.extract_from_path(path)
