@@ -9,3 +9,4 @@ __pycache__/
 model-output
 data/pdfs/*.pdf
 data/unlabeled/*.json
+data/test/*.pdf
