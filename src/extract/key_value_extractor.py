@@ -1,5 +1,6 @@
 import json
 import statistics
+from datetime import datetime
 from pathlib import Path
 
 from common.common_types import LayoutElement
@@ -9,6 +10,10 @@ from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
 import torch
 
 LINE_TOLERANCE = 3.0
+
+NUMERIC_VALUE_TYPES = {"AMOUNT", "PRICE", "QUANTITY", "DISCOUNT", "TOTAL", "SUBSIDY", "WITHOUT_SUBSIDY"}
+DATE_VALUE_TYPES = {"DATE"}
+DATE_FORMATS = ("%d/%m/%Y %H:%M:%S", "%d/%m/%Y")
 
 
 def sort_key(e):
@@ -154,6 +159,27 @@ class KeyValueExtractor:
             "tables": self._build_tables(entities),
         }
 
+    def _format_value(self, text, value_type):
+        if value_type in DATE_VALUE_TYPES:
+            return self._parse_date(text)
+        if value_type in NUMERIC_VALUE_TYPES:
+            return self._parse_number(text)
+        return text
+
+    def _parse_date(self, text):
+        for date_format in DATE_FORMATS:
+            try:
+                return datetime.strptime(text.strip(), date_format)
+            except ValueError:
+                continue
+        return text
+
+    def _parse_number(self, text):
+        try:
+            return float(text.strip())
+        except ValueError:
+            return text
+
     def _is_reliable(self, candidates):
         if len(candidates) == 1:
             return True
@@ -248,14 +274,16 @@ class KeyValueExtractor:
                 if c["value_idx"] == best["value_idx"] or c["value_idx"] not in used_values
             ]
 
+            suffix = key["label"][len(self.FIELD_KEY_PREFIX):]
+
             form.append({
                 "field": key["text"],
-                "value": best["value"]["text"],
+                "value": self._format_value(best["value"]["text"], suffix),
                 "value_type": best["value"]["label"],
                 "is_reliable": self._is_reliable(available),
                 "selected_by": "heuristic",
                 "candidates": [
-                    {"value": c["value"]["text"], "score": round(c["score"], 2)}
+                    {"value": self._format_value(c["value"]["text"], suffix), "score": round(c["score"], 2)}
                     for c in candidates_by_key[key_idx][:3]
                 ],
             })
@@ -323,7 +351,7 @@ class KeyValueExtractor:
                 continue
 
             score = self._score_column_candidate(header_bboxes[column_index], item["bbox"])
-            current_row[column_index].append({"item": item, "score": score})
+            current_row[column_index].append({"item": item, "score": score, "column": column})
 
         if current_row is not None:
             rows.append(self._resolve_row(current_row))
@@ -352,12 +380,12 @@ class KeyValueExtractor:
             is_reliable = self._is_reliable(candidates)
 
             row.append({
-                "value": best["item"]["text"],
+                "value": self._format_value(best["item"]["text"], best["column"]),
                 "value_type": best["item"]["label"],
                 "is_reliable": is_reliable,
                 "selected_by": "heuristic",
                 "candidates": [
-                    {"value": c["item"]["text"], "score": round(c["score"], 2)}
+                    {"value": self._format_value(c["item"]["text"], c["column"]), "score": round(c["score"], 2)}
                     for c in candidates[:3]
                 ],
             })

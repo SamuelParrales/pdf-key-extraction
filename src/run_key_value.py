@@ -3,7 +3,9 @@ from pathlib import Path
 from extract.key_value_extractor import KeyValueExtractor
 
 
-pdf_path = Path('test_pdf/2905202601131547816200120020010000000010552061816.pdf')
+pdf_path = Path('evaluate/pdfs/1106202601139174848500120080200000487350004873513.pdf')
 
 extractor = KeyValueExtractor()
-extractor.predict(pdf_path)
+result = extractor.predict(pdf_path)
+
+print(result)
