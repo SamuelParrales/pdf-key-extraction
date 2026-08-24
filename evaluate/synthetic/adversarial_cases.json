@@ -1,0 +1,110 @@
+[
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "TOTAL:",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [60, 400, 140, 415],
+    "normalized_bbox": [60, 400, 140, 415]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "45.00",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [150, 400, 190, 415],
+    "normalized_bbox": [150, 400, 190, 415]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "12.00",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [60, 560, 100, 575],
+    "normalized_bbox": [60, 560, 100, 575]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "99.99",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 1,
+    "bbox": [60, 600, 100, 615],
+    "normalized_bbox": [60, 600, 100, 615]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "TOTAL:",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [60, 400, 140, 415],
+    "normalized_bbox": [60, 400, 140, 415]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "45.00",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [150, 400, 190, 415],
+    "normalized_bbox": [150, 400, 190, 415]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "12.00",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [152, 401, 192, 416],
+    "normalized_bbox": [152, 401, 192, 416]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "99.99",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 2,
+    "bbox": [156, 403, 196, 418],
+    "normalized_bbox": [156, 403, 196, 418]
+  },
+  {
+    "label": "FIELD_KEY_AMOUNT",
+    "text": "TOTAL:",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 3,
+    "bbox": [60, 400, 140, 415],
+    "normalized_bbox": [60, 400, 140, 415]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "45.00",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 3,
+    "bbox": [60, 560, 100, 575],
+    "normalized_bbox": [60, 560, 100, 575]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "12.00",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 3,
+    "bbox": [150, 400, 190, 415],
+    "normalized_bbox": [150, 400, 190, 415]
+  },
+  {
+    "label": "FIELD_VALUE_AMOUNT",
+    "text": "99.99",
+    "source": "synthetic",
+    "confidence": 1.0,
+    "page": 3,
+    "bbox": [60, 600, 100, 615],
+    "normalized_bbox": [60, 600, 100, 615]
+  }
+]

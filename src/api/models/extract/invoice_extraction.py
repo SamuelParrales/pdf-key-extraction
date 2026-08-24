@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from pydantic import BaseModel
 
 __all__ = [
@@ -9,13 +11,13 @@ __all__ = [
 
 
 class ExtractionCandidate(BaseModel):
-    value: str
+    value: str | float | datetime
     score: float
 
 
 class ExtractedFormField(BaseModel):
     field: str
-    value: str
+    value: str | float | datetime
     value_type: str
     is_reliable: bool
     selected_by: str
@@ -23,7 +25,7 @@ class ExtractedFormField(BaseModel):
 
 
 class ExtractedTableCell(BaseModel):
-    value: str
+    value: str | float | datetime
     value_type: str
     is_reliable: bool
     selected_by: str
