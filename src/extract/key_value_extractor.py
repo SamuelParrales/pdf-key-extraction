@@ -1,5 +1,4 @@
 import json
-import statistics
 from datetime import datetime
 from pathlib import Path
 
@@ -187,8 +186,11 @@ class KeyValueExtractor:
         scores = [c["score"] for c in candidates]
         best_score, second_score = sorted(scores, reverse=True)[:2]
 
-        margin = self.AMBIGUITY_K * statistics.pstdev(scores)
-        return (best_score - second_score) > margin
+        if best_score <= 0:
+            return False
+
+        relative_margin = (best_score - second_score) / best_score
+        return relative_margin > self.AMBIGUITY_K
 
     def _score_value_candidate(self, key_bbox, value_bbox):
         kx0, ky0, kx1, ky1 = key_bbox
@@ -284,7 +286,7 @@ class KeyValueExtractor:
                 "selected_by": "heuristic",
                 "candidates": [
                     {"value": self._format_value(c["value"]["text"], suffix), "score": round(c["score"], 2)}
-                    for c in candidates_by_key[key_idx][:3]
+                    for c in available[:3]
                 ],
             })
 
