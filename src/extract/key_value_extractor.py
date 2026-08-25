@@ -8,19 +8,32 @@ from extract.layout_extractor import LayoutExtractor
 from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
 import torch
 
-LINE_TOLERANCE = 3.0
+DEFAULT_LINE_TOLERANCE = 3.0
 
 NUMERIC_VALUE_TYPES = {"AMOUNT", "PRICE", "QUANTITY", "DISCOUNT", "TOTAL", "SUBSIDY", "WITHOUT_SUBSIDY"}
 DATE_VALUE_TYPES = {"DATE"}
 DATE_FORMATS = ("%d/%m/%Y %H:%M:%S", "%d/%m/%Y")
 
 
-def sort_key(e):
+def sort_key(e, line_tolerance):
     x0, y0, x1, y1 = e["bbox"]
 
-    y_group = int(y0 / LINE_TOLERANCE)
+    y_group = int(y0 / line_tolerance)
 
     return (e["page"], y_group, x0)
+
+
+def estimate_line_tolerance(lines, default=DEFAULT_LINE_TOLERANCE):
+    y0_values = sorted(e["bbox"][1] for e in lines)
+    if len(y0_values) < 2:
+        return default
+
+    deltas = sorted(b - a for a, b in zip(y0_values, y0_values[1:]) if b - a > 0.5)
+    if not deltas:
+        return default
+
+    median_gap = deltas[len(deltas) // 2]
+    return max(median_gap * 0.5, 1.0)
 
 class KeyValueExtractor:
     MODEL_PATH = settings.model_path
@@ -81,7 +94,8 @@ class KeyValueExtractor:
 
     def predict(self, path: Path):
         lines, images = self.layout_extractor.extract_from_path(path)
-        lines.sort(key=sort_key)
+        line_tolerance = estimate_line_tolerance(lines)
+        lines.sort(key=lambda e: sort_key(e, line_tolerance))
 
         results = []
         for page_index, image in enumerate(images):
