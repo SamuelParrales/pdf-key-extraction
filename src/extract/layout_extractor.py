@@ -39,11 +39,12 @@ class LayoutExtractor:
 
             # Extracción de texto digital
             text_dict = page.get_text("dict")
+            y_tolerance = self.estimate_y_tolerance(text_dict)
 
             for block in text_dict["blocks"]:
                 if block["type"] != 0:
                     continue
-                result = self.extract_from_block(block, page,bboxes_to_remove=bboxes_to_remove)
+                result = self.extract_from_block(block, page, bboxes_to_remove=bboxes_to_remove, y_tolerance=y_tolerance)
                 elements.extend(result)
   
 
@@ -111,6 +112,31 @@ class LayoutExtractor:
                 for span in line["spans"]:
                     print(f"  '{span['text']}'")
             print()
+
+    def estimate_y_tolerance(self, text_dict, default: float = 1.7, fraction: float = 0.25) -> float:
+        """Estima un y_tolerance a partir del interlineado real de la pagina, en vez de
+        usar siempre el valor fijo por defecto. Se toma una fraccion chica del espacio
+        tipico entre lineas para mantener el comportamiento conservador original
+        (pensado para reparar una misma linea partida, no para fusionar lineas distintas)."""
+        y0_values = []
+        for block in text_dict.get("blocks", []):
+            if block.get("type") != 0:
+                continue
+            for line in block.get("lines", []):
+                bbox = line.get("bbox")
+                if bbox:
+                    y0_values.append(bbox[1])
+
+        y0_values.sort()
+        if len(y0_values) < 2:
+            return default
+
+        deltas = sorted(b - a for a, b in zip(y0_values, y0_values[1:]) if b - a > 0.1)
+        if not deltas:
+            return default
+
+        median_gap = deltas[len(deltas) // 2]
+        return max(median_gap * fraction, default)
 
     def get_fragments_by_page_and_bbox(
         self,
@@ -235,7 +261,8 @@ class LayoutExtractor:
         self,
         block,
         page: fitz.Page,
-        bboxes_to_remove: set[tuple]
+        bboxes_to_remove: set[tuple],
+        y_tolerance: float = 1.7,
     ):
         page_number = page.number + 1
         page_width = page.rect.width
@@ -258,7 +285,8 @@ class LayoutExtractor:
 
                 fragments = self.get_fragments_by_page_and_bbox(
                     page=page,
-                    bbox=main_fragment["bbox"]
+                    bbox=main_fragment["bbox"],
+                    y_tolerance=y_tolerance,
                 )
 
                 is_group, final_fragment = self.process_fragments(
