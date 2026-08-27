@@ -12,7 +12,6 @@ class St(BaseSettings):
     row_tolerance: int
     edge_tolerance: int
     column_tolerance: int
-    page_max_distance: int
     ambiguity_k: float
     hf_token: str | None = None
     hf_model_repo_id: str | None = None

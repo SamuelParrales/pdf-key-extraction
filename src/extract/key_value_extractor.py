@@ -1,4 +1,5 @@
 import json
+import math
 from datetime import datetime
 from pathlib import Path
 
@@ -9,6 +10,13 @@ from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
 import torch
 
 DEFAULT_LINE_TOLERANCE = 3.0
+
+# LayoutLMv3 normaliza todas las bbox a una cuadricula fija de 0 a 1000,
+# sin importar el tamano real de la pagina (ver layout_extractor.py).
+# La maxima distancia euclidiana posible entre dos puntos en ese espacio
+# es la diagonal del cuadrado, sqrt(2) * 1000.
+NORMALIZED_BBOX_MAX = 1000
+MAX_NORMALIZED_DISTANCE = math.sqrt(2) * NORMALIZED_BBOX_MAX
 
 NUMERIC_VALUE_TYPES = {"AMOUNT", "PRICE", "QUANTITY", "DISCOUNT", "TOTAL", "SUBSIDY", "WITHOUT_SUBSIDY"}
 DATE_VALUE_TYPES = {"DATE"}
@@ -46,7 +54,7 @@ class KeyValueExtractor:
     ROW_TOLERANCE = settings.row_tolerance
     EDGE_TOLERANCE = settings.edge_tolerance
     COLUMN_TOLERANCE = settings.column_tolerance
-    PAGE_MAX_DISTANCE = settings.page_max_distance
+    PAGE_MAX_DISTANCE = MAX_NORMALIZED_DISTANCE
     AMBIGUITY_K = settings.ambiguity_k
 
     def __init__(
@@ -58,11 +66,10 @@ class KeyValueExtractor:
         row_tolerance: int | None = None,
         edge_tolerance: int | None = None,
         column_tolerance: int | None = None,
-        page_max_distance: int | None = None,
         ambiguity_k: float | None = None,
     ):
         self._configure_extraction_parameters(field_key_prefix,field_value_prefix,header_prefix,item_prefix,row_tolerance,
-                                              edge_tolerance,column_tolerance,page_max_distance,ambiguity_k,)
+                                              edge_tolerance,column_tolerance,ambiguity_k,)
 
         self.layout_extractor = LayoutExtractor()
         self.processor = LayoutLMv3Processor.from_pretrained(self.MODEL_PATH,apply_ocr=False,)
@@ -78,7 +85,6 @@ class KeyValueExtractor:
         row_tolerance: int | None,
         edge_tolerance: int | None,
         column_tolerance: int | None,
-        page_max_distance: int | None,
         ambiguity_k: float | None,
     ) -> None:
         self.FIELD_KEY_PREFIX = (settings.field_key_prefix if field_key_prefix is None else field_key_prefix)
@@ -88,7 +94,7 @@ class KeyValueExtractor:
         self.ROW_TOLERANCE = (settings.row_tolerance if row_tolerance is None else row_tolerance)
         self.EDGE_TOLERANCE = (settings.edge_tolerance if edge_tolerance is None else edge_tolerance)
         self.COLUMN_TOLERANCE = (settings.column_tolerance if column_tolerance is None else column_tolerance)
-        self.PAGE_MAX_DISTANCE = (settings.page_max_distance if page_max_distance is None else page_max_distance)
+        self.PAGE_MAX_DISTANCE = MAX_NORMALIZED_DISTANCE
         self.AMBIGUITY_K = (settings.ambiguity_k if ambiguity_k is None else ambiguity_k)
 
 
