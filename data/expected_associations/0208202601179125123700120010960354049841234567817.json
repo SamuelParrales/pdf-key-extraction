@@ -1,0 +1,322 @@
+[
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "value_text": "20 - OTROS CON UTILIZACION DEL SISTEMA FINANCIERO",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "value_text": "0208202601179125123700120010960354049841234567817",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "value_text": "1.50",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "value_text": "SI",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "value_text": "1315478162",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "value_text": "No Tiene",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "valorPendienteDePago:",
+    "value_text": "1.50",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "value_text": "02/08/2026",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "telefonoCliente:",
+    "value_text": "994470076",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "value_text": null,
+    "correcto": "corregido",
+    "nota": "es un titulo, sin valor propio"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Gran Contribuyente:",
+    "value_text": "Resolución No.NAC-GCFOIOC21-00000867-E",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NumeroFactura:",
+    "value_text": "238527613",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Producto:",
+    "value_text": "CAJA",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "dirCliente:",
+    "value_text": "No Tiene",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "value_text": "NORMAL",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "value_text": "02/08/2026 22:08:47",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "noOrden:",
+    "value_text": "254385354",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "value_text": "PRODUCCIÓN",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "value_text": "Av. Fco. Orellana S/N y Av.Alberto Borges, Edificio Centrum, Planta Baja, pisos 1, 2, 3, 4",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "value_text": "001-096-035404984",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "referencia:",
+    "value_text": "Venta Banco PICHINCHA",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "ciuVenIpaDpa:",
+    "value_text": "GUAYAQUIL10148CXC PICHINCHA",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "comentario:",
+    "value_text": "Venta Banco PICHINCHA",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "value_text": "AV. FRANCISCO DE ORELLANA Y ALBERTO BORGES, EDIFICIO CENTRUM",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "value_text": "0.00",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "value_text": "0.00",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "value_text": "1.30",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "value_text": "0.00",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "totalsImp:",
+    "value_text": "0.000.001.300.200.00",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "value_text": "0.00",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "value_text": "1.30",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "value_text": "5368",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "value_text": "1.50",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "value_text": "0.00",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "value_text": "0.20",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "value_text": "0.00",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "dirEstab:",
+    "value_text": "Cdla. Kennedy Norte, Av. Francisco de Orellana S/N y Av. Alberto Borges, Edif. Centrum - Guayaquil",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "value_text": "PARRALES PALMA SAMUEL EDUARDO",
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "value_text": "1791251237001",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "value_text": null,
+    "correcto": "corregido",
+    "nota": "campo vacio en este documento"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "value_text": null,
+    "correcto": "corregido",
+    "nota": "campo vacio en este documento"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "TipoOrden:",
+    "value_text": "08",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Compania:",
+    "value_text": "2",
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "value_text": "0.00",
+    "correcto": "corregido",
+    "nota": "revisar bbox exacto, puede haber mas de un 0.00 sin asignar"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "correoCliente:",
+    "value_text": "samuel.parrales@outlook.com",
+    "correcto": "corregido",
+    "nota": "entrada faltante en la revision manual original de este documento (el primero revisado, antes de sistematizar el flujo con generate_pairing_proposals.py)"
+  }
+]

@@ -1,0 +1,681 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      291.0,
+      99.1700210571289,
+      402.55999755859375,
+      110.16201782226562
+    ],
+    "value_text": "0203202401179098550400120250250000686410103303319",
+    "value_bbox": [
+      322.0,
+      76.1700210571289,
+      394.0479736328125,
+      87.16201782226562
+    ],
+    "distance_proposed": 25.6,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      28.0,
+      279.1700134277344,
+      171.5999755859375,
+      290.1620178222656
+    ],
+    "value_text": null,
+    "value_bbox": [
+      132.0,
+      263.1700134277344,
+      145.343994140625,
+      274.1620178222656
+    ],
+    "distance_proposed": 42.04,
+    "correcto": "corregido",
+    "nota": "asumido SI por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      21.0,
+      405.66998291015625,
+      67.6880111694336,
+      416.6619873046875
+    ],
+    "value_text": "1312829011",
+    "value_bbox": [
+      92.0,
+      406.39501953125,
+      130.91998291015625,
+      416.01300048828125
+    ],
+    "distance_proposed": 67.12,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      28.0,
+      236.50997924804688,
+      61.3440055847168,
+      256.8219909667969
+    ],
+    "value_text": "ETA MALL PACIFICO",
+    "value_bbox": [
+      79.0,
+      232.97500610351562,
+      147.8519744873047,
+      242.59300231933594
+    ],
+    "distance_proposed": 69.33,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      21.0,
+      416.8299865722656,
+      43.23200225830078,
+      427.8219909667969
+    ],
+    "value_text": "02/03/2024",
+    "value_bbox": [
+      92.0,
+      416.9750061035156,
+      127.02798461914062,
+      426.5929870605469
+    ],
+    "distance_proposed": 77.4,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      291.0,
+      48.750022888183594,
+      347.66400146484375,
+      65.23802185058594
+    ],
+    "value_text": null,
+    "value_bbox": [
+      356.0,
+      24.79997444152832,
+      457.19195556640625,
+      44.03597640991211
+    ],
+    "distance_proposed": 90.14,
+    "correcto": "corregido",
+    "nota": "es un titulo, sin valor propio"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      291.0,
+      210.17001342773438,
+      327.00799560546875,
+      221.16201782226562
+    ],
+    "value_text": "NORMAL",
+    "value_bbox": [
+      390.0,
+      210.17001342773438,
+      424.2239990234375,
+      221.16201782226562
+    ],
+    "distance_proposed": 98.11,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      291.0,
+      149.50997924804688,
+      364.343994140625,
+      169.82199096679688
+    ],
+    "value_text": "02/03/2024 18:32:53",
+    "value_bbox": [
+      390.0,
+      155.17001342773438,
+      463.3919677734375,
+      166.16201782226562
+    ],
+    "distance_proposed": 99.03,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      291.0,
+      181.17001342773438,
+      334.1199951171875,
+      192.16201782226562
+    ],
+    "value_text": "PRODUCCIÓN",
+    "value_bbox": [
+      390.0,
+      182.17001342773438,
+      444.66400146484375,
+      193.16201782226562
+    ],
+    "distance_proposed": 104.78,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      291.0,
+      76.1700210571289,
+      303.447998046875,
+      87.16201782226562
+    ],
+    "value_text": "025-025-000068641",
+    "value_bbox": [
+      291.0,
+      125.1700210571289,
+      508.951904296875,
+      136.16201782226562
+    ],
+    "distance_proposed": 113.84,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      28.0,
+      204.82998657226562,
+      61.33600997924805,
+      225.13198852539062
+    ],
+    "value_text": "PanaNorte Km.2 1/2 Av. 10 de Agosto N60-122 y Sta Lucia",
+    "value_bbox": [
+      79.0,
+      204.97500610351562,
+      244.3679656982422,
+      222.74302673339844
+    ],
+    "distance_proposed": 117.02,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      21.0,
+      430.8299865722656,
+      56.56000518798828,
+      441.8219909667969
+    ],
+    "value_text": "METROPOLITANA CALLE 1 DE ENERO Y  JOSE CESAR REYES",
+    "value_bbox": [
+      92.0,
+      430.9750061035156,
+      300.8940734863281,
+      440.5929870605469
+    ],
+    "distance_proposed": 157.67,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      21.0,
+      389.66998291015625,
+      150.37599182128906,
+      400.6619873046875
+    ],
+    "value_text": "ARTEAGA DELGADO JULIO FERNANDO",
+    "value_bbox": [
+      219.0,
+      389.39501953125,
+      351.63604736328125,
+      399.01300048828125
+    ],
+    "distance_proposed": 199.63,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      291.0,
+      26.250022888183594,
+      330.33599853515625,
+      42.7380256652832
+    ],
+    "value_text": "1790985504001",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      28.0,
+      263.1700134277344,
+      110.25599670410156,
+      274.1620178222656
+    ],
+    "value_text": "143",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      179.0,
+      416.8299865722656,
+      240.79998779296875,
+      427.8219909667969
+    ],
+    "value_text": null,
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido",
+    "nota": "asumido vacio por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      375.0,
+      417.8299865722656,
+      392.343994140625,
+      428.8219909667969
+    ],
+    "value_text": null,
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido",
+    "nota": "asumido vacio por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      76.2699966430664,
+      122.39498138427734,
+      123.73698425292969,
+      132.0129852294922
+    ],
+    "value_text": "20 - OTROS CON UTILIZACION DEL SISTEMA FINANCIERO",
+    "value_bbox": [
+      23.0,
+      136.12001037597656,
+      151.69400024414062,
+      151.343994140625
+    ],
+    "distance_proposed": 20.82,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      221.8300018310547,
+      122.39498138427734,
+      238.16799926757812,
+      132.0129852294922
+    ],
+    "value_text": "34.92",
+    "value_bbox": [
+      261.989990234375,
+      136.12001037597656,
+      277.0019836425781,
+      144.364013671875
+    ],
+    "distance_proposed": 41.59,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "Gran Contribuyente:",
+    "key_bbox": [
+      23.0,
+      100.12001037597656,
+      77.02398681640625,
+      108.36400604248047
+    ],
+    "value_text": "GRAN CONTRIBUYENTE MEDIANTE RESOLUCIÓN NAC-GCFOIOC21-00001024-E",
+    "value_bbox": [
+      122.0,
+      85.12001037597656,
+      136.00999450683594,
+      93.36400604248047
+    ],
+    "distance_proposed": 80.4,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "ID",
+    "key_text": "CodigoSucursal:",
+    "key_bbox": [
+      23.0,
+      55.1200065612793,
+      67.01599884033203,
+      63.36400604248047
+    ],
+    "value_text": "001",
+    "value_bbox": [
+      122.0,
+      55.1200065612793,
+      132.00799560546875,
+      63.36400604248047
+    ],
+    "distance_proposed": 82.0,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "ID",
+    "key_text": "IdReferencia:",
+    "key_bbox": [
+      23.0,
+      40.1200065612793,
+      58.68199157714844,
+      48.36400604248047
+    ],
+    "value_text": "002F025025000068641",
+    "value_bbox": [
+      122.0,
+      40.1200065612793,
+      185.71397399902344,
+      48.36400604248047
+    ],
+    "distance_proposed": 113.02,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "OficinaSAP:",
+    "key_bbox": [
+      23.0,
+      85.12001037597656,
+      55.34599304199219,
+      93.36400604248047
+    ],
+    "value_text": "E023",
+    "value_bbox": [
+      122.0,
+      70.12001037597656,
+      188.77398681640625,
+      78.36400604248047
+    ],
+    "distance_proposed": 117.18,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      377.0,
+      37.394981384277344,
+      481.25115966796875,
+      47.01298141479492
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      555.489990234375,
+      22.394981384277344,
+      573.0040893554688,
+      32.01298141479492
+    ],
+    "distance_proposed": 135.95,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      377.0,
+      176.39498901367188,
+      474.2511291503906,
+      186.0129852294922
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      555.489990234375,
+      157.39498901367188,
+      573.0040893554688,
+      167.0129852294922
+    ],
+    "distance_proposed": 139.92,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      377.0,
+      67.39498138427734,
+      470.7441101074219,
+      77.01298522949219
+    ],
+    "value_text": "31.18",
+    "value_bbox": [
+      555.489990234375,
+      67.39498138427734,
+      573.0040893554688,
+      77.01298522949219
+    ],
+    "distance_proposed": 140.37,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      377.0,
+      52.394981384277344,
+      469.5821228027344,
+      62.01298141479492
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      52.394981384277344,
+      573.0020751953125,
+      62.01298141479492
+    ],
+    "distance_proposed": 142.9,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      377.0,
+      82.39498138427734,
+      445.4530334472656,
+      92.01298522949219
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      82.39498138427734,
+      573.0020751953125,
+      92.01298522949219
+    ],
+    "distance_proposed": 154.96,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      377.0,
+      127.39498138427734,
+      403.44598388671875,
+      137.0129852294922
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      122.0,
+      100.12001037597656,
+      348.0379333496094,
+      115.34398651123047
+    ],
+    "distance_proposed": 157.12,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 12%",
+    "key_bbox": [
+      377.0,
+      22.394981384277344,
+      429.9060363769531,
+      32.01298141479492
+    ],
+    "value_text": "31.18",
+    "value_bbox": [
+      559.3800048828125,
+      37.394981384277344,
+      573.0020751953125,
+      47.01298141479492
+    ],
+    "distance_proposed": 163.43,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      377.0,
+      157.39498901367188,
+      425.237060546875,
+      167.0129852294922
+    ],
+    "value_text": "34.92",
+    "value_bbox": [
+      559.3800048828125,
+      142.39498901367188,
+      573.0020751953125,
+      152.0129852294922
+    ],
+    "distance_proposed": 165.75,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "key_bbox": [
+      377.0,
+      142.39498901367188,
+      408.50701904296875,
+      152.0129852294922
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      127.39498138427734,
+      573.0020751953125,
+      137.0129852294922
+    ],
+    "distance_proposed": 174.08,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 12%",
+    "key_bbox": [
+      377.0,
+      112.39498138427734,
+      404.2370300292969,
+      122.01298522949219
+    ],
+    "value_text": "3.74",
+    "value_bbox": [
+      559.3800048828125,
+      112.39498138427734,
+      573.0020751953125,
+      122.01298522949219
+    ],
+    "distance_proposed": 175.57,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      377.0,
+      97.39498138427734,
+      388.66900634765625,
+      107.01298522949219
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      97.39498138427734,
+      573.0020751953125,
+      107.01298522949219
+    ],
+    "distance_proposed": 183.36,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "Email:",
+    "key_bbox": [
+      23.0,
+      70.12001037597656,
+      39.667999267578125,
+      78.36400604248047
+    ],
+    "value_text": "jufer_ardel@hotmail.com",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  }
+]
