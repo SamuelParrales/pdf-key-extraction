@@ -676,7 +676,6 @@
       577
     ]
   },
-
   {
     "label": "HEADER_PRODUCT_CODE_AUX",
     "text": "Cod. Auxiliar",
@@ -696,7 +695,6 @@
       577
     ]
   },
-
   {
     "label": "HEADER_PRODUCT_PRICE",
     "text": "Precio Unitario",
@@ -716,7 +714,6 @@
       568
     ]
   },
- 
   {
     "label": "HEADER_PRODUCT_WITHOUT_SUBSIDY",
     "text": "Precio sin Subsidio",
@@ -1387,7 +1384,7 @@
     "parent_bbox": null
   },
   {
-    "label": "FIELD_KEY_TEXT",
+    "label": "FIELD_KEY_AMOUNT",
     "text": "IRBPNR",
     "source": "digital",
     "confidence": 1.0,

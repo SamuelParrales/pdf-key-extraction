@@ -1,0 +1,701 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      291.0,
+      99.1700210571289,
+      402.55999755859375,
+      110.16201782226562
+    ],
+    "value_text": "0203202401179001691900121711230002086580781012218",
+    "value_bbox": [
+      322.0,
+      76.1700210571289,
+      394.0479736328125,
+      87.16201782226562
+    ],
+    "distance_proposed": 25.6,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      28.0,
+      279.1700134277344,
+      171.5999755859375,
+      290.1620178222656
+    ],
+    "value_text": "SI",
+    "value_bbox": [
+      132.0,
+      263.1700134277344,
+      149.7919921875,
+      274.1620178222656
+    ],
+    "distance_proposed": 44.1,
+    "correcto": "corregido",
+    "nota": "asumido SI por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      21.0,
+      405.66998291015625,
+      67.6880111694336,
+      416.6619873046875
+    ],
+    "value_text": "1312829011",
+    "value_bbox": [
+      92.0,
+      406.39501953125,
+      130.91998291015625,
+      416.01300048828125
+    ],
+    "distance_proposed": 67.12,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      21.0,
+      416.8299865722656,
+      43.23200225830078,
+      427.8219909667969
+    ],
+    "value_text": "02/03/2024",
+    "value_bbox": [
+      92.0,
+      416.9750061035156,
+      127.02798461914062,
+      426.5929870605469
+    ],
+    "distance_proposed": 77.4,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      291.0,
+      48.750022888183594,
+      347.66400146484375,
+      65.23802185058594
+    ],
+    "value_text": null,
+    "value_bbox": [
+      356.0,
+      24.79997444152832,
+      457.19195556640625,
+      44.03597640991211
+    ],
+    "distance_proposed": 90.14,
+    "correcto": "corregido",
+    "nota": "es un titulo, sin valor propio"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      291.0,
+      210.17001342773438,
+      327.00799560546875,
+      221.16201782226562
+    ],
+    "value_text": "NORMAL",
+    "value_bbox": [
+      390.0,
+      210.17001342773438,
+      424.2239990234375,
+      221.16201782226562
+    ],
+    "distance_proposed": 98.11,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      291.0,
+      149.50997924804688,
+      364.343994140625,
+      169.82199096679688
+    ],
+    "value_text": "03/03/2024 10:21:43",
+    "value_bbox": [
+      390.0,
+      155.17001342773438,
+      463.3919677734375,
+      166.16201782226562
+    ],
+    "distance_proposed": 99.03,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      291.0,
+      181.17001342773438,
+      334.1199951171875,
+      192.16201782226562
+    ],
+    "value_text": "PRODUCCIÓN",
+    "value_bbox": [
+      390.0,
+      182.17001342773438,
+      444.66400146484375,
+      193.16201782226562
+    ],
+    "distance_proposed": 104.78,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      28.0,
+      236.50997924804688,
+      61.3440055847168,
+      256.8219909667969
+    ],
+    "value_text": "AV MALECON SN ENTREAV 23 Y CALLE 20",
+    "value_bbox": [
+      79.0,
+      232.97500610351562,
+      221.7720184326172,
+      242.59300231933594
+    ],
+    "distance_proposed": 106.09,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      28.0,
+      204.82998657226562,
+      61.33600997924805,
+      225.13198852539062
+    ],
+    "value_text": "AV. GENERAL ENRIQUEZ VIA COTOGCHOA",
+    "value_bbox": [
+      79.0,
+      204.97500610351562,
+      224.86599731445312,
+      214.59300231933594
+    ],
+    "distance_proposed": 107.39,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      291.0,
+      76.1700210571289,
+      303.447998046875,
+      87.16201782226562
+    ],
+    "value_text": "171-123-000208658",
+    "value_bbox": [
+      291.0,
+      125.1700210571289,
+      508.951904296875,
+      136.16201782226562
+    ],
+    "distance_proposed": 113.84,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      179.0,
+      416.8299865722656,
+      240.79998779296875,
+      427.8219909667969
+    ],
+    "value_text": null,
+    "value_bbox": [
+      228.0,
+      279.1700134277344,
+      235.55999755859375,
+      290.1620178222656
+    ],
+    "distance_proposed": 139.39,
+    "correcto": "corregido",
+    "nota": "asumido vacio por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      21.0,
+      389.66998291015625,
+      150.37599182128906,
+      400.6619873046875
+    ],
+    "value_text": "ARTEAGA DELGADO JULIO FERNANDO",
+    "value_bbox": [
+      219.0,
+      389.39501953125,
+      351.63604736328125,
+      399.01300048828125
+    ],
+    "distance_proposed": 199.63,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      291.0,
+      26.250022888183594,
+      330.33599853515625,
+      42.7380256652832
+    ],
+    "value_text": "1790016919001",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      28.0,
+      263.1700134277344,
+      110.25599670410156,
+      274.1620178222656
+    ],
+    "value_text": "5368",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      375.0,
+      417.8299865722656,
+      392.343994140625,
+      428.8219909667969
+    ],
+    "value_text": null,
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido",
+    "nota": "asumido vacio por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      21.0,
+      430.8299865722656,
+      56.56000518798828,
+      441.8219909667969
+    ],
+    "value_text": null,
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "GRAN CONTRIBUYENTE:",
+    "key_bbox": [
+      23.0,
+      100.12001037597656,
+      95.00599670410156,
+      108.36400604248047
+    ],
+    "value_text": "NAC-GCFOIOC21-00868-E",
+    "value_bbox": [
+      23.0,
+      134.12001037597656,
+      100.34599304199219,
+      142.364013671875
+    ],
+    "distance_proposed": 34.1,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      221.8300018310547,
+      120.39498138427734,
+      238.16799926757812,
+      130.0129852294922
+    ],
+    "value_text": "37.51",
+    "value_bbox": [
+      261.989990234375,
+      134.12001037597656,
+      277.0019836425781,
+      142.364013671875
+    ],
+    "distance_proposed": 41.59,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "AHORRO POR DESCUENTOS:",
+    "key_bbox": [
+      23.0,
+      70.12001037597656,
+      109.00999450683594,
+      78.36400604248047
+    ],
+    "value_text": "0.31",
+    "value_bbox": [
+      122.0,
+      70.12001037597656,
+      133.67599487304688,
+      78.36400604248047
+    ],
+    "distance_proposed": 61.83,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      76.2699966430664,
+      120.39498138427734,
+      123.73698425292969,
+      130.0129852294922
+    ],
+    "value_text": "19 - TARJETA DE CREDITO",
+    "value_bbox": [
+      122.0,
+      100.12001037597656,
+      196.0159912109375,
+      108.36400604248047
+    ],
+    "distance_proposed": 62.62,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "DEDUCIBLE ALIMENTACION:",
+    "key_bbox": [
+      23.0,
+      40.1200065612793,
+      105.67999267578125,
+      48.36400604248047
+    ],
+    "value_text": "17.66",
+    "value_bbox": [
+      122.0,
+      40.1200065612793,
+      137.01199340820312,
+      48.36400604248047
+    ],
+    "distance_proposed": 65.17,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "AHORRO AFILIADO:",
+    "key_bbox": [
+      23.0,
+      55.1200065612793,
+      80.01200103759766,
+      63.36400604248047
+    ],
+    "value_text": "1.89",
+    "value_bbox": [
+      122.0,
+      55.1200065612793,
+      133.67599487304688,
+      63.36400604248047
+    ],
+    "distance_proposed": 76.33,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "AHORRO TOTAL:",
+    "key_bbox": [
+      23.0,
+      85.12001037597656,
+      72.00800323486328,
+      93.36400604248047
+    ],
+    "value_text": "2.2",
+    "value_bbox": [
+      122.0,
+      85.12001037597656,
+      130.33999633789062,
+      93.36400604248047
+    ],
+    "distance_proposed": 78.67,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      377.0,
+      52.394981384277344,
+      481.25115966796875,
+      62.01298141479492
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      555.489990234375,
+      37.394981384277344,
+      573.0040893554688,
+      47.01298141479492
+    ],
+    "distance_proposed": 135.95,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      377.0,
+      191.39498901367188,
+      474.2511291503906,
+      201.0129852294922
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      555.489990234375,
+      172.39498901367188,
+      573.0040893554688,
+      182.0129852294922
+    ],
+    "distance_proposed": 139.92,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      377.0,
+      82.39498138427734,
+      470.7441101074219,
+      92.01298522949219
+    ],
+    "value_text": "35.72",
+    "value_bbox": [
+      555.489990234375,
+      82.39498138427734,
+      573.0040893554688,
+      92.01298522949219
+    ],
+    "distance_proposed": 140.37,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      377.0,
+      67.39498138427734,
+      469.5821228027344,
+      77.01298522949219
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      67.39498138427734,
+      573.0020751953125,
+      77.01298522949219
+    ],
+    "distance_proposed": 142.9,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      377.0,
+      97.39498138427734,
+      445.4530334472656,
+      107.01298522949219
+    ],
+    "value_text": "0.31",
+    "value_bbox": [
+      559.3800048828125,
+      97.39498138427734,
+      573.0020751953125,
+      107.01298522949219
+    ],
+    "distance_proposed": 154.96,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 12%",
+    "key_bbox": [
+      377.0,
+      22.394981384277344,
+      429.9060363769531,
+      32.01298141479492
+    ],
+    "value_text": "14.94",
+    "value_bbox": [
+      555.489990234375,
+      22.394981384277344,
+      573.0040893554688,
+      32.01298141479492
+    ],
+    "distance_proposed": 160.79,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 0%",
+    "key_bbox": [
+      377.0,
+      37.394981384277344,
+      426.0140380859375,
+      47.01298141479492
+    ],
+    "value_text": "20.78",
+    "value_bbox": [
+      559.3800048828125,
+      52.394981384277344,
+      573.0020751953125,
+      62.01298141479492
+    ],
+    "distance_proposed": 165.37,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      377.0,
+      172.39498901367188,
+      425.237060546875,
+      182.0129852294922
+    ],
+    "value_text": "37.51",
+    "value_bbox": [
+      559.3800048828125,
+      157.39498901367188,
+      573.0020751953125,
+      167.0129852294922
+    ],
+    "distance_proposed": 165.75,
+    "correcto": "corregido"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "key_bbox": [
+      377.0,
+      157.39498901367188,
+      408.50701904296875,
+      167.0129852294922
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      142.39498901367188,
+      573.0020751953125,
+      152.0129852294922
+    ],
+    "distance_proposed": 174.08,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 12%",
+    "key_bbox": [
+      377.0,
+      127.39498138427734,
+      404.2370300292969,
+      137.0129852294922
+    ],
+    "value_text": "1.79",
+    "value_bbox": [
+      559.3800048828125,
+      127.39498138427734,
+      573.0020751953125,
+      137.0129852294922
+    ],
+    "distance_proposed": 175.57,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      377.0,
+      112.39498138427734,
+      388.66900634765625,
+      122.01298522949219
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      112.39498138427734,
+      573.0020751953125,
+      122.01298522949219
+    ],
+    "distance_proposed": 183.36,
+    "correcto": true
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      377.0,
+      142.39498901367188,
+      403.44598388671875,
+      152.0129852294922
+    ],
+    "value_text": "0.00",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  }
+]

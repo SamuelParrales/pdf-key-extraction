@@ -44,7 +44,12 @@ def estimate_line_tolerance(lines, default=DEFAULT_LINE_TOLERANCE):
     return max(median_gap * 0.5, 1.0)
 
 class KeyValueExtractor:
-    MODEL_PATH = settings.model_path
+    if settings.use_remote_model:
+        if not settings.hf_model_repo_id:
+            raise ValueError("USE_REMOTE_MODEL esta activo pero HF_MODEL_REPO_ID no esta configurado.")
+        MODEL_PATH = settings.hf_model_repo_id
+    else:
+        MODEL_PATH = settings.model_path
 
     FIELD_KEY_PREFIX = settings.field_key_prefix
     FIELD_VALUE_PREFIX = settings.field_value_prefix
