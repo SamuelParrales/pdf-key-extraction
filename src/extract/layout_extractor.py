@@ -40,11 +40,18 @@ class LayoutExtractor:
             # Extracción de texto digital
             text_dict = page.get_text("dict")
             y_tolerance = self.estimate_y_tolerance(text_dict)
+            x_tolerance = self.estimate_x_tolerance(text_dict)
 
             for block in text_dict["blocks"]:
                 if block["type"] != 0:
                     continue
-                result = self.extract_from_block(block, page, bboxes_to_remove=bboxes_to_remove, y_tolerance=y_tolerance)
+                result = self.extract_from_block(
+                    block,
+                    page,
+                    bboxes_to_remove=bboxes_to_remove,
+                    y_tolerance=y_tolerance,
+                    x_tolerance=x_tolerance,
+                )
                 elements.extend(result)
   
 
@@ -113,9 +120,9 @@ class LayoutExtractor:
                     print(f"  '{span['text']}'")
             print()
 
-    def estimate_y_tolerance(self, text_dict, default: float = 1.7, fraction: float = 0.25) -> float:
+    def estimate_y_tolerance(self, text_dict, min_tolerance: float = 1.7, gap_fraction: float = 0.25) -> float:
         """Estima un y_tolerance a partir del interlineado real de la pagina, en vez de
-        usar siempre el valor fijo por defecto. Se toma una fraccion chica del espacio
+        usar siempre el valor fijo minimo. Se toma una fraccion chica del espacio
         tipico entre lineas para mantener el comportamiento conservador original
         (pensado para reparar una misma linea partida, no para fusionar lineas distintas)."""
         y0_values = []
@@ -129,21 +136,42 @@ class LayoutExtractor:
 
         y0_values.sort()
         if len(y0_values) < 2:
-            return default
+            return min_tolerance
 
-        deltas = sorted(b - a for a, b in zip(y0_values, y0_values[1:]) if b - a > 0.1)
+        deltas = sorted(b - a for a, b in zip(y0_values, y0_values[1:]) if b - a > 0)
         if not deltas:
-            return default
+            return min_tolerance
 
         median_gap = deltas[len(deltas) // 2]
-        return max(median_gap * fraction, default)
+        return max(median_gap * gap_fraction, min_tolerance)
+
+    def estimate_x_tolerance(self, text_dict, min_tolerance: float = 6.0) -> float:
+        """Estima un x_tolerance a partir del tamano de fuente real de la pagina, en vez de
+        usar siempre el valor fijo minimo. Un mismo desface horizontal (en puntos) es
+        mas o menos significativo segun que tan grande sea la letra del documento. El caso de
+        un valor centrado que se envuelve en una celda angosta de tabla se cubre aparte
+        mediante la alineacion por centro en get_fragments_by_page_and_bbox."""
+        font_sizes = []
+        for block in text_dict.get("blocks", []):
+            if block.get("type") != 0:
+                continue
+            for line in block.get("lines", []):
+                for span in line.get("spans", []):
+                    if span.get("text", "").strip():
+                        font_sizes.append(span["size"])
+
+        if not font_sizes:
+            return min_tolerance
+
+        font_sizes.sort()
+        median_size = font_sizes[len(font_sizes) // 2]
+        return max(median_size, min_tolerance)
 
     def get_fragments_by_page_and_bbox(
         self,
         page: fitz.Page,
         bbox: tuple[float, float, float, float],
         y_tolerance: float = 1.7,
-        # 9.2
         x_tolerance: float = 15,
     ) -> list[dict]:
         page_dict = page.get_text("dict", flags=fitz.TEXT_PRESERVE_WHITESPACE)
@@ -181,9 +209,11 @@ class LayoutExtractor:
                     continue
 
                 vertical_distance = abs(y1 - el_y0)
-                horizontal_offset = abs(el_x0 - x0)
+                left_edge_offset = abs(el_x0 - x0)
+                center_offset = abs((el_x0 + el_x1) / 2 - (x0 + x1) / 2)
+                horizontal_aligned = left_edge_offset < x_tolerance or center_offset < x_tolerance
 
-                if vertical_distance < y_tolerance and horizontal_offset < x_tolerance:
+                if vertical_distance <= y_tolerance and horizontal_aligned:
                     fragments.append(element)
                     used_indices.add(idx)
                     # expandir el bbox actual para seguir buscando desde aquí
@@ -244,17 +274,23 @@ class LayoutExtractor:
         return is_valid, final_fragment
     
     def is_valid_grouping(self, fragment) -> bool:
-     
+
         # Esta función deberia usar PLN para generalizar
         text = fragment.get('text')
-        if text.strip() == "Identificación Fecha":
+        stripped = text.strip()
+        if stripped == "Identificación Fecha":
             return False
-        
+
+        if stripped == "Identificación Fecha Direccion:":
+            return False
+
+        if stripped == "Fecha Direccion:":
+            return False
+
         id_date_pattern = re.compile(r"^\d{8,}\s+\d{1,2}/\d{1,2}/\d{2,4}$")
-        if id_date_pattern.match(text.strip()):
+        if id_date_pattern.match(stripped):
             return False
-        
-     
+
         return True
 
     def extract_from_block(
@@ -263,6 +299,7 @@ class LayoutExtractor:
         page: fitz.Page,
         bboxes_to_remove: set[tuple],
         y_tolerance: float = 1.7,
+        x_tolerance: float = 15,
     ):
         page_number = page.number + 1
         page_width = page.rect.width
@@ -287,6 +324,7 @@ class LayoutExtractor:
                     page=page,
                     bbox=main_fragment["bbox"],
                     y_tolerance=y_tolerance,
+                    x_tolerance=x_tolerance,
                 )
 
                 is_group, final_fragment = self.process_fragments(

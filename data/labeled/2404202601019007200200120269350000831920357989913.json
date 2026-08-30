@@ -2451,7 +2451,7 @@
     ]
   },
   {
-    "label": "FIELD_KEY_TEXT",
+    "label": "FIELD_KEY_AMOUNT",
     "text": "IRBPNR",
     "source": "digital",
     "confidence": 1.0,

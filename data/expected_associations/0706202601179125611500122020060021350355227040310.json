@@ -1,0 +1,806 @@
+[
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      76.2699966430664,
+      723.3949584960938,
+      123.73698425292969,
+      733.0130004882812
+    ],
+    "value_text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO",
+    "value_bbox": [
+      23.0,
+      737.1199951171875,
+      164.0299835205078,
+      745.364013671875
+    ],
+    "distance_proposed": 14.56,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      291.0,
+      99.1700210571289,
+      402.55999755859375,
+      110.16201782226562
+    ],
+    "value_text": "0706202601179125611500122020060021350355227040310",
+    "value_bbox": [
+      322.0,
+      76.1700210571289,
+      394.0479736328125,
+      87.16201782226562
+    ],
+    "distance_proposed": 25.6,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      221.8300018310547,
+      723.3949584960938,
+      238.16799926757812,
+      733.0130004882812
+    ],
+    "value_text": "8.00",
+    "value_bbox": [
+      265.32000732421875,
+      737.1199951171875,
+      276.9960021972656,
+      745.364013671875
+    ],
+    "distance_proposed": 43.17,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      28.0,
+      279.1700134277344,
+      171.5999755859375,
+      290.1620178222656
+    ],
+    "value_text": "SI",
+    "value_bbox": [
+      132.0,
+      263.1700134277344,
+      149.7919921875,
+      274.1620178222656
+    ],
+    "distance_proposed": 44.1,
+    "correcto": "corregido",
+    "nota": "asumido SI por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      21.0,
+      405.66998291015625,
+      67.6880111694336,
+      416.6619873046875
+    ],
+    "value_text": "1309027579",
+    "value_bbox": [
+      92.0,
+      406.39501953125,
+      130.91998291015625,
+      416.01300048828125
+    ],
+    "distance_proposed": 67.12,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      21.0,
+      430.8299865722656,
+      56.56000518798828,
+      441.8219909667969
+    ],
+    "value_text": "-ECUADOR",
+    "value_bbox": [
+      92.0,
+      430.9750061035156,
+      129.33099365234375,
+      440.5929870605469
+    ],
+    "distance_proposed": 71.89,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Gran Contribuyente Nro:",
+    "key_bbox": [
+      23.0,
+      703.1199951171875,
+      88.35798645019531,
+      711.364013671875
+    ],
+    "value_text": "NAC-GCFOIOC21-00000869-E",
+    "value_bbox": [
+      122.0,
+      673.1199951171875,
+      128.6719970703125,
+      681.364013671875
+    ],
+    "distance_proposed": 75.84,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      21.0,
+      416.8299865722656,
+      43.23200225830078,
+      427.8219909667969
+    ],
+    "value_text": "07/06/2026",
+    "value_bbox": [
+      92.0,
+      416.9750061035156,
+      127.02798461914062,
+      426.5929870605469
+    ],
+    "distance_proposed": 77.4,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "DireccionComprador:",
+    "key_bbox": [
+      23.0,
+      643.1199951171875,
+      79.67599487304688,
+      651.364013671875
+    ],
+    "value_text": "-ECUADOR",
+    "value_bbox": [
+      122.0,
+      643.1199951171875,
+      153.9980010986328,
+      651.364013671875
+    ],
+    "distance_proposed": 86.66,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      291.0,
+      48.750022888183594,
+      347.66400146484375,
+      65.23802185058594
+    ],
+    "value_text": null,
+    "value_bbox": [
+      356.0,
+      24.79997444152832,
+      457.19195556640625,
+      44.03597640991211
+    ],
+    "distance_proposed": 90.14,
+    "correcto": "corregido",
+    "nota": "es un titulo, sin valor propio"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NoOrdenFactura:",
+    "key_bbox": [
+      23.0,
+      658.1199951171875,
+      69.3499984741211,
+      666.364013671875
+    ],
+    "value_text": "225279409",
+    "value_bbox": [
+      122.0,
+      658.1199951171875,
+      152.02398681640625,
+      666.364013671875
+    ],
+    "distance_proposed": 90.84,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "Valor:",
+    "key_bbox": [
+      23.0,
+      688.1199951171875,
+      38.67200469970703,
+      696.364013671875
+    ],
+    "value_text": "8.00",
+    "value_bbox": [
+      122.0,
+      688.1199951171875,
+      133.67599487304688,
+      696.364013671875
+    ],
+    "distance_proposed": 97.0,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      291.0,
+      210.17001342773438,
+      327.00799560546875,
+      221.16201782226562
+    ],
+    "value_text": "NORMAL",
+    "value_bbox": [
+      390.0,
+      210.17001342773438,
+      424.2239990234375,
+      221.16201782226562
+    ],
+    "distance_proposed": 98.11,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Página web:",
+    "key_bbox": [
+      23.0,
+      553.1199951171875,
+      56.01799774169922,
+      561.364013671875
+    ],
+    "value_text": "www.movistar.com.ec",
+    "value_bbox": [
+      122.0,
+      538.1199951171875,
+      152.02398681640625,
+      546.364013671875
+    ],
+    "distance_proposed": 98.65,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      291.0,
+      149.50997924804688,
+      364.343994140625,
+      169.82199096679688
+    ],
+    "value_text": "07/06/2026 21:13:00",
+    "value_bbox": [
+      390.0,
+      155.17001342773438,
+      463.3919677734375,
+      166.16201782226562
+    ],
+    "distance_proposed": 99.03,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "MSISDN:",
+    "key_bbox": [
+      23.0,
+      628.1199951171875,
+      48.00199890136719,
+      636.364013671875
+    ],
+    "value_text": "964085405",
+    "value_bbox": [
+      122.0,
+      613.1199951171875,
+      148.68798828125,
+      621.364013671875
+    ],
+    "distance_proposed": 100.96,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "account:",
+    "key_bbox": [
+      23.0,
+      613.1199951171875,
+      45.67999267578125,
+      621.364013671875
+    ],
+    "value_text": "52270403",
+    "value_bbox": [
+      122.0,
+      628.1199951171875,
+      152.02398681640625,
+      636.364013671875
+    ],
+    "distance_proposed": 103.76,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "rucFirmante:",
+    "key_bbox": [
+      23.0,
+      568.1199951171875,
+      56.6719970703125,
+      576.364013671875
+    ],
+    "value_text": "1791256115001",
+    "value_bbox": [
+      122.0,
+      568.1199951171875,
+      165.36798095703125,
+      576.364013671875
+    ],
+    "distance_proposed": 103.85,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      291.0,
+      181.17001342773438,
+      334.1199951171875,
+      192.16201782226562
+    ],
+    "value_text": "PRODUCCIÓN",
+    "value_bbox": [
+      390.0,
+      182.17001342773438,
+      444.66400146484375,
+      193.16201782226562
+    ],
+    "distance_proposed": 104.78,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      28.0,
+      236.50997924804688,
+      61.3440055847168,
+      256.8219909667969
+    ],
+    "value_text": "CENTRO CORPORATIVO EKOPARK.,  QUITO- ECUADOR",
+    "value_bbox": [
+      79.0,
+      232.97500610351562,
+      230.30502319335938,
+      250.74302673339844
+    ],
+    "distance_proposed": 110.09,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      291.0,
+      76.1700210571289,
+      303.447998046875,
+      87.16201782226562
+    ],
+    "value_text": "202-006-002135035",
+    "value_bbox": [
+      291.0,
+      125.1700210571289,
+      508.951904296875,
+      136.16201782226562
+    ],
+    "distance_proposed": 113.84,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Factura:",
+    "key_bbox": [
+      23.0,
+      583.1199951171875,
+      45.00799560546875,
+      591.364013671875
+    ],
+    "value_text": "202-006-002135035",
+    "value_bbox": [
+      122.0,
+      583.1199951171875,
+      176.03598022460938,
+      591.364013671875
+    ],
+    "distance_proposed": 115.01,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Teléfono:",
+    "key_bbox": [
+      23.0,
+      538.1199951171875,
+      48.013999938964844,
+      546.364013671875
+    ],
+    "value_text": "022227700",
+    "value_bbox": [
+      122.0,
+      553.1199951171875,
+      180.33799743652344,
+      561.364013671875
+    ],
+    "distance_proposed": 116.63,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      28.0,
+      204.82998657226562,
+      61.33600997924805,
+      225.13198852539062
+    ],
+    "value_text": "CENTRO CORPORATIVO EKOPARK, TORRE 3 AV. SIMÓN BOLÍVAR Y VÍA A NAYÓN QUITO-ECUADOR",
+    "value_bbox": [
+      79.0,
+      204.97500610351562,
+      248.9810333251953,
+      222.74302673339844
+    ],
+    "distance_proposed": 119.33,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "FormaPago:",
+    "key_bbox": [
+      23.0,
+      673.1199951171875,
+      56.011993408203125,
+      681.364013671875
+    ],
+    "value_text": "01",
+    "value_bbox": [
+      122.0,
+      703.1199951171875,
+      206.02398681640625,
+      711.364013671875
+    ],
+    "distance_proposed": 128.07,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "email:",
+    "key_bbox": [
+      23.0,
+      598.1199951171875,
+      39.00199890136719,
+      606.364013671875
+    ],
+    "value_text": "shirley.parrales1609@gmail.com",
+    "value_bbox": [
+      122.0,
+      598.1199951171875,
+      209.44398498535156,
+      606.364013671875
+    ],
+    "distance_proposed": 134.72,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      377.0,
+      535.39501953125,
+      481.25115966796875,
+      545.0130615234375
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      535.39501953125,
+      573.0020751953125,
+      545.0130615234375
+    ],
+    "distance_proposed": 137.07,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      179.0,
+      416.8299865722656,
+      240.79998779296875,
+      427.8219909667969
+    ],
+    "value_text": null,
+    "value_bbox": [
+      228.0,
+      279.1700134277344,
+      235.55999755859375,
+      290.1620178222656
+    ],
+    "distance_proposed": 139.39,
+    "correcto": "corregido",
+    "nota": "asumido vacio por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      377.0,
+      659.3949584960938,
+      474.2511291503906,
+      669.0130004882812
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      659.3949584960938,
+      573.0020751953125,
+      669.0130004882812
+    ],
+    "distance_proposed": 140.57,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      377.0,
+      565.39501953125,
+      470.7441101074219,
+      575.0130615234375
+    ],
+    "value_text": "6.96",
+    "value_bbox": [
+      559.3800048828125,
+      565.39501953125,
+      573.0020751953125,
+      575.0130615234375
+    ],
+    "distance_proposed": 142.32,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      377.0,
+      550.39501953125,
+      469.5821228027344,
+      560.0130615234375
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      550.39501953125,
+      573.0020751953125,
+      560.0130615234375
+    ],
+    "distance_proposed": 142.9,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      377.0,
+      580.3949584960938,
+      445.4530334472656,
+      590.0130004882812
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      580.3949584960938,
+      573.0020751953125,
+      590.0130004882812
+    ],
+    "distance_proposed": 154.96,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "key_bbox": [
+      377.0,
+      520.39501953125,
+      429.9060363769531,
+      530.0130615234375
+    ],
+    "value_text": "6.96",
+    "value_bbox": [
+      559.3800048828125,
+      520.39501953125,
+      573.0020751953125,
+      530.0130615234375
+    ],
+    "distance_proposed": 162.74,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      377.0,
+      640.3949584960938,
+      425.237060546875,
+      650.0130004882812
+    ],
+    "value_text": "8.00",
+    "value_bbox": [
+      559.3800048828125,
+      640.3949584960938,
+      573.0020751953125,
+      650.0130004882812
+    ],
+    "distance_proposed": 165.07,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "key_bbox": [
+      377.0,
+      610.3949584960938,
+      404.2370300292969,
+      620.0130004882812
+    ],
+    "value_text": "1.04",
+    "value_bbox": [
+      559.3800048828125,
+      610.3949584960938,
+      573.0020751953125,
+      620.0130004882812
+    ],
+    "distance_proposed": 175.57,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      377.0,
+      595.3949584960938,
+      388.66900634765625,
+      605.0130004882812
+    ],
+    "value_text": "0.00",
+    "value_bbox": [
+      559.3800048828125,
+      595.3949584960938,
+      573.0020751953125,
+      605.0130004882812
+    ],
+    "distance_proposed": 183.36,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      21.0,
+      389.66998291015625,
+      150.37599182128906,
+      400.6619873046875
+    ],
+    "value_text": "PATRICIA SHIRLEY PARRALES PALMA",
+    "value_bbox": [
+      219.0,
+      389.39501953125,
+      348.1500549316406,
+      399.01300048828125
+    ],
+    "distance_proposed": 197.89,
+    "correcto": true
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      291.0,
+      26.250022888183594,
+      330.33599853515625,
+      42.7380256652832
+    ],
+    "value_text": "1791256115001",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      28.0,
+      263.1700134277344,
+      110.25599670410156,
+      274.1620178222656
+    ],
+    "value_text": "0011",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      375.0,
+      417.8299865722656,
+      392.343994140625,
+      428.8219909667969
+    ],
+    "value_text": null,
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido",
+    "nota": "asumido vacio por patron repetido -- verificar visualmente"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      377.0,
+      625.3949584960938,
+      403.44598388671875,
+      635.0130004882812
+    ],
+    "value_text": "0.00",
+    "value_bbox": null,
+    "distance_proposed": null,
+    "correcto": "corregido"
+  }
+]

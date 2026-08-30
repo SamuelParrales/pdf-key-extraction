@@ -15,6 +15,7 @@ class St(BaseSettings):
     ambiguity_k: float
     hf_token: str | None = None
     hf_model_repo_id: str | None = None
+    use_remote_model: bool = False
     app_env: str
 
     @property
