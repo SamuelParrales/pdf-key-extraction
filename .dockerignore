@@ -1,0 +1,15 @@
+.git
+.gitignore
+.vscode
+.venv/
+data/
+data.zip
+notebooks/
+tests/
+*.zip
+__pycache__/
+*.pyc
+src.zip/
+tests/
+index.zip
+.env
