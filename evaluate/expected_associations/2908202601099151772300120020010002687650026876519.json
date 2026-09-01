@@ -1,0 +1,401 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      291.0,
+      26.250022888183594,
+      330.33599853515625,
+      42.7380256652832
+    ],
+    "value_text": "0991517723001"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      291.0,
+      48.750022888183594,
+      347.66400146484375,
+      65.23802185058594
+    ],
+    "value_text": "002-001-000268765"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      291.0,
+      76.1700210571289,
+      303.447998046875,
+      87.16201782226562
+    ],
+    "value_text": "002-001-000268765"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      291.0,
+      99.1700210571289,
+      402.55999755859375,
+      110.16201782226562
+    ],
+    "value_text": "2908202601099151772300120020010002687650026876519"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      291.0,
+      149.50997924804688,
+      364.343994140625,
+      169.82199096679688
+    ],
+    "value_text": "29/08/2026 18:32:34"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      291.0,
+      181.17001342773438,
+      334.1199951171875,
+      192.16201782226562
+    ],
+    "value_text": "PRODUCCIÓN"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      28.0,
+      204.82998657226562,
+      61.33600997924805,
+      225.13198852539062
+    ],
+    "value_text": "AV. 9 DE OCTUBRE 729 Y BOYACA - GARCIA AVILES"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      291.0,
+      210.17001342773438,
+      327.00799560546875,
+      221.16201782226562
+    ],
+    "value_text": "NORMAL"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      28.0,
+      236.50997924804688,
+      61.3440055847168,
+      256.8219909667969
+    ],
+    "value_text": "AV. 4 DE NOVIEMBRE S/N EL PASEO SHOPPING MANTA / ECUADOR"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      28.0,
+      263.1700134277344,
+      110.25599670410156,
+      274.1620178222656
+    ],
+    "value_text": "209"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      28.0,
+      279.1700134277344,
+      171.5999755859375,
+      290.1620178222656
+    ],
+    "value_text": "SI"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Agente de Retención Resolución No.",
+    "key_bbox": [
+      28.0,
+      308.8299865722656,
+      159.17599487304688,
+      319.8219909667969
+    ],
+    "value_text": "1"
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      21.0,
+      389.66998291015625,
+      150.37599182128906,
+      400.6619873046875
+    ],
+    "value_text": "Samuel Parrales"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      21.0,
+      405.66998291015625,
+      67.6880111694336,
+      416.6619873046875
+    ],
+    "value_text": "1315478162"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      21.0,
+      416.8299865722656,
+      43.23200225830078,
+      427.8219909667969
+    ],
+    "value_text": "29/08/2026"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      179.0,
+      416.8299865722656,
+      240.79998779296875,
+      427.8219909667969
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_candidato_descartado_por_distancia_160pt"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      375.0,
+      417.8299865722656,
+      392.343994140625,
+      428.8219909667969
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_candidato_descartado_por_distancia_159pt"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      21.0,
+      430.8299865722656,
+      56.56000518798828,
+      441.8219909667969
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_admisible"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "key_bbox": [
+      377.0,
+      570.39501953125,
+      429.9060363769531,
+      580.0130615234375
+    ],
+    "value_text": "18.26"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      377.0,
+      585.3949584960938,
+      481.25115966796875,
+      595.0130004882812
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Gran Contribuyente:",
+    "key_bbox": [
+      23.0,
+      588.1199951171875,
+      77.02398681640625,
+      596.364013671875
+    ],
+    "value_text": "GRAN CONTRIBUYENTE MEDIANTE RESOLUCIÓN NAC-GCFOIOC21-00001146- E CINE"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      377.0,
+      600.3949584960938,
+      469.5821228027344,
+      610.0130004882812
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "logo:",
+    "key_bbox": [
+      23.0,
+      605.1199951171875,
+      36.00800323486328,
+      613.364013671875
+    ],
+    "value_text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      377.0,
+      615.3949584960938,
+      470.7441101074219,
+      625.0130004882812
+    ],
+    "value_text": "18.26"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      76.2699966430664,
+      625.3949584960938,
+      123.73698425292969,
+      635.0130004882812
+    ],
+    "value_text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      221.8300018310547,
+      625.3949584960938,
+      238.16799926757812,
+      635.0130004882812
+    ],
+    "value_text": "21.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      377.0,
+      630.3949584960938,
+      445.4530334472656,
+      640.0130004882812
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      377.0,
+      645.3949584960938,
+      388.66900634765625,
+      655.0130004882812
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "key_bbox": [
+      377.0,
+      660.3949584960938,
+      404.2370300292969,
+      670.0130004882812
+    ],
+    "value_text": "2.74"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      377.0,
+      675.3949584960938,
+      403.44598388671875,
+      685.0130004882812
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "key_bbox": [
+      377.0,
+      690.3949584960938,
+      408.50701904296875,
+      700.0130004882812
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      377.0,
+      705.3949584960938,
+      425.237060546875,
+      715.0130004882812
+    ],
+    "value_text": "21.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      377.0,
+      724.3949584960938,
+      474.2511291503906,
+      734.0130004882812
+    ],
+    "value_text": "0.00"
+  }
+]
