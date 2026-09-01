@@ -71,7 +71,7 @@ def test_configure_extraction_parameters_no_longer_accepts_page_max_distance():
 # ---------------------------------------------------------------------------
 
 def test_higher_tier_wins_at_equal_distance():
-    # A igual distancia, el tier mas alto (misma fila = 1.1) siempre gana
+    # A igual distancia, el tier mas alto (misma fila = 1.2) siempre gana
     # sobre el tier mas bajo (alineado debajo = 1). Esto SI esta garantizado
     # matematicamente: tier_a * K - d > tier_b * K - d  <=>  tier_a > tier_b.
     extractor = make_extractor()
@@ -88,7 +88,7 @@ def test_higher_tier_wins_at_equal_distance():
 def test_tier_bonus_does_not_strictly_dominate_distance():
     # OJO: a diferencia de lo que se podria asumir, el tier NO domina de
     # forma absoluta sobre la distancia: la ventaja que da el tier es solo
-    # 0.1 * PAGE_MAX_DISTANCE (~141.4), mientras que la distancia real puede
+    # 0.2 * PAGE_MAX_DISTANCE (~282.8), mientras que la distancia real puede
     # variar hasta la diagonal completa (~1414.2). Por eso un candidato del
     # tier "correcto" pero muy lejano puede perder frente a uno del tier
     # inferior pero muy cercano. Este comportamiento ya existia con el

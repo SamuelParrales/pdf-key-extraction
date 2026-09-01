@@ -4,10 +4,10 @@
     "suffix": "ID",
     "key_text": "R.U.C.:",
     "key_bbox": [
-      291.0,
-      26.250022888183594,
-      330.33599853515625,
-      42.7380256652832
+      489,
+      31,
+      555,
+      50
     ],
     "value_text": "1790985504001"
   },
@@ -16,22 +16,23 @@
     "suffix": "ID",
     "key_text": "FACTURA",
     "key_bbox": [
-      291.0,
-      48.750022888183594,
-      347.66400146484375,
-      65.23802185058594
+      489,
+      57,
+      584,
+      77
     ],
-    "value_text": "025-024-000098917"
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
   },
   {
     "page": 1,
     "suffix": "ID",
     "key_text": "No.",
     "key_bbox": [
-      291.0,
-      76.1700210571289,
-      303.447998046875,
-      87.16201782226562
+      489,
+      90,
+      509,
+      103
     ],
     "value_text": "025-024-000098917"
   },
@@ -40,10 +41,10 @@
     "suffix": "ID",
     "key_text": "NÚMERO DE AUTORIZACIÓN",
     "key_bbox": [
-      291.0,
-      99.1700210571289,
-      402.55999755859375,
-      110.16201782226562
+      489,
+      117,
+      676,
+      130
     ],
     "value_text": "2908202601179098550400120250240000989170103303312"
   },
@@ -52,10 +53,10 @@
     "suffix": "DATE",
     "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
     "key_bbox": [
-      291.0,
-      149.50997924804688,
-      364.343994140625,
-      169.82199096679688
+      489,
+      177,
+      612,
+      201
     ],
     "value_text": "29/08/2026 15:44:20"
   },
@@ -64,10 +65,10 @@
     "suffix": "TEXT",
     "key_text": "AMBIENTE:",
     "key_bbox": [
-      291.0,
-      181.17001342773438,
-      334.1199951171875,
-      192.16201782226562
+      489,
+      215,
+      561,
+      228
     ],
     "value_text": "PRODUCCIÓN"
   },
@@ -76,10 +77,10 @@
     "suffix": "ADDRESS",
     "key_text": "Dirección Matriz:",
     "key_bbox": [
-      28.0,
-      204.82998657226562,
-      61.33600997924805,
-      225.13198852539062
+      47,
+      243,
+      103,
+      267
     ],
     "value_text": "PanaNorte Km.2 1/2 Av. 10 de Agosto N60-122 y Sta Lucia"
   },
@@ -88,10 +89,10 @@
     "suffix": "TEXT",
     "key_text": "EMISIÓN:",
     "key_bbox": [
-      291.0,
-      210.17001342773438,
-      327.00799560546875,
-      221.16201782226562
+      489,
+      249,
+      549,
+      262
     ],
     "value_text": "NORMAL"
   },
@@ -100,10 +101,10 @@
     "suffix": "ADDRESS",
     "key_text": "Dirección Sucursal:",
     "key_bbox": [
-      28.0,
-      236.50997924804688,
-      61.3440055847168,
-      256.8219909667969
+      47,
+      280,
+      103,
+      305
     ],
     "value_text": "ETA MALL PACIFICO"
   },
@@ -112,10 +113,10 @@
     "suffix": "TEXT",
     "key_text": "Contribuyente Especial",
     "key_bbox": [
-      28.0,
-      263.1700134277344,
-      110.25599670410156,
-      274.1620178222656
+      47,
+      312,
+      185,
+      325
     ],
     "value_text": "143"
   },
@@ -124,23 +125,23 @@
     "suffix": "TEXT",
     "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
     "key_bbox": [
-      28.0,
-      279.1700134277344,
-      171.5999755859375,
-      290.1620178222656
+      47,
+      331,
+      288,
+      344
     ],
     "value_text": null,
-    "motivo": "campo_vacio_candidato_descartado_por_distancia_278pt"
+    "motivo": "campo_vacio_sin_candidato_disponible"
   },
   {
     "page": 1,
     "suffix": "NAME",
     "key_text": "Razón Social / Nombres y Apellidos:",
     "key_bbox": [
-      21.0,
-      389.66998291015625,
-      150.37599182128906,
-      400.6619873046875
+      35,
+      462,
+      252,
+      475
     ],
     "value_text": "PARRALES PALMA PATRICIA SHIRLEY"
   },
@@ -149,10 +150,10 @@
     "suffix": "ID",
     "key_text": "Identificación",
     "key_bbox": [
-      21.0,
-      405.66998291015625,
-      67.6880111694336,
-      416.6619873046875
+      35,
+      481,
+      113,
+      494
     ],
     "value_text": "1309027579"
   },
@@ -161,10 +162,10 @@
     "suffix": "DATE",
     "key_text": "Fecha",
     "key_bbox": [
-      21.0,
-      416.8299865722656,
-      43.23200225830078,
-      427.8219909667969
+      35,
+      495,
+      72,
+      508
     ],
     "value_text": "29/08/2026"
   },
@@ -173,49 +174,49 @@
     "suffix": "TEXT",
     "key_text": "Placa / Matrícula:",
     "key_bbox": [
-      179.0,
-      416.8299865722656,
-      240.79998779296875,
-      427.8219909667969
+      300,
+      495,
+      404,
+      508
     ],
     "value_text": null,
-    "motivo": "campo_vacio_candidato_descartado_por_distancia_140pt"
+    "motivo": "campo_vacio_sin_candidato_disponible"
   },
   {
     "page": 1,
     "suffix": "TEXT",
     "key_text": "Guía",
     "key_bbox": [
-      375.0,
-      417.8299865722656,
-      392.343994140625,
-      428.8219909667969
+      630,
+      496,
+      659,
+      509
     ],
     "value_text": null,
-    "motivo": "campo_vacio_candidato_descartado_por_distancia_169pt"
+    "motivo": "campo_vacio_sin_candidato_disponible"
   },
   {
     "page": 1,
     "suffix": "ADDRESS",
     "key_text": "Direccion:",
     "key_bbox": [
-      21.0,
-      430.8299865722656,
-      56.56000518798828,
-      441.8219909667969
+      35,
+      511,
+      95,
+      524
     ],
     "value_text": null,
-    "motivo": "campo_vacio_sin_candidato_admisible"
+    "motivo": "campo_vacio_sin_candidato_disponible"
   },
   {
     "page": 1,
     "suffix": "AMOUNT",
     "key_text": "SUBTOTAL 15%",
     "key_bbox": [
-      377.0,
-      520.39501953125,
-      429.9060363769531,
-      530.0130615234375
+      633,
+      618,
+      722,
+      629
     ],
     "value_text": "52.16"
   },
@@ -224,10 +225,10 @@
     "suffix": "AMOUNT",
     "key_text": "SUBTOTAL NO OBJETO DE IVA",
     "key_bbox": [
-      377.0,
-      535.39501953125,
-      481.25115966796875,
-      545.0130615234375
+      633,
+      635,
+      808,
+      647
     ],
     "value_text": "0.00"
   },
@@ -236,10 +237,10 @@
     "suffix": "ID",
     "key_text": "IdReferencia:",
     "key_bbox": [
-      23.0,
-      538.1199951171875,
-      58.68199157714844,
-      546.364013671875
+      38,
+      639,
+      98,
+      648
     ],
     "value_text": "002F025024000098917"
   },
@@ -248,10 +249,10 @@
     "suffix": "AMOUNT",
     "key_text": "SUBTOTAL EXENTO DE IVA",
     "key_bbox": [
-      377.0,
-      550.39501953125,
-      469.5821228027344,
-      560.0130615234375
+      633,
+      653,
+      789,
+      665
     ],
     "value_text": "0.00"
   },
@@ -260,10 +261,10 @@
     "suffix": "ID",
     "key_text": "CodigoSucursal:",
     "key_bbox": [
-      23.0,
-      553.1199951171875,
-      67.01599884033203,
-      561.364013671875
+      38,
+      656,
+      112,
+      666
     ],
     "value_text": "001"
   },
@@ -272,10 +273,10 @@
     "suffix": "AMOUNT",
     "key_text": "SUBTOTAL SIN IMPUESTOS",
     "key_bbox": [
-      377.0,
-      565.39501953125,
-      470.7441101074219,
-      575.0130615234375
+      633,
+      671,
+      791,
+      682
     ],
     "value_text": "52.16"
   },
@@ -284,10 +285,10 @@
     "suffix": "TEXT",
     "key_text": "Email:",
     "key_bbox": [
-      23.0,
-      568.1199951171875,
-      39.667999267578125,
-      576.364013671875
+      38,
+      674,
+      66,
+      684
     ],
     "value_text": "patrici@gmail.com"
   },
@@ -296,10 +297,10 @@
     "suffix": "AMOUNT",
     "key_text": "TOTAL DESCUENTO",
     "key_bbox": [
-      377.0,
-      580.3949584960938,
-      445.4530334472656,
-      590.0130004882812
+      633,
+      689,
+      748,
+      700
     ],
     "value_text": "0.00"
   },
@@ -308,10 +309,10 @@
     "suffix": "TEXT",
     "key_text": "OficinaSAP:",
     "key_bbox": [
-      23.0,
-      583.1199951171875,
-      55.34599304199219,
-      591.364013671875
+      38,
+      692,
+      93,
+      702
     ],
     "value_text": "E023"
   },
@@ -320,10 +321,10 @@
     "suffix": "AMOUNT",
     "key_text": "ICE",
     "key_bbox": [
-      377.0,
-      595.3949584960938,
-      388.66900634765625,
-      605.0130004882812
+      633,
+      707,
+      653,
+      718
     ],
     "value_text": "0.00"
   },
@@ -332,10 +333,10 @@
     "suffix": "TEXT",
     "key_text": "Gran Contribuyente:",
     "key_bbox": [
-      23.0,
-      598.1199951171875,
-      77.02398681640625,
-      606.364013671875
+      38,
+      710,
+      129,
+      720
     ],
     "value_text": "GRAN CONTRIBUYENTE MEDIANTE RESOLUCIÓN NAC-GCFOIOC21-00001024- E"
   },
@@ -344,10 +345,10 @@
     "suffix": "AMOUNT",
     "key_text": "IVA 15%",
     "key_bbox": [
-      377.0,
-      610.3949584960938,
-      404.2370300292969,
-      620.0130004882812
+      633,
+      724,
+      679,
+      736
     ],
     "value_text": "7.82"
   },
@@ -356,10 +357,10 @@
     "suffix": "ID",
     "key_text": "RUC Proveedor:",
     "key_bbox": [
-      23.0,
-      615.1199951171875,
-      67.00999450683594,
-      623.364013671875
+      38,
+      730,
+      112,
+      740
     ],
     "value_text": "0993113557001"
   },
@@ -368,10 +369,10 @@
     "suffix": "AMOUNT",
     "key_text": "IRBPNR",
     "key_bbox": [
-      377.0,
-      625.3949584960938,
-      403.44598388671875,
-      635.0130004882812
+      633,
+      742,
+      678,
+      754
     ],
     "value_text": "0.00"
   },
@@ -380,10 +381,10 @@
     "suffix": "TEXT",
     "key_text": "Forma de pago",
     "key_bbox": [
-      76.2699966430664,
-      635.3949584960938,
-      123.73698425292969,
-      645.0130004882812
+      128,
+      754,
+      207,
+      766
     ],
     "value_text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO"
   },
@@ -392,10 +393,10 @@
     "suffix": "AMOUNT",
     "key_text": "Valor",
     "key_bbox": [
-      221.8300018310547,
-      635.3949584960938,
-      238.16799926757812,
-      645.0130004882812
+      372,
+      754,
+      400,
+      766
     ],
     "value_text": "59.98"
   },
@@ -404,10 +405,10 @@
     "suffix": "AMOUNT",
     "key_text": "PROPINA",
     "key_bbox": [
-      377.0,
-      640.3949584960938,
-      408.50701904296875,
-      650.0130004882812
+      633,
+      760,
+      686,
+      771
     ],
     "value_text": "0.00"
   },
@@ -416,10 +417,10 @@
     "suffix": "AMOUNT",
     "key_text": "VALOR TOTAL",
     "key_bbox": [
-      377.0,
-      655.3949584960938,
-      425.237060546875,
-      665.0130004882812
+      633,
+      778,
+      714,
+      789
     ],
     "value_text": "59.98"
   },
@@ -428,10 +429,10 @@
     "suffix": "AMOUNT",
     "key_text": "VALOR TOTAL SIN SUBSIDIO",
     "key_bbox": [
-      377.0,
-      674.3949584960938,
-      474.2511291503906,
-      684.0130004882812
+      633,
+      800,
+      797,
+      812
     ],
     "value_text": "0.00"
   }
