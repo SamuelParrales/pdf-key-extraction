@@ -1,0 +1,427 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      489,
+      31,
+      555,
+      50
+    ],
+    "value_text": "0990004196001"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      489,
+      57,
+      584,
+      77
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      489,
+      90,
+      509,
+      103
+    ],
+    "value_text": "037-201-000152110"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      489,
+      117,
+      676,
+      130
+    ],
+    "value_text": "2908202601099000419600120372010001521100015211018"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      489,
+      177,
+      612,
+      201
+    ],
+    "value_text": "29/08/2026 17:50:39"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      489,
+      215,
+      561,
+      228
+    ],
+    "value_text": "PRODUCCIÓN"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      47,
+      243,
+      103,
+      267
+    ],
+    "value_text": "AV. 9 DE OCTUBRE Y BOYACA 729 GUAYAQUIL"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      489,
+      249,
+      549,
+      262
+    ],
+    "value_text": "NORMAL"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      47,
+      280,
+      103,
+      305
+    ],
+    "value_text": "AV.4 DE NOVIEMBRE S/N Y CALLE 113; PASEO SHOPPING"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      47,
+      312,
+      185,
+      325
+    ],
+    "value_text": "6925"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      47,
+      331,
+      288,
+      344
+    ],
+    "value_text": "SI"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Agente de Retención Resolución No.",
+    "key_bbox": [
+      47,
+      366,
+      267,
+      379
+    ],
+    "value_text": "1"
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      35,
+      462,
+      252,
+      475
+    ],
+    "value_text": "PARRALES PALMA PATRICIA SHIRLEY"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      35,
+      481,
+      113,
+      494
+    ],
+    "value_text": "1309027579"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      35,
+      495,
+      72,
+      508
+    ],
+    "value_text": "29/08/2026"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      300,
+      495,
+      404,
+      508
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      630,
+      496,
+      659,
+      509
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      35,
+      511,
+      95,
+      524
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "key_bbox": [
+      633,
+      26,
+      722,
+      38
+    ],
+    "value_text": "3.19"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      633,
+      44,
+      808,
+      55
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "Gran Contribuyente:",
+    "key_bbox": [
+      38,
+      47,
+      129,
+      57
+    ],
+    "value_text": "GRAN CONTRIBUYENTE MEDIANTE RESOLUCIÓN NAC-GCFOIOC21-00000876- E DEBITO BANCARIO,3.67"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      633,
+      62,
+      789,
+      73
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "formaPago:",
+    "key_bbox": [
+      38,
+      67,
+      90,
+      77
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      633,
+      80,
+      791,
+      91
+    ],
+    "value_text": "3.19"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "deducibleComestible:",
+    "key_bbox": [
+      38,
+      85,
+      135,
+      95
+    ],
+    "value_text": "3.19"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      633,
+      97,
+      748,
+      109
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "logo:",
+    "key_bbox": [
+      38,
+      103,
+      60,
+      113
+    ],
+    "value_text": "SUPERMERCADO"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      633,
+      115,
+      653,
+      127
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      128,
+      127,
+      207,
+      138
+    ],
+    "value_text": "16 - TARJETA DE DEBITO"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      372,
+      127,
+      400,
+      138
+    ],
+    "value_text": "3.67"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "key_bbox": [
+      633,
+      133,
+      679,
+      144
+    ],
+    "value_text": "0.48"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      633,
+      151,
+      678,
+      162
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "key_bbox": [
+      633,
+      169,
+      686,
+      180
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      633,
+      186,
+      714,
+      198
+    ],
+    "value_text": "3.67"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      633,
+      209,
+      797,
+      220
+    ],
+    "value_text": "0.00"
+  }
+]

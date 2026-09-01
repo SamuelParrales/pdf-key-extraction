@@ -1,0 +1,403 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      489,
+      31,
+      555,
+      50
+    ],
+    "value_text": "0991517723001"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      489,
+      57,
+      584,
+      77
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      489,
+      90,
+      509,
+      103
+    ],
+    "value_text": "002-006-000145899"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      489,
+      117,
+      676,
+      130
+    ],
+    "value_text": "2908202601099151772300120020060001458990014589918"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      489,
+      177,
+      612,
+      201
+    ],
+    "value_text": "29/08/2026 17:58:40"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      489,
+      215,
+      561,
+      228
+    ],
+    "value_text": "PRODUCCIÓN"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      47,
+      243,
+      103,
+      267
+    ],
+    "value_text": "AV. 9 DE OCTUBRE 729 Y BOYACA - GARCIA AVILES"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      489,
+      249,
+      549,
+      262
+    ],
+    "value_text": "NORMAL"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      47,
+      280,
+      103,
+      305
+    ],
+    "value_text": "AV. 4 DE NOVIEMBRE S/N EL PASEO SHOPPING MANTA / ECUADOR"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      47,
+      312,
+      185,
+      325
+    ],
+    "value_text": "209"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      47,
+      331,
+      288,
+      344
+    ],
+    "value_text": "SI"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Agente de Retención Resolución No.",
+    "key_bbox": [
+      47,
+      366,
+      267,
+      379
+    ],
+    "value_text": "1"
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      35,
+      462,
+      252,
+      475
+    ],
+    "value_text": "PATRCIA PARRALES"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      35,
+      481,
+      113,
+      494
+    ],
+    "value_text": "1309027579"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      35,
+      495,
+      72,
+      508
+    ],
+    "value_text": "29/08/2026"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      300,
+      495,
+      404,
+      508
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      630,
+      496,
+      659,
+      509
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      35,
+      511,
+      95,
+      524
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "key_bbox": [
+      633,
+      647,
+      722,
+      659
+    ],
+    "value_text": "16.04"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      633,
+      665,
+      808,
+      676
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Gran Contribuyente:",
+    "key_bbox": [
+      38,
+      668,
+      129,
+      678
+    ],
+    "value_text": "GRAN CONTRIBUYENTE MEDIANTE RESOLUCIÓN NAC-GCFOIOC21-00001146- E CINE"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      633,
+      683,
+      789,
+      694
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "logo:",
+    "key_bbox": [
+      38,
+      688,
+      60,
+      698
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      633,
+      701,
+      791,
+      712
+    ],
+    "value_text": "16.04"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      128,
+      713,
+      207,
+      724
+    ],
+    "value_text": "19 - TARJETA DE CREDITO"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      372,
+      713,
+      400,
+      724
+    ],
+    "value_text": "18.45"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      633,
+      718,
+      748,
+      730
+    ],
+    "value_text": "1.78"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      633,
+      736,
+      653,
+      748
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "key_bbox": [
+      633,
+      754,
+      679,
+      766
+    ],
+    "value_text": "2.41"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      633,
+      772,
+      678,
+      783
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "key_bbox": [
+      633,
+      790,
+      686,
+      801
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      633,
+      808,
+      714,
+      819
+    ],
+    "value_text": "18.45"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      633,
+      830,
+      797,
+      842
+    ],
+    "value_text": "0.00"
+  }
+]

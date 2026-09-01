@@ -1,0 +1,439 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      489,
+      31,
+      555,
+      50
+    ],
+    "value_text": "1790985504001"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      489,
+      57,
+      584,
+      77
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      489,
+      90,
+      509,
+      103
+    ],
+    "value_text": "025-024-000098917"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      489,
+      117,
+      676,
+      130
+    ],
+    "value_text": "2908202601179098550400120250240000989170103303312"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      489,
+      177,
+      612,
+      201
+    ],
+    "value_text": "29/08/2026 15:44:20"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      489,
+      215,
+      561,
+      228
+    ],
+    "value_text": "PRODUCCIÓN"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      47,
+      243,
+      103,
+      267
+    ],
+    "value_text": "PanaNorte Km.2 1/2 Av. 10 de Agosto N60-122 y Sta Lucia"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      489,
+      249,
+      549,
+      262
+    ],
+    "value_text": "NORMAL"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      47,
+      280,
+      103,
+      305
+    ],
+    "value_text": "ETA MALL PACIFICO"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      47,
+      312,
+      185,
+      325
+    ],
+    "value_text": "143"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      47,
+      331,
+      288,
+      344
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      35,
+      462,
+      252,
+      475
+    ],
+    "value_text": "PARRALES PALMA PATRICIA SHIRLEY"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      35,
+      481,
+      113,
+      494
+    ],
+    "value_text": "1309027579"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      35,
+      495,
+      72,
+      508
+    ],
+    "value_text": "29/08/2026"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      300,
+      495,
+      404,
+      508
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      630,
+      496,
+      659,
+      509
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      35,
+      511,
+      95,
+      524
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "key_bbox": [
+      633,
+      618,
+      722,
+      629
+    ],
+    "value_text": "52.16"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      633,
+      635,
+      808,
+      647
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "IdReferencia:",
+    "key_bbox": [
+      38,
+      639,
+      98,
+      648
+    ],
+    "value_text": "002F025024000098917"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      633,
+      653,
+      789,
+      665
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "CodigoSucursal:",
+    "key_bbox": [
+      38,
+      656,
+      112,
+      666
+    ],
+    "value_text": "001"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      633,
+      671,
+      791,
+      682
+    ],
+    "value_text": "52.16"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Email:",
+    "key_bbox": [
+      38,
+      674,
+      66,
+      684
+    ],
+    "value_text": "patrici@gmail.com"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      633,
+      689,
+      748,
+      700
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OficinaSAP:",
+    "key_bbox": [
+      38,
+      692,
+      93,
+      702
+    ],
+    "value_text": "E023"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      633,
+      707,
+      653,
+      718
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Gran Contribuyente:",
+    "key_bbox": [
+      38,
+      710,
+      129,
+      720
+    ],
+    "value_text": "GRAN CONTRIBUYENTE MEDIANTE RESOLUCIÓN NAC-GCFOIOC21-00001024- E"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "key_bbox": [
+      633,
+      724,
+      679,
+      736
+    ],
+    "value_text": "7.82"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "RUC Proveedor:",
+    "key_bbox": [
+      38,
+      730,
+      112,
+      740
+    ],
+    "value_text": "0993113557001"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      633,
+      742,
+      678,
+      754
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      128,
+      754,
+      207,
+      766
+    ],
+    "value_text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      372,
+      754,
+      400,
+      766
+    ],
+    "value_text": "59.98"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "key_bbox": [
+      633,
+      760,
+      686,
+      771
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      633,
+      778,
+      714,
+      789
+    ],
+    "value_text": "59.98"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      633,
+      800,
+      797,
+      812
+    ],
+    "value_text": "0.00"
+  }
+]

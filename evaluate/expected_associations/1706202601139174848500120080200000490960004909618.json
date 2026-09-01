@@ -1,0 +1,401 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      489,
+      31,
+      555,
+      50
+    ],
+    "value_text": "1391748485001"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      489,
+      57,
+      584,
+      77
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      489,
+      90,
+      509,
+      103
+    ],
+    "value_text": "008-020-000049096"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      489,
+      117,
+      676,
+      130
+    ],
+    "value_text": "1706202601139174848500120080200000490960004909618"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      489,
+      177,
+      612,
+      201
+    ],
+    "value_text": "17/06/2026 10:20:02"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      489,
+      215,
+      561,
+      228
+    ],
+    "value_text": "PRODUCCIÓN"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      47,
+      243,
+      103,
+      267
+    ],
+    "value_text": "KM 3.5 VIA PORTOVIEJO-CRUCITA"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      489,
+      249,
+      549,
+      262
+    ],
+    "value_text": "NORMAL"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      47,
+      280,
+      103,
+      305
+    ],
+    "value_text": "PANAMERICANA S/N Y BOLIVAR"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      47,
+      312,
+      185,
+      325
+    ],
+    "value_text": "0011"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      47,
+      331,
+      288,
+      344
+    ],
+    "value_text": "SI"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Agente de Retención Resolución No.",
+    "key_bbox": [
+      47,
+      366,
+      267,
+      379
+    ],
+    "value_text": "1"
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      35,
+      462,
+      252,
+      475
+    ],
+    "value_text": "SAMUEL  PARRALES PALMA"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      35,
+      481,
+      113,
+      494
+    ],
+    "value_text": "1315478162"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      35,
+      495,
+      72,
+      508
+    ],
+    "value_text": "17/06/2026"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      300,
+      495,
+      404,
+      508
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      630,
+      496,
+      659,
+      509
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      35,
+      511,
+      95,
+      524
+    ],
+    "value_text": "MONTECRISTI"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "key_bbox": [
+      633,
+      677,
+      722,
+      688
+    ],
+    "value_text": "9.75"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      633,
+      695,
+      808,
+      706
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "IdTransaccion:",
+    "key_bbox": [
+      38,
+      698,
+      104,
+      708
+    ],
+    "value_text": "1923311"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      633,
+      713,
+      789,
+      724
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Oficina:",
+    "key_bbox": [
+      38,
+      716,
+      72,
+      726
+    ],
+    "value_text": "1"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      633,
+      730,
+      791,
+      742
+    ],
+    "value_text": "9.75"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "ValorEnLetras:",
+    "key_bbox": [
+      38,
+      734,
+      105,
+      743
+    ],
+    "value_text": "ONCE CON 21/100 DOLAR(ES)"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      633,
+      748,
+      748,
+      760
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      128,
+      758,
+      207,
+      769
+    ],
+    "value_text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      372,
+      758,
+      400,
+      769
+    ],
+    "value_text": "11.21"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      633,
+      766,
+      653,
+      777
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "key_bbox": [
+      633,
+      784,
+      679,
+      795
+    ],
+    "value_text": "1.46"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      633,
+      802,
+      678,
+      813
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      633,
+      819,
+      714,
+      831
+    ],
+    "value_text": "11.21"
+  },
+  {
+    "page": 1,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      633,
+      842,
+      797,
+      853
+    ],
+    "value_text": "0.00"
+  }
+]

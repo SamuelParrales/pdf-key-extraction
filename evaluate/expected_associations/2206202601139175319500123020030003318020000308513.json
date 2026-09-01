@@ -1,0 +1,426 @@
+[
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "R.U.C.:",
+    "key_bbox": [
+      489,
+      31,
+      555,
+      50
+    ],
+    "value_text": "1391753195001"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "FACTURA",
+    "key_bbox": [
+      489,
+      57,
+      584,
+      77
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "No.",
+    "key_bbox": [
+      489,
+      90,
+      509,
+      103
+    ],
+    "value_text": "302-003-000331802"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "NÚMERO DE AUTORIZACIÓN",
+    "key_bbox": [
+      489,
+      117,
+      676,
+      130
+    ],
+    "value_text": "2206202601139175319500123020030003318020000308513"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "FECHA Y HORA DE AUTORIZACIÓN:",
+    "key_bbox": [
+      489,
+      177,
+      612,
+      201
+    ],
+    "value_text": "23/06/2026 01:52:36"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "AMBIENTE:",
+    "key_bbox": [
+      489,
+      215,
+      561,
+      228
+    ],
+    "value_text": "PRODUCCIÓN"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Matriz:",
+    "key_bbox": [
+      47,
+      243,
+      103,
+      267
+    ],
+    "value_text": "CALLE 16 ENTRE AV. 30 Y 35"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "EMISIÓN:",
+    "key_bbox": [
+      489,
+      249,
+      549,
+      262
+    ],
+    "value_text": "NORMAL"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Dirección Sucursal:",
+    "key_bbox": [
+      47,
+      280,
+      103,
+      305
+    ],
+    "value_text": "SITIO LOS BAJOS DE AFUERA CALLE PRINCIPAL AV. PANAMERICAN DIAGONAL AL UPC"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Contribuyente Especial",
+    "key_bbox": [
+      47,
+      312,
+      185,
+      325
+    ],
+    "value_text": "829"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "OBLIGADO A LLEVAR CONTABILIDAD",
+    "key_bbox": [
+      47,
+      331,
+      288,
+      344
+    ],
+    "value_text": "SI"
+  },
+  {
+    "page": 1,
+    "suffix": "NAME",
+    "key_text": "Razón Social / Nombres y Apellidos:",
+    "key_bbox": [
+      35,
+      462,
+      252,
+      475
+    ],
+    "value_text": "SAMUEL PARRALES"
+  },
+  {
+    "page": 1,
+    "suffix": "ID",
+    "key_text": "Identificación",
+    "key_bbox": [
+      35,
+      481,
+      113,
+      494
+    ],
+    "value_text": "1315478162"
+  },
+  {
+    "page": 1,
+    "suffix": "DATE",
+    "key_text": "Fecha",
+    "key_bbox": [
+      35,
+      495,
+      72,
+      508
+    ],
+    "value_text": "22/06/2026"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Placa / Matrícula:",
+    "key_bbox": [
+      300,
+      495,
+      404,
+      508
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "TEXT",
+    "key_text": "Guía",
+    "key_bbox": [
+      630,
+      496,
+      659,
+      509
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 1,
+    "suffix": "ADDRESS",
+    "key_text": "Direccion:",
+    "key_bbox": [
+      35,
+      511,
+      95,
+      524
+    ],
+    "value_text": null,
+    "motivo": "campo_vacio_sin_candidato_disponible"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 15%",
+    "key_bbox": [
+      633,
+      26,
+      722,
+      38
+    ],
+    "value_text": "2.61"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL 0%",
+    "key_bbox": [
+      633,
+      44,
+      715,
+      55
+    ],
+    "value_text": "1.83"
+  },
+  {
+    "page": 2,
+    "suffix": "ADDRESS",
+    "key_text": "DIRECCION:",
+    "key_bbox": [
+      38,
+      47,
+      98,
+      57
+    ],
+    "value_text": "los bajos"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL NO OBJETO DE IVA",
+    "key_bbox": [
+      633,
+      62,
+      808,
+      73
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "TELEFONO:",
+    "key_bbox": [
+      38,
+      65,
+      95,
+      75
+    ],
+    "value_text": "99999999"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL EXENTO DE IVA",
+    "key_bbox": [
+      633,
+      80,
+      789,
+      91
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "EMAIL:",
+    "key_bbox": [
+      38,
+      83,
+      71,
+      93
+    ],
+    "value_text": "NO REGISTRADO"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "SUBTOTAL SIN IMPUESTOS",
+    "key_bbox": [
+      633,
+      97,
+      791,
+      109
+    ],
+    "value_text": "4.44"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "GRAN CONTRIBUYENTE:",
+    "key_bbox": [
+      38,
+      101,
+      159,
+      110
+    ],
+    "value_text": "OFICIO NAC-AGCOGEC22-00000848-M"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "TOTAL DESCUENTO",
+    "key_bbox": [
+      633,
+      115,
+      748,
+      127
+    ],
+    "value_text": "3.48"
+  },
+  {
+    "page": 2,
+    "suffix": "TEXT",
+    "key_text": "Forma de pago",
+    "key_bbox": [
+      128,
+      125,
+      207,
+      136
+    ],
+    "value_text": "01 - SIN UTILIZACION DEL SISTEMA FINANCIERO"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "Valor",
+    "key_bbox": [
+      372,
+      125,
+      400,
+      136
+    ],
+    "value_text": "4.83"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "ICE",
+    "key_bbox": [
+      633,
+      133,
+      653,
+      144
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IVA 15%",
+    "key_bbox": [
+      633,
+      151,
+      679,
+      162
+    ],
+    "value_text": "0.39"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "IRBPNR",
+    "key_bbox": [
+      633,
+      169,
+      678,
+      180
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "PROPINA",
+    "key_bbox": [
+      633,
+      186,
+      686,
+      198
+    ],
+    "value_text": "0.00"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL",
+    "key_bbox": [
+      633,
+      204,
+      714,
+      216
+    ],
+    "value_text": "4.83"
+  },
+  {
+    "page": 2,
+    "suffix": "AMOUNT",
+    "key_text": "VALOR TOTAL SIN SUBSIDIO",
+    "key_bbox": [
+      633,
+      227,
+      797,
+      238
+    ],
+    "value_text": "0.00"
+  }
+]

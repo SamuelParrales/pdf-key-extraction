@@ -235,7 +235,7 @@ class KeyValueExtractor:
         aligned_below = vy0 >= ky1 - self.EDGE_TOLERANCE and (centered or overlapping)
 
         if same_row and to_the_right:
-            tier = 1.1
+            tier = 1.2
         elif aligned_below:
             tier = 1
         else:
