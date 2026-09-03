@@ -8,3 +8,4 @@ __pycache__/
 .env
 model-output
 data/test/*.pdf
+*.zip

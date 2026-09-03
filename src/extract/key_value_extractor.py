@@ -121,6 +121,13 @@ class KeyValueExtractor:
 
     
             results.append(res)
+
+        #Almacenar JSON antes de aplicar la heuristica
+        json_dir = Path("predictions")
+        json_path = json_dir / f"{path.stem}.json"
+        
+        with open(json_path, "w", encoding="utf-8") as file:
+            json.dump(results, file, indent=4, ensure_ascii=False)
         
         # Aqui debe ir la sección de la heuristica
         output = self.apply_heuristic(results)
